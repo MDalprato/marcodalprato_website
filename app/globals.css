@@ -291,6 +291,55 @@ h2 {
   border-color: rgba(124, 108, 255, 0.5);
 }
 
+.footer {
+  position: relative;
+  z-index: 1;
+  padding: 48px 8vw 64px;
+  border-top: 1px solid var(--stroke);
+  background: rgba(7, 7, 12, 0.6);
+}
+
+.footer-inner {
+  width: min(1120px, 92vw);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  color: var(--muted);
+}
+
+.lang-switch {
+  display: inline-flex;
+  gap: 8px;
+  padding: 6px;
+  border-radius: 999px;
+  background: rgba(8, 8, 12, 0.8);
+  border: 1px solid var(--stroke);
+}
+
+.lang-switch button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.lang-switch button.active {
+  background: rgba(124, 108, 255, 0.2);
+  color: var(--ink);
+}
+
+.lang-switch button:hover {
+  color: var(--ink);
+}
+
 @keyframes typing {
   from {
     width: 0;
@@ -341,6 +390,11 @@ h2 {
 
   .split {
     grid-template-columns: 1fr;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
