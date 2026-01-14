@@ -10,9 +10,7 @@ const content = {
       eyebrow: 'Sviluppatore web JavaScript',
       title: 'Full Stack Dev.',
       lead:
-        'Progetto interfacce moderne in React e Next.js, combinando motion, performance e accessibilita. Lavoro con brand e team digitali per trasformare idee in prodotti scalabili.',
-      focusTitle: 'Focus attuale',
-      focusItems: ['Next.js e architetture statiche', 'Animazioni con UI narrative', 'Design system e componenti']
+        'Progetto interfacce moderne in React e Next.js, combinando motion, performance e accessibilita. Lavoro con brand e team digitali per trasformare idee in prodotti scalabili.'
     },
     portfolio: {
       eyebrow: 'Portfolio',
@@ -69,9 +67,7 @@ const content = {
       eyebrow: 'JavaScript Web Developer',
       title: 'Full Stack Dev.',
       lead:
-        'I design modern React and Next.js experiences, blending motion, performance, and accessibility. I partner with brands and digital teams to turn ideas into scalable products.',
-      focusTitle: 'Current focus',
-      focusItems: ['Next.js and static architectures', 'Motion-led UI storytelling', 'Design systems and components']
+        'I design modern React and Next.js experiences, blending motion, performance, and accessibility. I partner with brands and digital teams to turn ideas into scalable products.'
     },
     portfolio: {
       eyebrow: 'Portfolio',
