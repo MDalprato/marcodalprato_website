@@ -7,12 +7,14 @@ import ContactSection from './components/ContactSection';
 import CvSection from './components/CvSection';
 import FooterSection from './components/FooterSection';
 import HeroSection from './components/HeroSection';
+import LoadingOverlay from './components/LoadingOverlay';
 import PortfolioSection from './components/PortfolioSection';
 import Topbar from './components/Topbar';
 
 export default function Home() {
   const [lang, setLang] = useState('it');
   const t = content[lang];
+  const loaderEnabled = process.env.NEXT_PUBLIC_ENABLE_LOADER !== 'false';
 
   useEffect(() => {
     const stored = window.localStorage.getItem('mdp-lang');
@@ -47,6 +49,7 @@ export default function Home() {
 
   return (
     <main className="onepage">
+      <LoadingOverlay enabled={loaderEnabled} />
       <Ambient />
       <Topbar nav={t.nav} />
       <HeroSection hero={t.hero} />
