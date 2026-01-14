@@ -15,6 +15,7 @@ export default function Home() {
   const [lang, setLang] = useState('it');
   const t = content[lang];
   const loaderEnabled = process.env.NEXT_PUBLIC_ENABLE_LOADER !== 'false';
+  const [isReady, setIsReady] = useState(!loaderEnabled);
 
   useEffect(() => {
     const stored = window.localStorage.getItem('mdp-lang');
@@ -30,6 +31,10 @@ export default function Home() {
   }, [lang]);
 
   useEffect(() => {
+    if (!isReady) {
+      return undefined;
+    }
+
     const panels = document.querySelectorAll('.panel');
     const observer = new IntersectionObserver(
       (entries) => {
@@ -45,18 +50,24 @@ export default function Home() {
     panels.forEach((panel) => observer.observe(panel));
 
     return () => observer.disconnect();
-  }, []);
+  }, [isReady]);
 
   return (
     <main className="onepage">
-      <LoadingOverlay enabled={loaderEnabled} />
-      <Ambient />
-      <Topbar nav={t.nav} />
-      <HeroSection hero={t.hero} />
-      <PortfolioSection portfolio={t.portfolio} />
-      <CvSection cv={t.cv} />
-      <ContactSection contact={t.contact} />
-      <FooterSection footer={t.footer} lang={lang} setLang={setLang} />
+      {loaderEnabled && !isReady ? (
+        <LoadingOverlay enabled={loaderEnabled} onComplete={() => setIsReady(true)} />
+      ) : null}
+      {isReady ? (
+        <div className={`site-shell${loaderEnabled ? ' crt-on' : ''}`}>
+          <Ambient />
+          <Topbar nav={t.nav} />
+          <HeroSection hero={t.hero} />
+          <PortfolioSection portfolio={t.portfolio} />
+          <CvSection cv={t.cv} />
+          <ContactSection contact={t.contact} />
+          <FooterSection footer={t.footer} lang={lang} setLang={setLang} />
+        </div>
+      ) : null}
     </main>
   );
 }
