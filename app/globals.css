@@ -390,8 +390,55 @@ a {
   align-content: center;
 }
 
-.panel.is-visible .panel-content {
+.panel.is-visible:not([data-anim]) .panel-content {
   animation: rise 0.8s ease forwards;
+}
+
+.panel[data-anim='right'] .panel-content {
+  opacity: 0;
+  transform: translateX(40px);
+}
+
+.panel.is-visible[data-anim='right'] .panel-content {
+  animation: panel-right 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.panel[data-anim='left'] .panel-content {
+  opacity: 0;
+  transform: translateX(-40px);
+}
+
+.panel.is-visible[data-anim='left'] .panel-content {
+  animation: panel-left 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.panel[data-anim='tilt'] .panel-content {
+  opacity: 0;
+  transform: perspective(900px) rotateX(8deg) rotateZ(-2deg) translateY(22px);
+  transform-origin: top center;
+}
+
+.panel.is-visible[data-anim='tilt'] .panel-content {
+  animation: panel-tilt 1s ease forwards;
+}
+
+.panel[data-anim='split'] .hero-media {
+  opacity: 0;
+  transform: translateX(-36px) scale(0.98);
+}
+
+.panel[data-anim='split'] .hero-copy {
+  opacity: 0;
+  transform: translateX(36px);
+}
+
+.panel.is-visible[data-anim='split'] .hero-media {
+  animation: panel-left 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.panel.is-visible[data-anim='split'] .hero-copy {
+  animation: panel-right 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation-delay: 0.12s;
 }
 
 .eyebrow {
@@ -445,6 +492,16 @@ h2 {
   background: rgba(8, 8, 14, 0.65);
   border: 1px solid var(--stroke);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.panel[data-anim='left'] .card {
+  opacity: 0;
+  transform: translateX(24px);
+}
+
+.panel.is-visible[data-anim='left'] .card {
+  animation: card-slide 0.7s ease forwards;
+  animation-delay: calc(var(--card-index) * 120ms);
 }
 
 .card:hover {
@@ -515,6 +572,27 @@ h2 {
   background: rgba(10, 10, 16, 0.75);
   border: 1px solid var(--stroke);
   transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.panel[data-anim='tilt'] .contact-grid a {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.panel.is-visible[data-anim='tilt'] .contact-grid a {
+  animation: contact-pop 0.7s ease forwards;
+}
+
+.panel.is-visible[data-anim='tilt'] .contact-grid a:nth-child(2) {
+  animation-delay: 0.08s;
+}
+
+.panel.is-visible[data-anim='tilt'] .contact-grid a:nth-child(3) {
+  animation-delay: 0.16s;
+}
+
+.panel.is-visible[data-anim='tilt'] .contact-grid a:nth-child(4) {
+  animation-delay: 0.24s;
 }
 
 .contact-grid a:hover {
@@ -604,6 +682,61 @@ h2 {
   }
   50% {
     transform: translate(60px, -40px) scale(1.15);
+  }
+}
+
+@keyframes panel-right {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes panel-left {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes panel-tilt {
+  from {
+    opacity: 0;
+    transform: perspective(900px) rotateX(8deg) rotateZ(-2deg) translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes card-slide {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes contact-pop {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -746,8 +879,15 @@ h2 {
 
 @media (prefers-reduced-motion: reduce) {
   .ambient span,
-  .panel.is-visible .panel-content,
+  .panel .panel-content,
+  .panel .hero-media,
+  .panel .hero-copy,
+  .panel .card,
+  .panel .contact-grid a,
   .typewriter {
     animation: none;
+    filter: none;
+    opacity: 1;
+    transform: none;
   }
 }

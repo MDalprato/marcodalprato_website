@@ -1,6 +1,6 @@
 export default function CvSection({ cv }) {
   return (
-    <section id="cv" className="panel">
+    <section id="cv" className="panel" data-anim="right">
       <div className="panel-content split">
         <div>
           <p className="eyebrow">{cv.eyebrow}</p>

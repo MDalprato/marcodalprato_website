@@ -1,6 +1,6 @@
 export default function HeroSection({ hero }) {
   return (
-    <section id="about" className="panel hero">
+    <section id="about" className="panel hero" data-anim="split">
       <div className="panel-content hero-grid">
         <div className="hero-media">
           <img className="hero-portrait" src="/assets/images/picture.avif" alt="Marco Dalprato" />
