@@ -13,9 +13,6 @@ export default function ContactSection({ contact }) {
           <a href="https://github.com" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="https://www.behance.net" target="_blank" rel="noreferrer">
-            Behance
-          </a>
         </div>
       </div>
     </section>
