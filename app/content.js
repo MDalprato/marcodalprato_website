@@ -17,22 +17,50 @@ const content = {
       title: 'Attivita recenti e collaborazioni.',
       items: [
         {
-          role: 'Front-end Developer',
-          company: 'Aurea Studio',
-          time: '2021 - 2023',
-          detail: 'Landing e-commerce ad alte prestazioni, componenti UI e motion design.'
+          role: 'Full-stack Developer',
+          company: 'Arteco Global',
+          time: 'gen 2024 - Presente',
+          detail:
+            'Sviluppatore full-stack specializzato in TypeScript, NestJS e PostgreSQL. Architetture event-driven con RabbitMQ e microservizi. Uso quotidiano di Docker, CI/CD, integrazioni terze parti, OpenShift (RedHat) e AWS. Interesse per strumenti AI per sviluppatori.'
         },
         {
-          role: 'Web Developer',
-          company: 'Nova Digital',
-          time: '2019 - 2021',
-          detail: 'Siti corporate in Next.js, integrazioni CMS e ottimizzazione SEO tecnica.'
+          role: 'Junior Software Developer',
+          company: 'Arteco Global',
+          time: 'feb 2021 - dic 2023',
+          detail: 'Sviluppo software agile, MongoDB e stack web.'
         },
         {
-          role: 'Freelance',
-          company: 'Clienti diretti',
-          time: '2016 - oggi',
-          detail: 'Prodotti web su misura, audit performance e refactor di progetti legacy.'
+          role: 'Customer Support Manager',
+          company: 'Arteco Global',
+          time: 'feb 2016 - dic 2020',
+          detail: 'Responsabile supporto clienti, helpdesk e problem solving.'
+        },
+        {
+          role: 'Support Technician',
+          company: 'Arteco Global',
+          time: 'apr 2012 - feb 2016',
+          detail: 'Supporto tecnico, problem solving e gestione server Windows.'
+        },
+        {
+          role: 'Tecnico Elettronico (Stage)',
+          company: 'IEMCA / IGMI',
+          time: 'set 2011',
+          detail:
+            'Montaggio e collaudo schede logiche per caricatori BOSS 338 e BOSS 552.'
+        },
+        {
+          role: 'Tecnico Elettronico (Stage)',
+          company: 'Ponzi Ingressi Infissi',
+          time: 'giu 2010',
+          detail:
+            "Montaggio, collaudo e cablaggio schede per l'automazione delle porte."
+        },
+        {
+          role: 'Tecnico Elettronico (Stage)',
+          company: 'Ponzi Ingressi Infissi',
+          time: 'giu 2009',
+          detail:
+            "Stage su montaggio, collaudo e cablaggio schede per l'automazione delle porte."
         }
       ]
     },
@@ -74,22 +102,47 @@ const content = {
       title: 'Recent activity and collaborations.',
       items: [
         {
-          role: 'Front-end Developer',
-          company: 'Aurea Studio',
-          time: '2021 - 2023',
-          detail: 'High-performance e-commerce landings, UI components, and motion design.'
+          role: 'Full-stack Developer',
+          company: 'Arteco Global',
+          time: 'Jan 2024 - Present',
+          detail:
+            'Full-stack developer focused on TypeScript, NestJS, and PostgreSQL. Event-driven architectures with RabbitMQ and microservices. Daily use of Docker, CI/CD, third-party integrations, OpenShift (RedHat), and AWS. Interested in AI tools for developers.'
         },
         {
-          role: 'Web Developer',
-          company: 'Nova Digital',
-          time: '2019 - 2021',
-          detail: 'Corporate sites in Next.js, CMS integrations, and technical SEO optimizations.'
+          role: 'Junior Software Developer',
+          company: 'Arteco Global',
+          time: 'Feb 2021 - Dec 2023',
+          detail: 'Agile software development, MongoDB, and web stack work.'
         },
         {
-          role: 'Freelance',
-          company: 'Direct clients',
-          time: '2016 - today',
-          detail: 'Custom web products, performance audits, and legacy project refactors.'
+          role: 'Customer Support Manager',
+          company: 'Arteco Global',
+          time: 'Feb 2016 - Dec 2020',
+          detail: 'Led customer support, helpdesk, and problem solving.'
+        },
+        {
+          role: 'Support Technician',
+          company: 'Arteco Global',
+          time: 'Apr 2012 - Feb 2016',
+          detail: 'Technical support, problem solving, and Windows Server management.'
+        },
+        {
+          role: 'Electronic Technician (Internship)',
+          company: 'IEMCA / IGMI',
+          time: 'Sep 2011',
+          detail: 'Assembly and testing of logic boards for BOSS 338 and BOSS 552 feeders.'
+        },
+        {
+          role: 'Electronic Technician (Internship)',
+          company: 'Ponzi Ingressi Infissi',
+          time: 'Jun 2010',
+          detail: 'Assembly, testing, and wiring of boards for door automation systems.'
+        },
+        {
+          role: 'Electronic Technician (Internship)',
+          company: 'Ponzi Ingressi Infissi',
+          time: 'Jun 2009',
+          detail: 'Internship focused on assembly, testing, and wiring of door automation boards.'
         }
       ]
     },
