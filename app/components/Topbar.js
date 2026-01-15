@@ -5,6 +5,7 @@ export default function Topbar({ nav }) {
       <nav className="nav-links">
         <a href="#about">{nav.about}</a>
         <a href="#portfolio">{nav.portfolio}</a>
+        <a href="/blog">{nav.blog}</a>
         <a href="#cv">{nav.cv}</a>
         <a href="#contact">{nav.contact}</a>
       </nav>

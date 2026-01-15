@@ -3,6 +3,7 @@ const content = {
     nav: {
       about: 'Chi sono',
       portfolio: 'Portfolio',
+      blog: 'Blog',
       cv: 'CV',
       contact: 'Contattami'
     },
@@ -64,6 +65,12 @@ const content = {
         }
       ]
     },
+    blog: {
+      eyebrow: 'Blog',
+      title: 'Appunti e mini-post.',
+      lead: 'Piccoli aggiornamenti, note tecniche e idee di lavoro.',
+      empty: 'Nessun post pubblicato al momento.'
+    },
     cv: {
       eyebrow: 'CV',
       title: 'Scarica il mio curriculum completo.',
@@ -88,6 +95,7 @@ const content = {
     nav: {
       about: 'About',
       portfolio: 'Work',
+      blog: 'Blog',
       cv: 'CV',
       contact: 'Contact'
     },
@@ -145,6 +153,12 @@ const content = {
           detail: 'Internship focused on assembly, testing, and wiring of door automation boards.'
         }
       ]
+    },
+    blog: {
+      eyebrow: 'Blog',
+      title: 'Notes and mini-posts.',
+      lead: 'Small updates, technical notes, and work ideas.',
+      empty: 'No posts published yet.'
     },
     cv: {
       eyebrow: 'CV',

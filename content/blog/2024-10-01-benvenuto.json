@@ -1,0 +1,7 @@
+{
+  "title": "Benvenuto nel mio mini-blog",
+  "date": "2024-10-01",
+  "excerpt": "Un breve post di esempio per mostrare come appaiono gli aggiornamenti qui dentro.",
+  "image": "/mac.jpg",
+  "body": "Questo e un contenuto di esempio. Puoi scrivere un testo piu lungo e suddividerlo in paragrafi separati da una riga vuota.\n\nOgni file JSON puo contenere anche un'immagine e una breve descrizione."
+}
