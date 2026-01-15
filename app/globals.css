@@ -639,6 +639,16 @@ h2 {
   padding: 120px 8vw 80px;
 }
 
+.blog-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-shell .blog-page {
+  flex: 1;
+}
+
 .blog-hero {
   margin: 0 auto 40px;
   width: min(1120px, 92vw);
