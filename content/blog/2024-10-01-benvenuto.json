@@ -1,7 +1,7 @@
 {
-  "title": "Benvenuto nel mio mini-blog",
+  "title": "Hello, I am Marco Dal Prato",
   "date": "2024-10-01",
-  "excerpt": "Un breve post di esempio per mostrare come appaiono gli aggiornamenti qui dentro.",
+  "excerpt": "A short introduction to who I am, what I build, and the tools I enjoy working with.",
   "image": "/assets/images/mac.jpg",
-  "body": "Questo e un contenuto di esempio. Puoi scrivere un testo piu lungo e suddividerlo in paragrafi separati da una riga vuota.\n\nOgni file JSON puo contenere anche un'immagine e una breve descrizione."
+  "body": "I am a full-stack developer focused on TypeScript, NestJS, and PostgreSQL. I build modern web products and enjoy shaping solid back-end architectures that scale.\n\nOver the years I have worked across event-driven systems, microservices, and integrations with third-party platforms. I use Docker and CI/CD pipelines daily, and I have hands-on experience with OpenShift and AWS.\n\nIn this blog I will share small updates, technical notes, and ideas from my work. If you want to collaborate or just say hi, feel free to reach out."
 }
