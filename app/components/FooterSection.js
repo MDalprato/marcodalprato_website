@@ -1,8 +1,13 @@
+import SocialLinks from './SocialLinks';
+
 export default function FooterSection({ footer, lang, setLang }) {
   return (
     <footer className="footer">
       <div className="footer-inner">
         <p>{footer.note}</p>
+        <div className="footer-links">
+          <SocialLinks />
+        </div>
         <div className="lang-switch" role="group" aria-label={footer.langLabel}>
           <button
             type="button"
