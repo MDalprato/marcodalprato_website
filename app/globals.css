@@ -494,6 +494,60 @@ h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.timeline {
+  position: relative;
+  display: grid;
+  gap: 22px;
+  margin-top: 28px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(124, 108, 255, 0.15);
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  width: 2px;
+  height: calc(var(--timeline-progress, 0) * 100%);
+  background: linear-gradient(180deg, var(--accent-2), rgba(124, 108, 255, 0.1));
+  box-shadow: 0 0 16px rgba(124, 108, 255, 0.35);
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 6px rgba(124, 108, 255, 0.18);
+  margin-top: 10px;
+  justify-self: center;
+}
+
+.timeline-card {
+  padding: 22px;
+  border-radius: 20px;
+  background: rgba(8, 8, 14, 0.65);
+  border: 1px solid var(--stroke);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .panel[data-anim='left'] .card {
   opacity: 0;
   transform: translateX(24px);
@@ -504,7 +558,18 @@ h2 {
   animation-delay: calc(var(--card-index) * 120ms);
 }
 
-.card:hover {
+.panel[data-anim='left'] .timeline-card {
+  opacity: 0;
+  transform: translateX(24px);
+}
+
+.panel.is-visible[data-anim='left'] .timeline-card {
+  animation: card-slide 0.7s ease forwards;
+  animation-delay: calc(var(--card-index) * 120ms);
+}
+
+.card:hover,
+.timeline-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 }
