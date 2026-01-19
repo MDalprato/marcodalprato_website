@@ -666,6 +666,13 @@ h2 {
 
 .contact {
   text-align: center;
+  min-height: 50vh;
+  padding: 70px 8vw 56px;
+}
+
+.cv {
+  min-height: 50vh;
+  padding: 80px 8vw 64px;
 }
 
 .contact .panel-content {
