@@ -85,7 +85,7 @@ const content = {
         'Scrivimi per collaborazioni, consulenze o per rimettere in carreggiata il tuo prodotto web.'
     },
     footer: {
-      note: `Disponibile per nuove collaborazioni dal ${new Date().getFullYear()}.`,
+      copyright: 'Tutti i diritti riservati.',
       langLabel: 'Lingua',
       it: 'IT',
       en: 'EN'
@@ -174,6 +174,7 @@ const content = {
     },
     footer: {
       note: 'Available for new collaborations from 2024.',
+      copyright: 'All rights reserved.',
       langLabel: 'Language',
       it: 'IT',
       en: 'EN'

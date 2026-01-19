@@ -60,7 +60,7 @@ const links = [
   }
 ];
 
-export default function SocialLinks() {
+export default function SocialLinks({ showText = true }) {
   return (
     <>
       {links.map((link) => {
@@ -68,13 +68,14 @@ export default function SocialLinks() {
         return (
           <a
             key={link.label}
-            className="social-link"
+            className={`social-link${showText ? '' : ' icon-only'}`}
             href={link.href}
+            aria-label={link.label}
             target={link.external ? '_blank' : undefined}
             rel={link.external ? 'noreferrer' : undefined}
           >
             <Icon />
-            <span>{link.text}</span>
+            <span className="social-link__label">{link.text}</span>
           </a>
         );
       })}

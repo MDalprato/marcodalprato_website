@@ -7,8 +7,8 @@ export default function ContactSection({ contact }) {
         <p className="eyebrow">{contact.eyebrow}</p>
         <h2>{contact.title}</h2>
         <p className="lead">{contact.lead}</p>
-        <div className="contact-grid">
-          <SocialLinks />
+        <div className="contact-grid icon-only">
+          <SocialLinks showText={false} />
         </div>
       </div>
     </section>

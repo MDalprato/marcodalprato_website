@@ -49,6 +49,10 @@ export default function PortfolioSection({ portfolio }) {
         <p className="eyebrow">{portfolio.eyebrow}</p>
         <h2>{portfolio.title}</h2>
         <div className="timeline" ref={timelineRef}>
+          <span className="timeline-data" aria-hidden="true">
+            01001011001101000100101100110100010010110011010001001011001101000100101100110100010010110011010001001011001101000100101100110100
+            01001011001101000100101100110100010010110011010001001011001101000100101100110100010010110011010001001011001101000100101100110100
+          </span>
           {portfolio.items.map((item, index) => (
             <article key={`${item.role}-${item.time}`} className="timeline-item">
               <span className="timeline-dot" aria-hidden="true" />

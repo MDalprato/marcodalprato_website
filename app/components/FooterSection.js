@@ -1,13 +1,16 @@
 import SocialLinks from './SocialLinks';
 
 export default function FooterSection({ footer, lang, setLang }) {
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-inner">
-        <p>{footer.note}</p>
         <div className="footer-links">
-          <SocialLinks />
+          <SocialLinks showText={false} />
         </div>
+        <p className="footer-copy">
+          &copy; {year} Marco Dalprato. {footer.copyright}
+        </p>
         <div className="lang-switch" role="group" aria-label={footer.langLabel}>
           <button
             type="button"
