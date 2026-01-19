@@ -83,7 +83,9 @@ const content = {
         { label: 'OpenShift', icon: 'https://cdn.simpleicons.org/redhatopenshift/b8b2ff' },
         { label: 'Astro', icon: 'https://cdn.simpleicons.org/astro/b8b2ff' },
         { label: 'Git', icon: 'https://cdn.simpleicons.org/git/b8b2ff' },
-        { label: 'GitHub Actions', icon: 'https://cdn.simpleicons.org/githubactions/b8b2ff' }
+        { label: 'GitHub Actions', icon: 'https://cdn.simpleicons.org/githubactions/b8b2ff' },
+        { label: 'K8s', icon: 'https://cdn.simpleicons.org/kubernetes/b8b2ff' }
+
       ]
     },
     blog: {
