@@ -9,6 +9,7 @@ import FooterSection from './components/FooterSection';
 import HeroSection from './components/HeroSection';
 import LoadingOverlay from './components/LoadingOverlay';
 import PortfolioSection from './components/PortfolioSection';
+import TechStackSection from './components/TechStackSection';
 import Topbar from './components/Topbar';
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
           <Topbar nav={t.nav} />
           <HeroSection hero={t.hero} />
           <PortfolioSection portfolio={t.portfolio} />
+          <TechStackSection tech={t.tech} />
           <CvSection cv={t.cv} />
           <ContactSection contact={t.contact} />
           <FooterSection footer={t.footer} lang={lang} setLang={setLang} />

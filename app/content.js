@@ -65,6 +65,27 @@ const content = {
         }
       ]
     },
+    tech: {
+      eyebrow: 'Stack',
+      title: 'Tecnologie che uso ogni giorno.',
+      listLabel: 'Tecnologie principali',
+      items: [
+        { label: 'JavaScript', icon: 'https://cdn.simpleicons.org/javascript/b8b2ff' },
+        { label: 'TypeScript', icon: 'https://cdn.simpleicons.org/typescript/b8b2ff' },
+        { label: 'React', icon: 'https://cdn.simpleicons.org/react/b8b2ff' },
+        { label: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/b8b2ff' },
+        { label: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/b8b2ff' },
+        { label: 'NestJS', icon: 'https://cdn.simpleicons.org/nestjs/b8b2ff' },
+        { label: 'PostgreSQL', icon: 'https://cdn.simpleicons.org/postgresql/b8b2ff' },
+        { label: 'MongoDB', icon: 'https://cdn.simpleicons.org/mongodb/b8b2ff' },
+        { label: 'RabbitMQ', icon: 'https://cdn.simpleicons.org/rabbitmq/b8b2ff' },
+        { label: 'Docker', icon: 'https://cdn.simpleicons.org/docker/b8b2ff' },
+        { label: 'OpenShift', icon: 'https://cdn.simpleicons.org/redhatopenshift/b8b2ff' },
+        { label: 'Astro', icon: 'https://cdn.simpleicons.org/astro/b8b2ff' },
+        { label: 'Git', icon: 'https://cdn.simpleicons.org/git/b8b2ff' },
+        { label: 'GitHub Actions', icon: 'https://cdn.simpleicons.org/githubactions/b8b2ff' }
+      ]
+    },
     blog: {
       eyebrow: 'Blog',
       title: 'Appunti e mini-post.',
@@ -152,6 +173,27 @@ const content = {
           time: 'Jun 2009',
           detail: 'Internship focused on assembly, testing, and wiring of door automation boards.'
         }
+      ]
+    },
+    tech: {
+      eyebrow: 'Stack',
+      title: 'Technologies I use daily.',
+      listLabel: 'Primary technologies',
+      items: [
+        { label: 'JavaScript', icon: 'https://cdn.simpleicons.org/javascript/b8b2ff' },
+        { label: 'TypeScript', icon: 'https://cdn.simpleicons.org/typescript/b8b2ff' },
+        { label: 'React', icon: 'https://cdn.simpleicons.org/react/b8b2ff' },
+        { label: 'Next.js', icon: 'https://cdn.simpleicons.org/nextdotjs/b8b2ff' },
+        { label: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/b8b2ff' },
+        { label: 'NestJS', icon: 'https://cdn.simpleicons.org/nestjs/b8b2ff' },
+        { label: 'PostgreSQL', icon: 'https://cdn.simpleicons.org/postgresql/b8b2ff' },
+        { label: 'MongoDB', icon: 'https://cdn.simpleicons.org/mongodb/b8b2ff' },
+        { label: 'RabbitMQ', icon: 'https://cdn.simpleicons.org/rabbitmq/b8b2ff' },
+        { label: 'Docker', icon: 'https://cdn.simpleicons.org/docker/b8b2ff' },
+        { label: 'OpenShift', icon: 'https://cdn.simpleicons.org/redhatopenshift/b8b2ff' },
+        { label: 'AWS', icon: 'https://cdn.simpleicons.org/amazonaws/b8b2ff' },
+        { label: 'Git', icon: 'https://cdn.simpleicons.org/git/b8b2ff' },
+        { label: 'GitHub Actions', icon: 'https://cdn.simpleicons.org/githubactions/b8b2ff' }
       ]
     },
     blog: {
