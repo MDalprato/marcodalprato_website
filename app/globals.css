@@ -505,7 +505,17 @@ h3 {
 .blog-post .lead,
 .blog-post .blog-article p,
 .blog-post .blog-article__body {
-  max-width: 78ch;
+  max-width: none;
+  text-wrap: pretty;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.blog-post .lead,
+.blog-post .blog-article p {
+  font-size: clamp(1.24rem, 2vw, 1.4rem);
+  line-height: 1.72;
 }
 
 .social-link {

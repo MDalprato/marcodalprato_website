@@ -24,8 +24,47 @@ const countWords = (value) => {
   return value.trim().split(/\s+/).filter(Boolean).length;
 };
 
+const unquote = (value) => {
+  if (
+    (value.startsWith('"') && value.endsWith('"')) ||
+    (value.startsWith("'") && value.endsWith("'"))
+  ) {
+    return value.slice(1, -1);
+  }
+  return value;
+};
+
+const parseMarkdownFile = (raw) => {
+  const match = raw.match(/^---\s*\r?\n([\s\S]*?)\r?\n---\s*\r?\n?/);
+  if (!match) {
+    return { data: {}, body: raw.trim() };
+  }
+
+  const frontmatter = match[1];
+  const body = raw.slice(match[0].length).trim();
+  const data = {};
+
+  for (const line of frontmatter.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) {
+      continue;
+    }
+
+    const separatorIndex = trimmed.indexOf(':');
+    if (separatorIndex === -1) {
+      continue;
+    }
+
+    const key = trimmed.slice(0, separatorIndex).trim();
+    const value = trimmed.slice(separatorIndex + 1).trim();
+    data[key] = unquote(value);
+  }
+
+  return { data, body };
+};
+
 const normalizePost = (data, filename) => ({
-  slug: data.slug || filename.replace(/\.json$/, ''),
+  slug: data.slug || filename.replace(/\.md$/, ''),
   title: data.title || 'Untitled',
   date: data.date || '',
   excerpt: data.excerpt || '',
@@ -37,13 +76,13 @@ const normalizePost = (data, filename) => ({
 export const getBlogPosts = async () => {
   try {
     const entries = await fs.readdir(BLOG_DIR);
-    const jsonFiles = entries.filter((name) => name.endsWith('.json'));
+    const markdownFiles = entries.filter((name) => name.endsWith('.md'));
     const posts = await Promise.all(
-      jsonFiles.map(async (name) => {
+      markdownFiles.map(async (name) => {
         const filePath = path.join(BLOG_DIR, name);
         const raw = await fs.readFile(filePath, 'utf8');
-        const data = JSON.parse(raw);
-        return normalizePost(data, name);
+        const { data: frontmatter, body } = parseMarkdownFile(raw);
+        return normalizePost({ ...frontmatter, body }, name);
       })
     );
 
