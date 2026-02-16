@@ -11,7 +11,7 @@ export default function BlogLayout({ children }) {
         </a>
         <nav className="site-nav" aria-label="Main">
           <a href="/#about">{t.nav.about}</a>
-          <a href="/#work">{t.nav.portfolio}</a>
+          <a href="/#blog-home">{t.nav.blog}</a>
           <a href="/blog">{t.nav.blog}</a>
           <a href="/#contact">{t.nav.contact}</a>
         </nav>

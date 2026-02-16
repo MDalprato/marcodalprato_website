@@ -13,7 +13,7 @@ export default async function BlogPage() {
       <header className="blog-hero">
         <div className="blog-hero__inner">
           <p className="eyebrow">Blog</p>
-          <h1>Appunti e mini-post</h1>
+          <h1>Blog</h1>
           <p className="lead">Piccoli aggiornamenti, note tecniche e idee di lavoro.</p>
           <Link className="blog-back" href="/">
             Torna alla home

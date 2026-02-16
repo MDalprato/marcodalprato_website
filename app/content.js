@@ -90,7 +90,7 @@ const content = {
     },
     blog: {
       eyebrow: 'Blog',
-      title: 'Appunti e mini-post.',
+      title: 'Blog',
       lead: 'Piccoli aggiornamenti, note tecniche e idee di lavoro.',
       empty: 'Nessun post pubblicato al momento.'
     },
@@ -200,7 +200,7 @@ const content = {
     },
     blog: {
       eyebrow: 'Blog',
-      title: 'Notes and mini-posts.',
+      title: 'Blog',
       lead: 'Small updates, technical notes, and work ideas.',
       empty: 'No posts published yet.'
     },
