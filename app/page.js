@@ -2,6 +2,7 @@ import content from './content';
 import Link from 'next/link';
 import { getBlogPosts } from './lib/blog';
 import SocialLinks from './components/SocialLinks';
+import CollapseTrigger from './components/CollapseTrigger';
 
 export default async function Home() {
   const t = content.it;
@@ -23,13 +24,18 @@ export default async function Home() {
       <section id="about" className="section intro">
         <div className="intro-head">
           <img className="intro-portrait" src="/assets/images/picture.avif" alt="Marco Dalprato" />
-          <h1>Marco Dalprato</h1>
+          <div className="intro-content">
+            <h1>Marco Dalprato</h1>
+            <p className="intro-bio">
+              Full-stack developer crafting clean interfaces and resilient backends.
+              <br />
+              I turn complex ideas into fast, scalable products people actually enjoy using.
+            </p>
+            <div className="intro-social">
+              <SocialLinks showText={false} />
+            </div>
+          </div>
         </div>
-        <p>
-          Full-stack developer crafting clean interfaces and resilient backends.
-          <br />
-          I turn complex ideas into fast, scalable products people actually enjoy using.
-        </p>
       </section>
 
       <section id="blog-home" className="section">
@@ -59,7 +65,7 @@ export default async function Home() {
         </div>
         <p>
           &copy; {year} Marco Dalprato. All rights reserved. Built with Next.js, coffee, and
-          occasional `console.log()`.
+          occasional <CollapseTrigger />.
         </p>
       </footer>
     </main>
