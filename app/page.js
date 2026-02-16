@@ -53,9 +53,9 @@ export default async function Home() {
           <div className="intro-content">
             <h1>
               Hi, I&apos;m @mdalprato.
-              <span className="intro-rss" aria-hidden="true">
+              {/* <span className="intro-rss" aria-hidden="true">
                 RSS
-              </span>
+              </span> */}
             </h1>
             <p className="intro-bio">
               Full-stack developer crafting clean interfaces and resilient backends.
