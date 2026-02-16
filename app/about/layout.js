@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { Suspense } from 'react';
 import HeaderMenu from '../components/HeaderMenu';
+import SiteFooter from '../components/SiteFooter';
 
 export default function AboutLayout({ children }) {
   return (
-    <div className="site">
+    <div className="site site--with-footer">
       <header className="site-header">
         <a className="site-name" href="/">
           Marco Dalprato
@@ -25,6 +26,7 @@ export default function AboutLayout({ children }) {
         </Suspense>
       </header>
       {children}
+      <SiteFooter />
     </div>
   );
 }

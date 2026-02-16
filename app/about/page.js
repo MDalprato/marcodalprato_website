@@ -10,12 +10,14 @@ export default function AboutPage() {
       <section className="section about-intro">
         <h1>About</h1>
         <div className="about-grid">
-          <img className="about-photo" src="/assets/images/mac.jpg" alt="Marco Dal Prato workspace" />
+          <img className="about-photo" src="/assets/images/about-me.jpeg" alt="Marco Dal Prato" />
           <div className="about-copy">
-            <p>Deep in vibe-coding mode, testing shiny web tech and practical product ideas.</p>
-            <p>After years building software, modern web feels like the right place to move fast.</p>
-            <p>I split my time between engineering, writing notes, and shipping side experiments.</p>
-            <p>I&apos;m open to new collaborations where product and code quality both matter.</p>
+            <p>I&apos;m in build mode most days, turning rough ideas into usable web products.</p>
+            <p>
+              After years in software, I care most about fast feedback loops and clean execution.
+            </p>
+            <p>I split my time between product engineering, technical writing, and side projects.</p>
+            <p>I&apos;m open to collaborations where craft, velocity, and ownership all count.</p>
             <p>
               <a
                 className="about-inline-link"

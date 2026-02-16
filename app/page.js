@@ -2,9 +2,9 @@ import content from './content';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { getBlogPosts } from './lib/blog';
-import SocialLinks from './components/SocialLinks';
-import CollapseTrigger from './components/CollapseTrigger';
 import HeaderMenu from './components/HeaderMenu';
+import SocialLinks from './components/SocialLinks';
+import SiteFooter from './components/SiteFooter';
 
 const formatDateLabel = (dateString) => {
   const parsedDate = new Date(dateString);
@@ -24,10 +24,9 @@ const formatDateLabel = (dateString) => {
 export default async function Home() {
   const t = content.it;
   const posts = await getBlogPosts();
-  const year = new Date().getFullYear();
 
   return (
-    <main id="top" className="site">
+    <main id="top" className="site site--with-footer">
       <header className="site-header">
         <a className="site-name" href="#top">
           Marco Dalprato
@@ -96,15 +95,7 @@ export default async function Home() {
         )}
       </section>
 
-      <footer className="site-footer">
-        <div className="footer-social">
-          <SocialLinks showText={false} />
-        </div>
-        <p>
-          &copy; {year} Marco Dalprato. All rights reserved. Built with Next.js, coffee, and
-          occasional <CollapseTrigger />.
-        </p>
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

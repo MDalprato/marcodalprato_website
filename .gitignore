@@ -1,5 +1,6 @@
 node_modules/
 .next/
+.next-dev/
 out/
 .next-dev/cache/webpack/**/*.pack.gz
 .next-dev/cache/webpack/**/*.pack.gz.old
