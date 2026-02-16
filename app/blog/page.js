@@ -1,8 +1,25 @@
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { getBlogPosts } from '../lib/blog';
+import BlogPostListClient from './BlogPostListClient';
 
 export const metadata = {
   title: 'Blog | Marco Dal Prato'
+};
+
+const formatDateLabel = (dateString) => {
+  const parsedDate = new Date(dateString);
+  if (Number.isNaN(parsedDate.getTime())) {
+    return dateString || '';
+  }
+
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric'
+  })
+    .format(parsedDate)
+    .replace(/(\w{3}) (\d{4})$/, '$1, $2');
 };
 
 export default async function BlogPage() {
@@ -22,24 +39,30 @@ export default async function BlogPage() {
       </header>
       <section className="blog-list">
         {posts.length ? (
-          <div className="cards">
-            {posts.map((post, index) => (
-              <article key={post.slug} className="card blog-card" style={{ '--card-index': index }}>
-                {post.image ? (
-                  <div className="blog-card__media">
-                    <img src={post.image} alt={post.title} loading="lazy" />
-                  </div>
-                ) : null}
-                <p className="tag">{post.date}</p>
-                <h2>
-                  <Link className="blog-card__link" href={`/blog/${post.slug}`}>
-                    {post.title}
-                  </Link>
-                </h2>
-                <p className="detail">{post.excerpt}</p>
-              </article>
-            ))}
-          </div>
+          <Suspense
+            fallback={
+              <div className="home-blog-list blog-stream">
+                {posts.map((post) => (
+                  <article key={post.slug} className="home-blog-item">
+                    <h2>
+                      <Link className="blog-card__link" href={`/blog/${post.slug}`}>
+                        {post.title}
+                      </Link>
+                    </h2>
+                    <p className="meta home-blog-item__meta">
+                      <span className="meta-calendar" aria-hidden="true" />
+                      {formatDateLabel(post.date)}
+                      <span aria-hidden="true">•</span>
+                      {post.readingMinutes} min read
+                    </p>
+                    <p className="home-blog-desc">{post.excerpt || 'Descrizione in arrivo.'}</p>
+                  </article>
+                ))}
+              </div>
+            }
+          >
+            <BlogPostListClient posts={posts} />
+          </Suspense>
         ) : (
           <p className="blog-empty">Nessun post pubblicato al momento.</p>
         )}

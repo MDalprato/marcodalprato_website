@@ -1,8 +1,25 @@
 import content from './content';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { getBlogPosts } from './lib/blog';
 import SocialLinks from './components/SocialLinks';
 import CollapseTrigger from './components/CollapseTrigger';
+import HeaderMenu from './components/HeaderMenu';
+
+const formatDateLabel = (dateString) => {
+  const parsedDate = new Date(dateString);
+  if (Number.isNaN(parsedDate.getTime())) {
+    return dateString || '';
+  }
+
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric'
+  })
+    .format(parsedDate)
+    .replace(/(\w{3}) (\d{4})$/, '$1, $2');
+};
 
 export default async function Home() {
   const t = content.it;
@@ -15,17 +32,32 @@ export default async function Home() {
         <a className="site-name" href="#top">
           Marco Dalprato
         </a>
-        <nav className="site-nav" aria-label="Main">
-          <a href="#about">About</a>
-          <a href="/blog">Blog</a>
-        </nav>
+        <Suspense
+          fallback={
+            <nav className="site-nav" aria-label="Main">
+              <Link className="site-nav__link" href="/blog">
+                Posts
+              </Link>
+              <Link className="site-nav__link" href="/about">
+                About
+              </Link>
+            </nav>
+          }
+        >
+          <HeaderMenu />
+        </Suspense>
       </header>
 
       <section id="about" className="section intro">
         <div className="intro-head">
           <img className="intro-portrait" src="/assets/images/picture.avif" alt="Marco Dalprato" />
           <div className="intro-content">
-            <h1>Marco Dalprato</h1>
+            <h1>
+              Hi, I&apos;m @mdalprato.
+              <span className="intro-rss" aria-hidden="true">
+                RSS
+              </span>
+            </h1>
             <p className="intro-bio">
               Full-stack developer crafting clean interfaces and resilient backends.
               <br />
@@ -44,12 +76,17 @@ export default async function Home() {
           <div className="home-blog-list">
             {posts.map((post) => (
               <article key={post.slug} className="home-blog-item">
-                <p className="meta">{post.date}</p>
                 <h3>
                   <Link className="blog-card__link" href={`/blog/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
+                <p className="meta home-blog-item__meta">
+                  <span className="meta-calendar" aria-hidden="true" />
+                  {formatDateLabel(post.date)}
+                  <span aria-hidden="true">•</span>
+                  {post.readingMinutes} min read
+                </p>
                 <p className="home-blog-desc">{post.excerpt || 'Descrizione in arrivo.'}</p>
               </article>
             ))}

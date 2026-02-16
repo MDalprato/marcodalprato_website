@@ -1,20 +1,28 @@
-import content from '../content';
+import Link from 'next/link';
+import { Suspense } from 'react';
+import HeaderMenu from '../components/HeaderMenu';
 
 export default function BlogLayout({ children }) {
-  const t = content.it;
-
   return (
     <div className="site">
       <header className="site-header">
         <a className="site-name" href="/">
           Marco Dalprato
         </a>
-        <nav className="site-nav" aria-label="Main">
-          <a href="/#about">{t.nav.about}</a>
-          <a href="/#blog-home">{t.nav.blog}</a>
-          <a href="/blog">{t.nav.blog}</a>
-          <a href="/#contact">{t.nav.contact}</a>
-        </nav>
+        <Suspense
+          fallback={
+            <nav className="site-nav" aria-label="Main">
+              <Link className="site-nav__link is-active" href="/blog">
+                Posts
+              </Link>
+              <Link className="site-nav__link" href="/about">
+                About
+              </Link>
+            </nav>
+          }
+        >
+          <HeaderMenu />
+        </Suspense>
       </header>
       {children}
     </div>

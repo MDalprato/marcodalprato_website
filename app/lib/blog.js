@@ -8,13 +8,30 @@ const parseDate = (value) => {
   return Number.isNaN(parsed) ? 0 : parsed;
 };
 
+const countWords = (value) => {
+  if (Array.isArray(value)) {
+    return value
+      .join(' ')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean).length;
+  }
+
+  if (typeof value !== 'string') {
+    return 0;
+  }
+
+  return value.trim().split(/\s+/).filter(Boolean).length;
+};
+
 const normalizePost = (data, filename) => ({
   slug: data.slug || filename.replace(/\.json$/, ''),
   title: data.title || 'Untitled',
   date: data.date || '',
   excerpt: data.excerpt || '',
   image: data.image || '',
-  body: data.body || data.content || ''
+  body: data.body || data.content || '',
+  readingMinutes: Math.max(1, Math.round(countWords(data.body || data.content || data.excerpt) / 190))
 });
 
 export const getBlogPosts = async () => {

@@ -16,6 +16,37 @@ const normalizeBody = (body) => {
   return [];
 };
 
+const countWords = (value) => {
+  if (Array.isArray(value)) {
+    return value
+      .join(' ')
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean).length;
+  }
+
+  if (typeof value !== 'string') {
+    return 0;
+  }
+
+  return value.trim().split(/\s+/).filter(Boolean).length;
+};
+
+const formatDateLabel = (dateString) => {
+  const parsedDate = new Date(dateString);
+  if (Number.isNaN(parsedDate.getTime())) {
+    return dateString || '';
+  }
+
+  return new Intl.DateTimeFormat('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric'
+  })
+    .format(parsedDate)
+    .replace(/(\w{3}) (\d{4})$/, '$1, $2');
+};
+
 export async function generateMetadata({ params }) {
   const post = await getBlogPostBySlug(params.slug);
   if (!post) {
@@ -36,6 +67,7 @@ export default async function BlogPostPage({ params }) {
   }
 
   const paragraphs = normalizeBody(post.body);
+  const readingMinutes = Math.max(1, Math.round(countWords(post.body || post.excerpt) / 190));
 
   return (
     <main className="blog-page blog-post">
@@ -43,7 +75,12 @@ export default async function BlogPostPage({ params }) {
         <div className="blog-hero__inner">
           <p className="eyebrow">Blog</p>
           <h1>{post.title}</h1>
-          <p className="tag">{post.date}</p>
+          <p className="meta home-blog-item__meta">
+            <span className="meta-calendar" aria-hidden="true" />
+            {formatDateLabel(post.date)}
+            <span aria-hidden="true">•</span>
+            {readingMinutes} min read
+          </p>
           <Link className="blog-back" href="/blog">
             Torna al blog
           </Link>

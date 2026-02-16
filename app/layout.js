@@ -1,4 +1,11 @@
 import './globals.css';
+import { Space_Mono } from 'next/font/google';
+
+const fontMono = Space_Mono({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-mono'
+});
 
 export const metadata = {
   title: 'Marco Dal Prato | Sviluppatore Web JavaScript',
@@ -14,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="it">
-      <body>{children}</body>
+      <body className={fontMono.variable}>{children}</body>
     </html>
   );
 }
