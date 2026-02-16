@@ -1,6 +1,7 @@
 import content from './content';
 import Link from 'next/link';
 import { getBlogPosts } from './lib/blog';
+import SocialLinks from './components/SocialLinks';
 
 export default async function Home() {
   const t = content.it;
@@ -15,7 +16,6 @@ export default async function Home() {
         </a>
         <nav className="site-nav" aria-label="Main">
           <a href="#about">About</a>
-          <a href="#blog-home">Blog</a>
           <a href="/blog">Blog</a>
         </nav>
       </header>
@@ -53,17 +53,13 @@ export default async function Home() {
         )}
       </section>
 
-      <section className="section hashtags-section">
-        <ul className="hashtags-list" aria-label={t.tech.listLabel}>
-          {t.tech.items.map((item) => (
-            <li key={item.label}>#{item.label.replaceAll('.', '').replaceAll(' ', '').toLowerCase()}</li>
-          ))}
-        </ul>
-      </section>
-
       <footer className="site-footer">
+        <div className="footer-social">
+          <SocialLinks showText={false} />
+        </div>
         <p>
-          &copy; {year} Marco Dalprato. {t.footer.copyright}
+          &copy; {year} Marco Dalprato. All rights reserved. Built with Next.js, coffee, and
+          occasional `console.log()`.
         </p>
       </footer>
     </main>
