@@ -3,17 +3,45 @@ import { notFound } from 'next/navigation';
 import { getBlogPostBySlug } from '../../lib/blog';
 import { getBlogPosts } from '../../lib/blog';
 
+const IMAGE_BLOCK_PATTERN = /^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']+)["'])?\)$/;
+
 const normalizeBody = (body) => {
   if (Array.isArray(body)) {
-    return body.filter((item) => typeof item === 'string' && item.trim().length);
+    return body.filter((item) => typeof item === 'string' && item.trim().length).join('\n\n');
   }
   if (typeof body === 'string') {
-    return body
-      .split(/\n\n+/)
-      .map((item) => item.trim())
-      .filter(Boolean);
+    return body.trim();
   }
-  return [];
+  return '';
+};
+
+const parseMarkdownBlocks = (body) => {
+  const normalized = normalizeBody(body);
+  if (!normalized) {
+    return [];
+  }
+
+  return normalized
+    .split(/\n\n+/)
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .map((block) => {
+      const imageMatch = block.match(IMAGE_BLOCK_PATTERN);
+
+      if (imageMatch) {
+        return {
+          type: 'image',
+          alt: imageMatch[1] || '',
+          src: imageMatch[2],
+          caption: imageMatch[3] || ''
+        };
+      }
+
+      return {
+        type: 'paragraph',
+        text: block.replace(/\n+/g, ' ')
+      };
+    });
 };
 
 const countWords = (value) => {
@@ -66,7 +94,7 @@ export default async function BlogPostPage({ params }) {
     notFound();
   }
 
-  const paragraphs = normalizeBody(post.body);
+  const blocks = parseMarkdownBlocks(post.body);
   const readingMinutes = Math.max(1, Math.round(countWords(post.body || post.excerpt) / 190));
 
   return (
@@ -93,10 +121,17 @@ export default async function BlogPostPage({ params }) {
           </div>
         ) : null}
         {post.excerpt ? <p className="lead">{post.excerpt}</p> : null}
-        {paragraphs.length ? (
+        {blocks.length ? (
           <div className="blog-article__body">
-            {paragraphs.map((paragraph, index) => (
-              <p key={`${post.slug}-${index}`}>{paragraph}</p>
+            {blocks.map((block, index) => (
+              block.type === 'image' ? (
+                <figure key={`${post.slug}-${index}`} className="blog-article__media">
+                  <img src={block.src} alt={block.alt || post.title} loading="lazy" />
+                  {block.caption ? <figcaption className="meta">{block.caption}</figcaption> : null}
+                </figure>
+              ) : (
+                <p key={`${post.slug}-${index}`}>{block.text}</p>
+              )
             ))}
           </div>
         ) : (

@@ -9,19 +9,22 @@ const parseDate = (value) => {
 };
 
 const countWords = (value) => {
-  if (Array.isArray(value)) {
-    return value
-      .join(' ')
-      .trim()
-      .split(/\s+/)
-      .filter(Boolean).length;
-  }
+  const normalized = Array.isArray(value)
+    ? value.join(' ')
+    : typeof value === 'string'
+      ? value
+      : '';
 
-  if (typeof value !== 'string') {
+  if (!normalized.trim()) {
     return 0;
   }
 
-  return value.trim().split(/\s+/).filter(Boolean).length;
+  const textOnly = normalized
+    .replace(/!\[[^\]]*]\([^)]+\)/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[`*_>#-]/g, ' ');
+
+  return textOnly.trim().split(/\s+/).filter(Boolean).length;
 };
 
 const unquote = (value) => {
