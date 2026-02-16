@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { getBlogPostBySlug } from '../../lib/blog';
 import { getBlogPosts } from '../../lib/blog';
-
-const IMAGE_BLOCK_PATTERN = /^!\[([^\]]*)\]\((\S+?)(?:\s+["']([^"']+)["'])?\)$/;
 
 const normalizeBody = (body) => {
   if (Array.isArray(body)) {
@@ -13,35 +13,6 @@ const normalizeBody = (body) => {
     return body.trim();
   }
   return '';
-};
-
-const parseMarkdownBlocks = (body) => {
-  const normalized = normalizeBody(body);
-  if (!normalized) {
-    return [];
-  }
-
-  return normalized
-    .split(/\n\n+/)
-    .map((item) => item.trim())
-    .filter(Boolean)
-    .map((block) => {
-      const imageMatch = block.match(IMAGE_BLOCK_PATTERN);
-
-      if (imageMatch) {
-        return {
-          type: 'image',
-          alt: imageMatch[1] || '',
-          src: imageMatch[2],
-          caption: imageMatch[3] || ''
-        };
-      }
-
-      return {
-        type: 'paragraph',
-        text: block.replace(/\n+/g, ' ')
-      };
-    });
 };
 
 const countWords = (value) => {
@@ -75,6 +46,54 @@ const formatDateLabel = (dateString) => {
     .replace(/(\w{3}) (\d{4})$/, '$1, $2');
 };
 
+const isInternalLink = (href) =>
+  typeof href === 'string' &&
+  (href.startsWith('/') || href.startsWith('#') || href.startsWith('./') || href.startsWith('../'));
+
+const markdownComponents = {
+  a: ({ node, href, children, ...props }) => {
+    void node;
+
+    if (!href) {
+      return <span>{children}</span>;
+    }
+
+    if (isInternalLink(href)) {
+      return (
+        <Link className="blog-markdown__link" href={href} {...props}>
+          {children}
+        </Link>
+      );
+    }
+
+    return (
+      <a
+        {...props}
+        className="blog-markdown__link"
+        href={href}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        {children}
+      </a>
+    );
+  },
+  img: ({ node, src, alt, title }) => {
+    void node;
+
+    if (!src) {
+      return null;
+    }
+
+    return (
+      <figure className="blog-article__media">
+        <img src={src} alt={alt || ''} loading="lazy" />
+        {title ? <figcaption className="meta">{title}</figcaption> : null}
+      </figure>
+    );
+  }
+};
+
 export async function generateMetadata({ params }) {
   const post = await getBlogPostBySlug(params.slug);
   if (!post) {
@@ -94,7 +113,7 @@ export default async function BlogPostPage({ params }) {
     notFound();
   }
 
-  const blocks = parseMarkdownBlocks(post.body);
+  const normalizedBody = normalizeBody(post.body);
   const readingMinutes = Math.max(1, Math.round(countWords(post.body || post.excerpt) / 190));
 
   return (
@@ -121,18 +140,11 @@ export default async function BlogPostPage({ params }) {
           </div>
         ) : null}
         {post.excerpt ? <p className="lead">{post.excerpt}</p> : null}
-        {blocks.length ? (
-          <div className="blog-article__body">
-            {blocks.map((block, index) => (
-              block.type === 'image' ? (
-                <figure key={`${post.slug}-${index}`} className="blog-article__media">
-                  <img src={block.src} alt={block.alt || post.title} loading="lazy" />
-                  {block.caption ? <figcaption className="meta">{block.caption}</figcaption> : null}
-                </figure>
-              ) : (
-                <p key={`${post.slug}-${index}`}>{block.text}</p>
-              )
-            ))}
+        {normalizedBody ? (
+          <div className="blog-article__body blog-markdown">
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+              {normalizedBody}
+            </ReactMarkdown>
           </div>
         ) : (
           <p className="blog-empty">Contenuto in arrivo.</p>
