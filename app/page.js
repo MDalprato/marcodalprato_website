@@ -1,77 +1,71 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import content from './content';
-import Ambient from './components/Ambient';
-import ContactSection from './components/ContactSection';
-import CvSection from './components/CvSection';
-import FooterSection from './components/FooterSection';
-import HeroSection from './components/HeroSection';
-import LoadingOverlay from './components/LoadingOverlay';
-import PortfolioSection from './components/PortfolioSection';
-import TechStackSection from './components/TechStackSection';
-import Topbar from './components/Topbar';
+import SocialLinks from './components/SocialLinks';
 
 export default function Home() {
-  const [lang, setLang] = useState('it');
-  const t = content[lang];
-  const loaderEnabled = process.env.NEXT_PUBLIC_ENABLE_LOADER !== 'false';
-  const [isReady, setIsReady] = useState(!loaderEnabled);
-
-  useEffect(() => {
-    const stored = window.localStorage.getItem('mdp-lang');
-    if (stored === 'it' || stored === 'en') {
-      setLang(stored);
-      document.documentElement.lang = stored;
-    }
-  }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem('mdp-lang', lang);
-    document.documentElement.lang = lang;
-  }, [lang]);
-
-  useEffect(() => {
-    if (!isReady) {
-      return undefined;
-    }
-
-    const panels = document.querySelectorAll('.panel');
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-          } else {
-            entry.target.classList.remove('is-visible');
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    panels.forEach((panel) => observer.observe(panel));
-
-    return () => observer.disconnect();
-  }, [isReady]);
+  const t = content.it;
+  const year = new Date().getFullYear();
 
   return (
-    <main className="onepage">
-      {loaderEnabled && !isReady ? (
-        <LoadingOverlay enabled={loaderEnabled} onComplete={() => setIsReady(true)} />
-      ) : null}
-      {isReady ? (
-        <div className={`site-shell${loaderEnabled ? ' crt-on' : ''}`}>
-          <Ambient />
-          <Topbar nav={t.nav} />
-          <HeroSection hero={t.hero} />
-          <PortfolioSection portfolio={t.portfolio} />
-          <TechStackSection tech={t.tech} />
-          <CvSection cv={t.cv} />
-          <ContactSection contact={t.contact} />
-          <FooterSection footer={t.footer} lang={lang} setLang={setLang} />
+    <main id="top" className="site">
+      <header className="site-header">
+        <a className="site-name" href="#top">
+          Marco Dalprato
+        </a>
+        <nav className="site-nav" aria-label="Main">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="/blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section id="about" className="section intro">
+        <p className="kicker">{t.hero.eyebrow}</p>
+        <h1>{t.hero.title}</h1>
+        <p>{t.hero.lead}</p>
+      </section>
+
+      <section id="work" className="section">
+        <h2>{t.portfolio.title}</h2>
+        <div className="timeline-list">
+          {t.portfolio.items.map((item) => (
+            <article key={`${item.role}-${item.time}`} className="timeline-item">
+              <p className="meta">{item.time}</p>
+              <h3>{item.role}</h3>
+              <p className="company">{item.company}</p>
+              <p>{item.detail}</p>
+            </article>
+          ))}
         </div>
-      ) : null}
+      </section>
+
+      <section className="section">
+        <h2>{t.tech.title}</h2>
+        <ul className="stack-list" aria-label={t.tech.listLabel}>
+          {t.tech.items.map((item) => (
+            <li key={item.label}>{item.label}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section id="contact" className="section contact">
+        <h2>{t.contact.title}</h2>
+        <p>{t.contact.lead}</p>
+        <div className="social-grid">
+          <SocialLinks />
+        </div>
+        <p>
+          <a className="inline-link" href="/assets/cv/cv.pdf">
+            {t.cv.cta}
+          </a>
+        </p>
+      </section>
+
+      <footer className="site-footer">
+        <p>
+          &copy; {year} Marco Dalprato. {t.footer.copyright}
+        </p>
+      </footer>
     </main>
   );
 }
