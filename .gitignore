@@ -1,5 +1,7 @@
 node_modules/
 .next/
 out/
+.next-dev/cache/webpack/**/*.pack.gz
+.next-dev/cache/webpack/**/*.pack.gz.old
 .DS_Store
 .env*
