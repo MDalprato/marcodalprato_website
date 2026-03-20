@@ -1,10 +1,20 @@
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { getBlogPosts } from '../lib/blog';
+import { siteConfig } from '../lib/site';
 import BlogPostListClient from './BlogPostListClient';
 
 export const metadata = {
-  title: 'Blog | Marco Dal Prato'
+  title: 'Blog | Marco Dal Prato',
+  description: siteConfig.description,
+  alternates: {
+    canonical: '/blog/'
+  },
+  openGraph: {
+    title: 'Blog | Marco Dal Prato',
+    description: siteConfig.description,
+    url: '/blog/'
+  }
 };
 
 const formatDateLabel = (dateString) => {

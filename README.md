@@ -31,6 +31,12 @@ Per disattivare il loader in locale:
 NEXT_PUBLIC_ENABLE_LOADER=false
 ```
 
+Per generare canonical, `robots.txt` e `sitemap.xml` con il dominio corretto:
+```bash
+# .env.local o env di produzione
+NEXT_PUBLIC_SITE_URL=https://tuo-dominio.it
+```
+
 ## Struttura
 - `app/page.js`: pagina principale e composizione sezioni
 - `app/components/`: componenti UI

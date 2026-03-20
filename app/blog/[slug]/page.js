@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getBlogPostBySlug } from '../../lib/blog';
 import { getBlogPosts } from '../../lib/blog';
+import { siteConfig } from '../../lib/site';
 
 const normalizeBody = (body) => {
   if (Array.isArray(body)) {
@@ -99,7 +100,22 @@ export async function generateMetadata({ params }) {
   if (!post) {
     return { title: 'Post non trovato | Marco Dal Prato' };
   }
-  return { title: `${post.title} | Marco Dal Prato` };
+  const title = `${post.title} | Marco Dal Prato`;
+  const description = post.excerpt || siteConfig.description;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `/blog/${post.slug}/`
+    },
+    openGraph: {
+      title,
+      description,
+      url: `/blog/${post.slug}/`,
+      type: 'article'
+    }
+  };
 }
 
 export async function generateStaticParams() {

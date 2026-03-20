@@ -1,5 +1,6 @@
 import './globals.css';
 import { Space_Mono } from 'next/font/google';
+import { siteConfig } from './lib/site';
 
 const fontMono = Space_Mono({
   subsets: ['latin'],
@@ -8,9 +9,26 @@ const fontMono = Space_Mono({
 });
 
 export const metadata = {
-  title: 'Marco Dal Prato | Sviluppatore Web JavaScript',
-  description:
-    'Portfolio di Marco Dal Prato, sviluppatore web JavaScript specializzato in esperienze web moderne, performanti e accessibili.',
+  metadataBase: new URL(siteConfig.siteUrl),
+  title: siteConfig.title,
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
+  alternates: {
+    canonical: '/'
+  },
+  openGraph: {
+    title: siteConfig.title,
+    description: siteConfig.description,
+    url: '/',
+    siteName: siteConfig.name,
+    locale: siteConfig.locale,
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary',
+    title: siteConfig.title,
+    description: siteConfig.description
+  },
   icons: {
     icon: '/assets/images/picture.avif',
     shortcut: '/assets/images/picture.avif',

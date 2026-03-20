@@ -1,0 +1,24 @@
+# Marco Dal Prato
+
+> Personal website and blog of Marco Dal Prato, full-stack web developer.
+
+## Project summary
+
+This website contains:
+- A homepage with profile, positioning, and social links.
+- An about page with background and GitHub activity.
+- A blog with short technical notes and work updates.
+- A PDF resume.
+
+## Key URLs
+
+- [Home](/)
+- [About](/about/)
+- [Blog](/blog/)
+- [CV PDF](/assets/cv/cv.pdf)
+
+## Notes for AI agents
+
+- Primary language is Italian, with some English content.
+- Prefer the blog section for recent written material.
+- The PDF CV is the best source for condensed professional background.
