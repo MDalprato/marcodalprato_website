@@ -30,9 +30,9 @@ export const metadata = {
     description: siteConfig.description
   },
   icons: {
-    icon: '/assets/images/picture.avif',
-    shortcut: '/assets/images/picture.avif',
-    apple: '/assets/images/picture.avif'
+    icon: '/assets/images/about-me.jpeg',
+    shortcut: '/assets/images/about-me.jpeg',
+    apple: '/assets/images/about-me.jpeg'
   }
 };
 

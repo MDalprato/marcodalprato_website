@@ -40,6 +40,14 @@ export default async function Home() {
               <Link className="site-nav__link" href="/about">
                 About
               </Link>
+              <a
+                className="site-nav__link"
+                href="/assets/cv/cv.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CV
+              </a>
             </nav>
           }
         >
@@ -49,7 +57,7 @@ export default async function Home() {
 
       <section id="about" className="section intro">
         <div className="intro-head">
-          <img className="intro-portrait" src="/assets/images/picture.avif" alt="Marco Dalprato" />
+          <img className="intro-portrait" src="/assets/images/about-me.jpeg" alt="Marco Dalprato" />
           <div className="intro-content">
             <h1>
               Hi, I&apos;m @mdalprato.

@@ -156,6 +156,14 @@ export default function HeaderMenu() {
       <Link className={`site-nav__link${isAboutPage ? ' is-active' : ''}`} href="/about">
         About
       </Link>
+      <a
+        className="site-nav__link"
+        href="/assets/cv/cv.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        CV
+      </a>
       <button
         className="site-nav__icon-btn"
         type="button"
