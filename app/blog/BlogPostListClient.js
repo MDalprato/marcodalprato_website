@@ -13,13 +13,11 @@ const formatDateLabel = (dateString) => {
     return dateString || '';
   }
 
-  return new Intl.DateTimeFormat('en-GB', {
+  return new Intl.DateTimeFormat('it-IT', {
     day: 'numeric',
     month: 'short',
     year: 'numeric'
-  })
-    .format(parsedDate)
-    .replace(/(\w{3}) (\d{4})$/, '$1, $2');
+  }).format(parsedDate);
 };
 
 export default function BlogPostListClient({ posts }) {
@@ -36,21 +34,27 @@ export default function BlogPostListClient({ posts }) {
   }
 
   return (
-    <div className="home-blog-list blog-stream">
-      {visiblePosts.map((post) => (
-        <article key={post.slug} className="home-blog-item">
-          <h2>
-            <Link className="blog-card__link" href={`/blog/${post.slug}`}>
-              {post.title}
-            </Link>
-          </h2>
-          <p className="meta home-blog-item__meta">
+    <div className="posts-grid">
+      {visiblePosts.map((post, index) => (
+        <article
+          key={post.slug}
+          className="blog-card"
+          data-reveal
+          data-reveal-once="false"
+          style={{ '--delay': `${80 + index * 50}ms` }}
+        >
+          <p className="meta blog-card__meta">
             <span className="meta-calendar" aria-hidden="true" />
             {formatDateLabel(post.date)}
             <span aria-hidden="true">•</span>
             {post.readingMinutes} min read
           </p>
-          <p className="home-blog-desc">{post.excerpt || 'Descrizione in arrivo.'}</p>
+          <h2>
+            <Link className="blog-card__link" href={`/blog/${post.slug}`}>
+              {post.title}
+            </Link>
+          </h2>
+          <p>{post.excerpt || 'Descrizione in arrivo.'}</p>
         </article>
       ))}
     </div>

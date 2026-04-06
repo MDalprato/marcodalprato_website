@@ -10,9 +10,9 @@ const normalizeSiteUrl = (value) => {
 
 export const siteConfig = {
   name: 'Marco Dal Prato',
-  title: 'Marco Dal Prato | Sviluppatore Web JavaScript',
+  title: 'Marco Dal Prato | Full Stack Web Developer',
   description:
-    'Portfolio di Marco Dal Prato, sviluppatore web JavaScript specializzato in esperienze web moderne, performanti e accessibili.',
+    'Portfolio di Marco Dal Prato, full stack web developer specializzato in siti moderni, interfacce ad alto impatto e backend affidabili.',
   siteUrl: normalizeSiteUrl(process.env.NEXT_PUBLIC_SITE_URL),
   locale: 'it_IT'
 };

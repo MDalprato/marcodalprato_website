@@ -1,11 +1,18 @@
 import './globals.css';
-import { Space_Mono } from 'next/font/google';
+import { Space_Grotesk, Syne } from 'next/font/google';
+import ScrollEffects from './components/ScrollEffects';
 import { siteConfig } from './lib/site';
 
-const fontMono = Space_Mono({
+const fontSans = Space_Grotesk({
   subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-mono'
+  weight: ['400', '500', '700'],
+  variable: '--font-sans'
+});
+
+const fontDisplay = Syne({
+  subsets: ['latin'],
+  weight: ['500', '700', '800'],
+  variable: '--font-display'
 });
 
 export const metadata = {
@@ -25,7 +32,7 @@ export const metadata = {
     type: 'website'
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: siteConfig.title,
     description: siteConfig.description
   },
@@ -39,7 +46,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="it">
-      <body className={fontMono.variable}>{children}</body>
+      <body className={`${fontSans.variable} ${fontDisplay.variable}`}>
+        <ScrollEffects />
+        {children}
+      </body>
     </html>
   );
 }

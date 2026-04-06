@@ -37,6 +37,14 @@ const MoonIcon = () => (
   </svg>
 );
 
+const fallbackNavItems = [
+  { href: '/#services', label: 'Servizi' },
+  { href: '/#work', label: 'Esperienza' },
+  { href: '/#stack', label: 'Stack' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/#contact', label: 'Contatti' }
+];
+
 export default function HeaderMenu() {
   const pathname = usePathname();
   const router = useRouter();
@@ -92,7 +100,7 @@ export default function HeaderMenu() {
   );
 
   const isBlogPage = pathname?.startsWith('/blog');
-  const isAboutPage = pathname === '/about';
+  const showSearch = isBlogPage;
 
   const toggleTheme = () => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -141,37 +149,46 @@ export default function HeaderMenu() {
     event.preventDefault();
     const cleaned = query.trim();
     const params = new URLSearchParams();
+
     if (cleaned) {
       params.set('q', cleaned);
     }
+
     router.push(params.toString() ? `/blog?${params.toString()}` : '/blog');
     setSearchOpen(false);
   };
 
   return (
     <nav className="site-nav" aria-label="Main" ref={navRef}>
-      <Link className={`site-nav__link${isBlogPage ? ' is-active' : ''}`} href="/blog">
-        Posts
-      </Link>
-      <Link className={`site-nav__link${isAboutPage ? ' is-active' : ''}`} href="/about">
-        About
-      </Link>
+      {fallbackNavItems.map((item) => (
+        <Link
+          key={item.href}
+          className={`site-nav__link${
+            item.href === '/blog' && isBlogPage ? ' is-active' : ''
+          }`}
+          href={item.href}
+        >
+          {item.label}
+        </Link>
+      ))}
       <a
-        className="site-nav__link"
+        className="site-nav__link site-nav__link--button"
         href="/assets/cv/cv.pdf"
         target="_blank"
         rel="noreferrer"
       >
         CV
       </a>
-      <button
-        className="site-nav__icon-btn"
-        type="button"
-        aria-label={searchOpen ? 'Chiudi ricerca' : 'Apri ricerca'}
-        onClick={() => setSearchOpen((open) => !open)}
-      >
-        <SearchIcon />
-      </button>
+      {showSearch ? (
+        <button
+          className="site-nav__icon-btn"
+          type="button"
+          aria-label={searchOpen ? 'Chiudi ricerca' : 'Apri ricerca'}
+          onClick={() => setSearchOpen((open) => !open)}
+        >
+          <SearchIcon />
+        </button>
+      ) : null}
       <button
         className="site-nav__icon-btn"
         type="button"
@@ -180,14 +197,14 @@ export default function HeaderMenu() {
       >
         {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
       </button>
-      {searchOpen ? (
+      {showSearch && searchOpen ? (
         <form className="site-search" role="search" onSubmit={handleSearchSubmit}>
           <input
             ref={inputRef}
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Cerca post..."
+            placeholder="Cerca nel blog..."
             aria-label="Cerca post"
           />
           <button type="submit">Vai</button>
