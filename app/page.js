@@ -1,109 +1,172 @@
-import content from './content';
-import Link from 'next/link';
-import { Suspense } from 'react';
-import { getBlogPosts } from './lib/blog';
-import HeaderMenu from './components/HeaderMenu';
-import SocialLinks from './components/SocialLinks';
-import SiteFooter from './components/SiteFooter';
+'use client';
 
-const formatDateLabel = (dateString) => {
-  const parsedDate = new Date(dateString);
-  if (Number.isNaN(parsedDate.getTime())) {
-    return dateString || '';
+import { useEffect, useRef, useState } from 'react';
+
+const workItems = [
+  {
+    index: '01',
+    title: 'Digital systems',
+    description:
+      'Concept, frontend architecture and product direction for web experiences built to feel clear, fast and durable.'
+  },
+  {
+    index: '02',
+    title: 'Visual interfaces',
+    description:
+      'Minimal interfaces shaped by rhythm, typography and motion, with attention to spacing, interaction and pace.'
+  },
+  {
+    index: '03',
+    title: 'Code and detail',
+    description:
+      'From prototype to release, the work stays focused on performance, maintainability and coherent user experience.'
   }
+];
 
-  return new Intl.DateTimeFormat('en-GB', {
-    day: 'numeric',
-    month: 'short',
-    year: 'numeric'
-  })
-    .format(parsedDate)
-    .replace(/(\w{3}) (\d{4})$/, '$1, $2');
-};
+export default function Home() {
+  const shellRef = useRef(null);
+  const [isExpanding, setIsExpanding] = useState(false);
+  const [isReady, setIsReady] = useState(false);
 
-export default async function Home() {
-  const t = content.it;
-  const posts = await getBlogPosts();
+  useEffect(() => {
+    const expandTimer = window.setTimeout(() => {
+      setIsExpanding(true);
+    }, 5000);
+
+    const readyTimer = window.setTimeout(() => {
+      setIsReady(true);
+    }, 6200);
+
+    return () => {
+      window.clearTimeout(expandTimer);
+      window.clearTimeout(readyTimer);
+    };
+  }, []);
+
+  useEffect(() => {
+    const shell = shellRef.current;
+
+    if (!shell) {
+      return undefined;
+    }
+
+    let frameId = 0;
+    let currentY = 0;
+    let targetY = 0;
+    let resizeObserver;
+
+    const syncHeight = () => {
+      document.body.style.height = `${shell.scrollHeight}px`;
+    };
+
+    const animate = () => {
+      targetY = window.scrollY;
+      currentY += (targetY - currentY) * 0.075;
+
+      if (Math.abs(targetY - currentY) < 0.1) {
+        currentY = targetY;
+      }
+
+      const maxScroll = Math.max(document.body.scrollHeight - window.innerHeight, 1);
+      const progress = Math.min(Math.max(targetY / maxScroll, 0), 1);
+
+      shell.style.transform = `translate3d(0, ${-currentY}px, 0)`;
+      shell.style.setProperty('--scroll-progress', progress.toFixed(4));
+      frameId = window.requestAnimationFrame(animate);
+    };
+
+    syncHeight();
+    animate();
+
+    window.addEventListener('resize', syncHeight);
+
+    if (typeof ResizeObserver !== 'undefined') {
+      resizeObserver = new ResizeObserver(syncHeight);
+      resizeObserver.observe(shell);
+    }
+
+    return () => {
+      window.cancelAnimationFrame(frameId);
+      window.removeEventListener('resize', syncHeight);
+      resizeObserver?.disconnect();
+      document.body.style.height = '';
+      shell.style.transform = '';
+    };
+  }, []);
 
   return (
-    <main id="top" className="site site--with-footer">
-      <header className="site-header">
-        <a className="site-name" href="#top">
-          Marco Dalprato
-        </a>
-        <Suspense
-          fallback={
-            <nav className="site-nav" aria-label="Main">
-              <Link className="site-nav__link" href="/blog">
-                Posts
-              </Link>
-              <Link className="site-nav__link" href="/about">
-                About
-              </Link>
-              <a
-                className="site-nav__link"
-                href="/assets/cv/cv.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                CV
-              </a>
-            </nav>
-          }
-        >
-          <HeaderMenu />
-        </Suspense>
-      </header>
+    <>
+      <div
+        className={`preloader${isExpanding ? ' is-expanding' : ''}${isReady ? ' is-hidden' : ''}`}
+        aria-hidden="true"
+      >
+        <div className="preloader__bar" />
+      </div>
 
-      <section id="about" className="section intro">
-        <div className="intro-head">
-          <img className="intro-portrait" src="/assets/images/about-me.jpeg" alt="Marco Dalprato" />
-          <div className="intro-content">
-            <h1>
-              Hi, I&apos;m @mdalprato.
-              {/* <span className="intro-rss" aria-hidden="true">
-                RSS
-              </span> */}
-            </h1>
-            <p className="intro-bio">
-              Full-stack developer crafting clean interfaces and resilient backends.
-              <br />
-              I turn complex ideas into fast, scalable products people actually enjoy using.
-            </p>
-            <div className="intro-social">
-              <SocialLinks showText={false} />
-            </div>
+      <main
+        ref={shellRef}
+        className={`onepage-shell${isReady ? ' is-ready' : ''}`}
+      >
+        <nav className="section-rail" aria-label="Section navigation">
+          <a href="#hero">Hero</a>
+          <a href="#about">About me</a>
+          <a href="#work">My work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="hero" className="panel panel--hero">
+          <div className="hero-name">
+            <span>Marco</span>
+            <span>Dalprato</span>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="blog-home" className="section">
-        <h2>{t.blog.title}</h2>
-        {posts.length ? (
-          <div className="home-blog-list">
-            {posts.map((post) => (
-              <article key={post.slug} className="home-blog-item">
-                <h3>
-                  <Link className="blog-card__link" href={`/blog/${post.slug}`}>
-                    {post.title}
-                  </Link>
-                </h3>
-                <p className="meta home-blog-item__meta">
-                  <span className="meta-calendar" aria-hidden="true" />
-                  {formatDateLabel(post.date)}
-                  <span aria-hidden="true">•</span>
-                  {post.readingMinutes} min read
-                </p>
-                <p className="home-blog-desc">{post.excerpt || 'Descrizione in arrivo.'}</p>
+        <section id="about" className="panel panel--split">
+          <div className="panel-label">About me</div>
+          <div className="panel-content">
+            <p>
+              I work across design and development, shaping digital experiences that feel precise,
+              essential and direct.
+            </p>
+            <p>
+              My approach stays minimal on the surface and rigorous underneath, with attention to
+              motion, typography, structure and technical quality.
+            </p>
+            <p>
+              I am interested in interfaces that breathe, systems that scale, and products that do
+              not need noise to feel memorable.
+            </p>
+            <p>
+              Each project starts from clarity: what matters, what can be removed, and what should
+              remain visible.
+            </p>
+          </div>
+        </section>
+
+        <section id="work" className="panel">
+          <div className="section-heading">
+            <span>My work</span>
+          </div>
+          <div className="work-grid">
+            {workItems.map((item) => (
+              <article key={item.index} className="work-card">
+                <span className="work-card__index">{item.index}</span>
+                <h2>{item.title}</h2>
+                <p>{item.description}</p>
               </article>
             ))}
           </div>
-        ) : (
-          <p className="blog-empty">{t.blog.empty}</p>
-        )}
-      </section>
+        </section>
 
-      <SiteFooter />
-    </main>
+        <section id="contact" className="panel panel--contact">
+          <div className="section-heading">
+            <span>Contact</span>
+          </div>
+          <a className="contact-link" href="mailto:marcodalprato@icloud.com">
+            marcodalprato@icloud.com
+          </a>
+        </section>
+      </main>
+    </>
   );
 }
