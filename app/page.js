@@ -2,6 +2,13 @@
 
 import { useEffect, useRef, useState } from 'react';
 
+const navItems = [
+  { id: 'hero', label: 'Hero' },
+  { id: 'about', label: 'About me' },
+  { id: 'work', label: 'My work' },
+  { id: 'contact', label: 'Contact' }
+];
+
 const workItems = [
   {
     index: '01',
@@ -37,6 +44,21 @@ export default function Home() {
   const [isExpanding, setIsExpanding] = useState(false);
   const [isReady, setIsReady] = useState(false);
   const [logIndex, setLogIndex] = useState(0);
+  const [hoveredNav, setHoveredNav] = useState(null);
+
+  const scrollToSection = (sectionId, options = {}) => {
+    const section = document.getElementById(sectionId);
+
+    if (!section) {
+      return;
+    }
+
+    const top = Math.max(section.offsetTop, 0);
+    const behavior = options.behavior ?? 'smooth';
+
+    window.scrollTo({ top, behavior });
+    window.history.replaceState(null, '', `#${sectionId}`);
+  };
 
   useEffect(() => {
     const expandTimer = window.setTimeout(() => {
@@ -72,6 +94,27 @@ export default function Home() {
       window.clearInterval(logTimer);
     };
   }, [isReady]);
+
+  useEffect(() => {
+    const applyHashScroll = () => {
+      const hash = window.location.hash.replace('#', '');
+
+      if (!hash) {
+        return;
+      }
+
+      window.setTimeout(() => {
+        scrollToSection(hash, { behavior: 'auto' });
+      }, 0);
+    };
+
+    applyHashScroll();
+    window.addEventListener('hashchange', applyHashScroll);
+
+    return () => {
+      window.removeEventListener('hashchange', applyHashScroll);
+    };
+  }, []);
 
   useEffect(() => {
     const shell = shellRef.current;
@@ -124,6 +167,11 @@ export default function Home() {
     };
   }, []);
 
+  const handleNavClick = (event, sectionId) => {
+    event.preventDefault();
+    scrollToSection(sectionId);
+  };
+
   return (
     <>
       <div
@@ -143,11 +191,36 @@ export default function Home() {
         ref={shellRef}
         className={`onepage-shell${isReady ? ' is-ready' : ''}`}
       >
-        <nav className="section-rail" aria-label="Section navigation">
-          <a href="#hero">Hero</a>
-          <a href="#about">About me</a>
-          <a href="#work">My work</a>
-          <a href="#contact">Contact</a>
+        <nav
+          className={`section-rail${hoveredNav ? ' is-hovering' : ''}`}
+          aria-label="Section navigation"
+          onMouseLeave={() => setHoveredNav(null)}
+        >
+          {navItems.map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className={`section-rail__link${hoveredNav === item.id ? ' is-active' : ''}${
+                hoveredNav && hoveredNav !== item.id ? ' is-collapsing' : ''
+              }`}
+              onClick={(event) => handleNavClick(event, item.id)}
+              onMouseEnter={() => setHoveredNav(item.id)}
+            >
+              {item.label.split('').map((character, index) => (
+                <span
+                  key={`${item.id}-${index}`}
+                  className="section-rail__glyph"
+                  style={{
+                    '--glyph-index': index,
+                    '--fall-distance': `${18 + index * 7}px`,
+                    '--fall-rotate': `${(index % 2 === 0 ? 1 : -1) * (8 + index * 2)}deg`
+                  }}
+                >
+                  {character === ' ' ? '\u00A0' : character}
+                </span>
+              ))}
+            </a>
+          ))}
         </nav>
 
         <section id="hero" className="panel panel--hero">
