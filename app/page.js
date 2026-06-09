@@ -23,10 +23,20 @@ const workItems = [
   }
 ];
 
+const preloadLogs = [
+  '[boot] mounting human interface layer...',
+  '[io] scanning /portfolio for aesthetically pleasing packets...',
+  '[gpu] calibrating subpixel drama matrix...',
+  '[cache] warming design tokens to operating temperature...',
+  '[ux] resolving typography dependencies...',
+  '[ship] build stable. preparing visual output...'
+];
+
 export default function Home() {
   const shellRef = useRef(null);
   const [isExpanding, setIsExpanding] = useState(false);
   const [isReady, setIsReady] = useState(false);
+  const [logIndex, setLogIndex] = useState(0);
 
   useEffect(() => {
     const expandTimer = window.setTimeout(() => {
@@ -42,6 +52,26 @@ export default function Home() {
       window.clearTimeout(readyTimer);
     };
   }, []);
+
+  useEffect(() => {
+    if (isReady) {
+      return undefined;
+    }
+
+    const logTimer = window.setInterval(() => {
+      setLogIndex((current) => {
+        if (current >= preloadLogs.length - 1) {
+          return current;
+        }
+
+        return current + 1;
+      });
+    }, 900);
+
+    return () => {
+      window.clearInterval(logTimer);
+    };
+  }, [isReady]);
 
   useEffect(() => {
     const shell = shellRef.current;
@@ -101,6 +131,12 @@ export default function Home() {
         aria-hidden="true"
       >
         <div className="preloader__bar" />
+        {!isExpanding ? (
+          <div className="preloader__terminal">
+            <span className="preloader__prompt">&gt;</span>
+            <span className="preloader__log">{preloadLogs[logIndex]}</span>
+          </div>
+        ) : null}
       </div>
 
       <main

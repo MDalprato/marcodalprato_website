@@ -47,8 +47,11 @@ img {
   position: fixed;
   inset: 0;
   z-index: 50;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
   background: #ffffff;
   transition:
     opacity 500ms ease,
@@ -77,6 +80,28 @@ img {
   width: 100vw;
   height: 220vh;
   border-radius: 0;
+}
+
+.preloader__terminal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: min(78vw, 1120px);
+  color: #000000;
+  font-family: 'SFMono-Regular', 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: clamp(0.78rem, 1.1vw, 1rem);
+  letter-spacing: 0.03em;
+}
+
+.preloader__prompt {
+  flex: 0 0 auto;
+}
+
+.preloader__log {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .onepage-shell {
@@ -283,6 +308,15 @@ img {
 }
 
 @media (max-width: 720px) {
+  .preloader {
+    gap: 20px;
+  }
+
+  .preloader__terminal {
+    width: min(84vw, 1120px);
+    font-size: 0.74rem;
+  }
+
   .section-rail {
     top: auto;
     bottom: 20px;
