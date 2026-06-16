@@ -1,0 +1,141 @@
+---
+title: "The end of Steve Ballmer"
+date: "2013-09-04"
+slug: "2013-09-04-the-end-of-steve-ballmer"
+excerpt: "Steve Ballber si è licenziato. Oppure l’hanno fatto fuori (come si dice in America: You are fired!). Non è ben chiaro (e non credo lo sarà mai) se Ballmer si sia svegliato una..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Steve Ballber si è licenziato.
+
+Oppure l’hanno fatto fuori (come si dice in America: You are fired!).
+
+Non è ben chiaro (e non credo lo sarà mai) se Ballmer si sia svegliato una bella mattina d’estate e abbia deciso di abbandonare il posto di CEO di sua spontanea volontà o se qualcuno abbia “incentivato” il suo allontanamento dall’ex azienda di Gates.
+
+Sta di fatto che l’era Ballmer è finita e (forse) con lui anche uno dei periodi più neri per la Microsoft, sia dal punto di vista finanziario sia da quello delle innovazioni software.
+
+Microsoft è nata nel periodo d’oro dell’informatica, quel periodo in cui i Computer erano ancora mezzi per poche persone e in cui l’elettronica predominava sul software.
+
+Bill Gates ha avuto la genialità di riuscire ad imporsi in un mercato ancora da creare, instabile e pieno di insidie.
+
+Mentre da un lato, la Apple Computer Inc. si rifiutava di fornire il proprio sistema operativo ai produttori esterni di hardware per PC, la Microsoft offriva a chiunque la possibilità di installare il proprio S.O. in ogni computer.
+
+Nacquero quindi la prime macchine IBM Compatible, che permettevano a chiunque di poter comprarsi un Computer ad una cifra “ragionevole” e di poter utilizzare tutti i principali software che la Microsoft aveva sviluppato all’epoca (Office in primis).
+
+Diciamo che, volenti o nolenti, la Microsoft ha condizionato la vita di tutti noi: gli uffici pubblici utilizzano il sistema operativo Windows, la maggioranza dei computer che trovate in vendita nelle grandi catene di informatica montano prevalentemente software Windows e fino a qualche anno fa era praticamente impossibile riuscire a comprare un Computer senza dover “sorbirsi” anche il sistema operativo di casa Redmond.
+
+Tutti sappiamo che la Microsoft su questa storia ci ha marciato sopra parecchio e ha tratto profitto su tutte quelle vendite “abbinate” che forniscono all’utente l’hardware e il software unito “insieme”.
+
+Questo gioco di puro marketing si nota nella differenza di costo tra la licenza “libera” di Windows e quella “OEM”(ovvero abbinata all’acquisto di un nuovo PC).
+
+Ma possiamo anche sorvolare su tutti questi vari stratagemmi commerciali che la Microsoft ha attuato nel corso degli anni per poter rifilare il proprio software a chiunque, quello su cui non si può sorvolare è l’esagerazione dei prezzi, la mancanza di supporto tecnico adeguato e sopratutto la libertà di scelta che la Microsoft non ha mai offerto e che non ha mai permesso ai suoi utenti.
+
+Steve Ballmer è stato Amministratore Delegato della Microsoft dal 27 giugno 2008 fino al 23 Agosto 2013 quindi per ben sei anni è stato CEO di una delle più grandi aziende al mondo produttrice di Software per Computer.
+
+In questi sei anni, ha portato la Microsoft ad un livello vergognosamente basso, estraniandola di fatto dal settore mobile e limitandosi a eliminare il pulsante Start da Windows.
+
+Grafico azionario della MSFT dal 2007 al 2013, ove si può osservare il vergognoso andamento delle qutoazioni dopo l’assunzione di Ballmer come Chief Executive Officer.
+
+Alla Microsoft hanno impiegato 6 anni per capire che Ballmer era un’incapace cronico: evidentemente nel Consiglio di Amministrazione sono tutti interessati più al profitto personale che al bene dell’azienda.
+
+Durante l’amministrazione Ballmer, la Microsoft ha rilasciato due sistemi operativi (Windows 7 e Windows 8), un sistema operativo mobile (Windows Mobile) e un’infinità di aggiornamento per Windows XP.
+
+Windows 7 altro non era che un Windows XP con la grafica smussata, un pò più di colori e le finestre trasparenti.
+
+Windows 8 è Windows 7 senza il pulsante Start, il che ha obbligato milioni di persone ad installarsi plugin aggiuntivi per ritornare al tanto amato Start Button.
+
+Windows Mobile non decolla e non decollerà mai, questa è la mia idea e la ragione è semplice: chi ha un Pc con Windows difficilmente comprerà di sua spontanea volontà la corrispettiva versione “mobile” per un naturale principio di autoconservazione.
+
+Il licenziamento di Ballmer è piaciuto agli azionisti.
+
+Ballmer ha fallito su tutti i fronti; incapace di parlare in pubblico, trasandato, senza la necessaria forza che ogni CEO deve avere per poter dirigere un’azienda.
+
+Ora la microsoft si trova in balia del mercato, viva solamente grazie alle aziende che sono ancora costrette a rimanere ancorate alle sue licenze software e al reparto giochi (L’XBOX, per chi non lo sapesse, è della Microsoft).
+
+Se non fosse per le migliaia di licenze software vendute alle aziende, probabilmente ora la Microsoft si troverebbe in una situazione molto precaria.
+
+D’altro canto, le varie compagnie sparse nel mondo si trovano vincolare nella scelta del sistema operativo poiché non possono permettersi la spesa per “passare” ad una soluzione differenze (**OS X** o Linux) ma sopratutto non possono permettersi di spendere ingenti somme di denaro per ri-educare i propri dipendenti ad un nuovo sistema operativo che comporterebbe prezzi e investimenti umani nettamente superiori al prezzo delle licenze di Windows.
+
+Microsoft, in pratica, sta continuando a esistere grazie alle vendite che sono riusciti a piazzare negli anni tra il 2000 e il 2007; stanno praticamente campando di rendita.
+
+Il Miglior Sistema Operativo realizzato da Microsoft.
+
+Ballmer, dal canto suo, non ha mai capito le potenzialità che i device mobili potevano offrire: sono stati soppiantati e virtualmente schiaffeggiati in primis dall’**iPhone** e successivamente dall’**iPad**.
+
+Avrebbero potuto sviluppare immediatamente una versione di Office per iOS, anche vendendola ad un prezzo elecato, ed invece hanno voluto aspettare, perdendo centinaia di migliaia di clienti che lo avrebbero certamente comprato.
+
+Hanno deriso l’**iPhone**, proclamando la sua morte, sostenendo che il loro sistema operativo mobile avrebbe rivoluzionato il mercato ed invece, ad oggi, Windows Phone ha lo stesso successo che ha avuto Bada.
+
+Hanno provato a deridere anche l’**iPad**, creando il Tablet Microsoft: il Surface, ma anche qui hanno miseramente fallito.
+
+Ballmer non è un visionario, non lo è mai stato e mai lo sarà.
+
+Le persone iniziando a stancarsi di dover premere Ctrl-Alt-Canc in continuazione, di dover installare driver su driver per poter stampare un’email e sopratutto di dover ri-studiare da capo un sistema operativo che non porta nessun nuovo vantaggio (Windows 8 docet).
+
+L’era Ballmer è stata l’era del marketing spudorato, del tentativo commerciale di riconquistare gli utenti che, stanchi di Windows, hanno deciso di passare ad altro (difficilmente un utente **OS X** o Linux ritorna a Windows, ma tentar era un loro diritto).
+
+Ballmer si presentava male, poco ordinato, carico di idee molte idee confuse, senza nessuna valida strategia aziendale da poter intraprendere.
+
+Ed è la notizia dell’ultim’ora che fa molto riflette: Microsoft ha acquistato la Nokia Corportation per 5.44 mld.
+
+Una mossa dovuta, forse, alla necessità di migliorare lo scarso rapporto esistente tra l’hardware Nokia e il software Microsoft per device Mobili.
+
+Ballmer si è detto soddisfatto di quel’ultima “conquista” sostenendo come il rapporto tra Nokia e Microsoft si stia sempre più rafforzando e di come questa acquisizione rappresenti un passo strategico per la diffusione di Windows Mobile.
+
+Non voglio criticare a priori ogni azione di Ballmer, ma voglio raccontarvi la mia unica esperienza con la Nokia per farvi capire per quale ragione proprio non sopporti queste due Aziende.
+
+Stephen Elop, Steve Ballmer e due Windows Phone targati Nokia.
+
+Può esistere incubo peggiore?
+
+L’unico cellulare Nokia che ho avuto è stato il Nokia 5530; uno dei peggiori cellulari che abbia mai avuto: lento, poco reattivo, esteticamente simile ad una mattonella e con un sistema operativo (Symbian) vergognoso.
+
+Quando aprirvi la libreria delle foto (che rigorosamente risiedeva nella schedina MicroSD esterna) potevi tranquillamente andarti a prendere un caffè e dormire una mezz’oretta prima di poter riuscire a visualizzare tutte le foto.
+
+Ho odiato quel cellulare con tutto me stesso e sopratutto, a differenza dei miei coetanei, ho odialo la Nokia per la sfacciataggine con cui sosteneva che i suoi device erano “rivoluzionari”.
+
+La Nokia ha sfruttato un marketing spudorato per decenni, ci ha obbligato a utilizzare un software lento, stupido e obsoleto (Symbian) limitando le sue funzioni, evitando attentamente di aggiornarlo e continuando a puntare di più sull’hardware che al software.
+
+Creare una cartella, rinominare un file o trasferire una canzone erano tutte operazioni che Symbian permetteva di fare con una difficoltà immane anche per l’utente più esperto.
+
+Nokia ha approfittato della sua diffusione e della sua fama dimenticandosi che senza innovazione e una valida strategia di mercato il rischio di fallire è dietro l’angolo.
+
+Nokia XpressMusic con sistema operativo Symbian.
+
+Ho odiato questo cellulare con tutto il cuore.
+
+Fino al 2007/2008 nokia ha continuato a propinarci cellulari esteticamente orrendi con un sistema operativo scadente e un assistenza veramente misera (in quanti di voi hanno ricevuto un aggiornamento software di Symbian?).
+
+Poi, come tutti sappiamo, nel 2007 Apple ha presentato l’**iPhone** e ormai la storia la conoscono tutti … Ora ci troviamo di fronte all’unione di due aziende: Nokia e Microsoft; la prima che continua a vendere i propri prodotti solamente grazie al “nome” che si è creata nel tempo e la seconda che sopravvive, come già detto, grazie alle vendite fatte negli anni d’oro dei computer.
+
+Ho il terrore di quello che queste due compagnie possano creare: cellulari esteticamente orrendi, un sistema operativo basato su DOS e la lentezza di un bradipo rimasto schiacciato da un’automobile sulla Route 66.
+
+Elop e Ballmer (ora si poterebbe dire solo Elop dato che Ballmer è fuori gioco) sono due soggetti che mi terrorizzano.
+
+Immaginateveli riuniti attorno ad un tavolo pensando come fare per realizzare l’ennesimo Nokia Lumia 9XX con fotocamera da 300 trilioni di pixel, processore esacore e 200 GB di ram per poi rendersi conto che durante lo swipe da una pagina all’altra il cellulare va a scatti.
+
+Nokia ha fatto un grandissimo errore secondo la mia modestissima opinione ed è quello di non essere passata subito ad Android.
+
+Considerando la fama (almeno in italia) che godeva qualche anno fa e la tutto sommata discreta qualità hardware dei suoi dispositivi, avrebbe sicuramente venduto una quantità mostruosa di device, riuscendo a “battere” Samsung in primis e rimanendo tra i primi produttori di smartphone.
+
+Per qualche strana ragione, invece, hanno deciso di dotare i loro smartphone del ”meraviglioso” Windows Mobile.
+
+Ora, io capisco che sia necessario fare del bene e che la beneficenza sia un’ottima cosa se fatta in maniera intelligente, ma preferire Windows Mobile a Android vuol dire essere masochisti.
+
+Se Nokia fosse passata immediatamente ad Android ora Samsung non sarebbe “libera” di dettare il mercato degli smartphone col robottino verde ma dovrebbe ponderare attentamente le scelte invece di far uscire migliaia di device differenti ogni mese.
+
+Da appassionato Apple, se dovessi scegliere tra Android e Windows Phone la scelta ricadrebbe immediatamente sul primo.
+
+La gestione aziendale di Ballmer ha lasciato completamente a desiderare, mancando gli obbiettivi fondamentali che Microsoft doveva prefissarsi: Abbassare il costo delle licenze di Windows (impensabile dover pagare 100 € per Windows 8).
+
+Preferire pochi aggiornamenti (ad un prezzo contenuto) con miglioramenti sostanziali nel “cuore” del sistema.
+
+Pulire tutto lo “schifo” che Microsoft si sta portano dietro con il DOS da anni.
+
+Abbandonare il mercato mobile (Tablet e Smartphone): ormai sono arrivati tardi e con prodotti scarsi e dal costo troppo elevato.
+
+Puntare sulle aziende e sui reparti professionali (cloud, exchange, networking avanzato) dove ancora le aziende preferiscono Microsoft ad altre soluzioni.
+
+Offrire un pacchetto agevolato di aggiornamenti per le piccole-medie aziende.
+
+Concludendo, non so cosa aspettarmi da queste “nozze informatiche” ma sicuramente l’unione di due aziende di questo tipo porterà qualche nuovo smartphone e un nuovo (spero) piano aziendale per gestire i continui mutamenti che il settore mobile sta portando nel campo dell’informatica.

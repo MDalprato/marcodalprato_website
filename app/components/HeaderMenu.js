@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
+import { useLocale } from './LocaleProvider';
 
 const SearchIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -38,6 +39,8 @@ const MoonIcon = () => (
 );
 
 export default function HeaderMenu() {
+  const { messages } = useLocale();
+  const t = messages.nav;
   const pathname = usePathname();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -149,12 +152,12 @@ export default function HeaderMenu() {
   };
 
   return (
-    <nav className="site-nav" aria-label="Main" ref={navRef}>
+    <nav className="site-nav" aria-label={t.mainLabel} ref={navRef}>
       <Link className={`site-nav__link${isBlogPage ? ' is-active' : ''}`} href="/blog">
-        Posts
+        {t.blog}
       </Link>
       <Link className={`site-nav__link${isAboutPage ? ' is-active' : ''}`} href="/about">
-        About
+        {t.about}
       </Link>
       <a
         className="site-nav__link"
@@ -162,12 +165,12 @@ export default function HeaderMenu() {
         target="_blank"
         rel="noreferrer"
       >
-        CV
+        {t.cv}
       </a>
       <button
         className="site-nav__icon-btn"
         type="button"
-        aria-label={searchOpen ? 'Chiudi ricerca' : 'Apri ricerca'}
+        aria-label={searchOpen ? t.searchClose : t.searchOpen}
         onClick={() => setSearchOpen((open) => !open)}
       >
         <SearchIcon />
@@ -175,7 +178,7 @@ export default function HeaderMenu() {
       <button
         className="site-nav__icon-btn"
         type="button"
-        aria-label={theme === 'dark' ? 'Attiva tema chiaro' : 'Attiva tema scuro'}
+        aria-label={theme === 'dark' ? t.themeLight : t.themeDark}
         onClick={toggleTheme}
       >
         {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
@@ -187,10 +190,10 @@ export default function HeaderMenu() {
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Cerca post..."
-            aria-label="Cerca post"
+            placeholder={t.searchPlaceholder}
+            aria-label={t.searchPlaceholder}
           />
-          <button type="submit">Vai</button>
+          <button type="submit">{t.searchSubmit}</button>
         </form>
       ) : null}
     </nav>

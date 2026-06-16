@@ -1,0 +1,215 @@
+---
+title: "Configurare l’Airport Extreme"
+date: "2013-12-28"
+slug: "2013-12-28-configurare-lairport-extreme"
+excerpt: "Eccomi qui a scrivere l’ennesima guida riguardante la famiglia degli Airport di fascia alta: Airport Extreme e Time Capsule. In questo post voglio spiegarvi come configurare..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Eccomi qui a scrivere l’ennesima guida riguardante la famiglia degli Airport di fascia alta: **Airport Extreme** e **Time Capsule**.
+
+In questo post voglio spiegarvi come configurare la base **Airport Extreme** in modo da poterla utilizzare per generare sia una rete **Wi-Fi** sia una rete cablata casalinga (la classica rete LAN).
+
+Per poter approfondire meglio la configurazione di una base Airport è necessario spiegare il funzionamento e l’occorrente per il set-up iniziale.
+
+Set-up iniziale & more Una base Airport per poter funzionare correttamente ha bisogno, oltre alla corrente elettrica, di un segnale ADSL che deve essere fornito ovviamente da un modem ADSL.
+
+Qui sotto trovate uno schema ultra-semplice dove è spiegato il funzionamento di una base **Airport Extreme** (lo stesso funzionamento è applicabile ad una base **Time Capsule**).
+
+Come ho accennato poco fa, la base Airport necessità un segnale ADSL proveniente da un modem ADSL per poter “inviare” e condividere il “web” con tutti i vari devices collegati via **Wi-Fi** o via rete attraverso i tre connettori Ethernet RJ45 presenti sul retro della base.
+
+WAN e ADSL?
+
+Osservando una base Airport (in questo caso la foto rappresenta la generazione “vecchia” ma solo per problemi di spazio; i connettori sono gli stessi presenti anche sulla nuova) è possibile notare come nel pannello posteriore siano presenti 7 connettori (l’ultimo “foro” serve solamente come gancio di sicurezza per i lucchetti Kensington).
+
+Di tutti questi connettori notiamo che quattro di questi sono identici (RJ45) con una sola differenza presente: l’icona sopra al primo connettore da sinistra è differente (un cerchio fatto di puntini).
+
+Questo connettore è differente dagli altri poiché è il connettore utilizzato per la comunicazione tra Modem ADSL e base Airport ed è chiamato connettore WAN (Wide Area Network).
+
+Per poter permettere alla base Airport di “navigare nel web” è necessario che questa porta sia connessa ad un modem ADSL e che sia configurata in maniera tale da poter accedere ai dati del modem e condividerli con gli altri device ad essa collegati.
+
+Un comune modem ADSL (come quello mostrato nella foto qui sopra) ha normalmente tre connettori nella parte posteriore: una porta RJ11 alla quale collegare il cavo telefonico, una porta RJ45 alla quale collegare un cavo Ethernet ed infine una porta necessaria per fornire l’alimentazione al modem.
+
+Quello rappresentato nella foto qui sopra è un semplice modem ADSL il cui unico scopo è quello di fornire la connessione al web utilizzando la presa telefonica di casa ma ormai questi device sono soppiantati da dispositivi che integrano più funzioni: Modem + Router + switch di rete + Access Point.
+
+Ovviamente il vantaggio di questi dispositivi è dato dalla comodità di avere tutto in un unico case e di non dover eseguire particolari configurazioni durante la procedura di set-up iniziale.
+
+Lo svantaggio però è quello di avere più dispositivi insieme spesso inutilizzati.
+
+A questo punto è necessario elencare le possibili “combinazioni” che abbiamo quando, dopo aver montato e acceso la nostra base **Airport Extreme**, ci troviamo a doverla configurare dall’Utility Airport presente nel Mac (o anche come app per **iPhone**/**iPad**).
+
+Le situazioni possibili sono fondamentalmente due: Se avete già comprato la vostra base Airport/**Time Capsule** ma non avete ancora un modem/router il mio consiglio, per semplificarvi la vita, è quello di acquistare un banalissimo Modem ADSL che faccia solo e soltanto da Modem e che non abbia integrati Router, Switch e Access-point dato che tali strumenti sono già presenti nella base di casa Apple (per esempio questo modem della D-link può andare benissimo per il nostro scopo).
+
+Se invece avete già uno di quegli aggeggi multi-funzione che ogni grande catena di informatica vende convincendovi della loro qualità non disperate, con un po’ di calma riusciremo a configurare correttamente anche questo device.
+
+Caso 1: come funziona un modem ADSL Un modem ADSL, sia che esso sia integrato in un router sia che esso sia un dispositivo a parte, funziona sempre allo stesso modo: si collega alla rete telefonica da una parte e dall’altra si interfaccia con un’altro dispositivo (switch, router, Mac ecc…) utilizzando un’interfaccia di comunicazione che può essere la porta USB o, più comunemente, la porta di rete RJ45 (come vedete nella foto poco sopra a queste parole).
+
+Una volta che il vostro modem è collegato alla presa di rete e che è alimentato siete praticamente già a metà dell’opera; dovete solo procedere con la configurazione iniziale e poi sarete pronti alla connessione tra modem e Airport.
+
+Caso 2: configurare un modem ADSL Come potete immaginare esistono centinaia di modem ADSL differenti e ovviamente ogni firmware (il software che “gira” dentro al modem) è diverso da quello di un’altro modello/marca quindi le screenshot che vedrete qui sono riferite al mio modem di casa che è un Netgear DM111 ADSL 2+.
+
+Iniziamo subito a “raggiungere” il modem dal Mac (ovviamente potete fare tutto quanto sia da un Pc sia da Linux, vi basta avere un browser web decente; evitate dunque IE) collegando la porta di rete dal modem al mac (il connettore RJ45 deve fare da “ponte” tra la presa presente dietro al modem fino alla presa presente sul mac).
+
+Una volta connessa sia la presa di rete che la presa telefonica della linea ADSL (e ovviamente anche l’alimentazione del modem) vedrete che quest’ultimo inizierà a lampeggiare e inizierete a chiedevi che diamine sta combinando: il firmware di cui parlavamo prima si sta avviando e sta caricando i dati necessari per connettersi al web.
+
+Ora dovete conoscere l’indirizzo IP di default del modem che normalmente è scritto in un’etichetta attaccata sotto ad esso (oppure nel manuale) insieme allo username e alla password; nel caso non riusciate a trovare nulla potete utilizzare Google e cercate un po’ nel web; di norma l’indirizzo di default è 192.168.0.1 o 192.168.1.1 o 192.168.10.1 e username e password sono admin/admin o admin/1234.
+
+Una volta scoperto l’indirizzo IP dovete aprire il vostro browser web (nel mio caso Safari.. strano eh..?!) e digitare l’indirizzo di prima nella barra di ricerca in altro a destra( NON su GOOGLE miraccomando!).
+
+Se tutto è andato a buon fine dovrebbe aprirsi una pagina web con la richiesta di accesso via username e password e, dopo averle inserite, vi si presenterà una pagina più o meno di questo tipo: Pagina di configurazione iniziale del Modem ADSL Se invece non vi si apre nulla o, ancor peggio, venire indirizzati verso una pagina di errore è probabile che abbiate sbagliato qualcosa: per capire dov’è il problema aprite (sul mac) il “terminale” e digitate “ifconfig: vi verranno restituite alcune stringe di dubbia provenienza e tutt’altro che di facile comprensione, quella che dovete cercare è fatta più o meno così: inet 1 92.168.X.X netmask 0xffffff00 broadcast 192.168.X.X Controllate quindi l’indirizzo che trovate a sinistra dopo “inet” e verificate che vi sia stato attribuito un indirizzo nella classe di appartenenza del modem (per classe si intende il terzo numero a partire da sinistra in un indirizzo IP).
+
+Se non trovate nulla allora il problema è a monte: resettate e riavviate il modem e controllate il cavo di rete, se invece avete risposta da parte del terminale potete procedere a raggiungere il modem come vi ho spiegato prima.
+
+Ora che avete raggiunto il vostro modem dovete iniziare a inserire i parametri di base: indirizzo IP, Gateway e i parametri di connessione al Web.
+
+I parametri di rete dipendono dalla vostra rete (se già esistete) e dal tipo di configurazione che volete impostare: il mio consiglio è lasciare quelli di default controllando però di cambiare la password del router poiché altrimenti chiunque leggendone la marca può facilmente risalire alla password di default e arrecare “danni” alla vostra rete.
+
+Pagina di configurazione dei settaggi della rete LAN del modem ADSL.
+
+Ora che avete configurato l’indirizzo IP e la subnet-mask dovete controllare che l’opzione DHCP server sia attiva altrimenti il modem e l’Airport non riusciranno a dialogare tra di loro.
+
+Se avete Telecom, i parametri di connessione ad Internet sono quelli standard che trovate qui (per praticità li ho riscritti anche qui sotto).
+
+USERNAME: aliceadsl PASSWORD: aliceadsl PROTOCOLLO: PPPoE INCAPSULAMENTO: LLC VPI: 8 VCI: 35 DHCP: abilitato (gli indirizzi IP sono assegnati in automatico ai pc in rete e sono dinamici ) DNS: impostare l’ assegnazione automatica da provider (ISP) Come vedete qui sotto i valori che vi vengono richiesti sono: VPI,VCI,Protocol,Multiplex Method,username/password,MTU size e DSL mode.
+
+Pagina di configurazione dei settaggi Internet del modem ADSL Una volta terminata la configurazione e completato il riavvio necessario richiesto dal modem (il mio modello lo richiede) potete verificare le le impostazioni che avete impostato sono corrette semplicemente provando a navigare nel web.
+
+Se riuscite a raggiungere Google e a sfogliare le pagine di Wikipedia (per esempio) vuol dire che avete completato correttamente la procedura e siete pronti alla seconda fase: la configurazione della base Airport.
+
+Prima di tutto scaricatevi l’applicazione “Utility Airport” (se non l’avete già) sia sul Mac che sull’**iPhone**/**iPad** (esiste anche per Windows) e avviatela.
+
+In contemporanea dovete scollegare il cavo di rete collegato al mac (o pc) e collegarlo alla porta WAN (la prima a sinistra guardando la base da dietro, con l’icona a forma di cerchio tratteggiato) e alimentare la base con il trasformatore fornito in dotazione.
+
+La base inizierà a lampeggiare di Arancione: vuol dire che è tutto pronto per procedere con la configurazione via computer.
+
+Prendete un altro cavo di rete (sempre RJ45) e collegatelo da un lato ad una delle tre porte disponibili dell’Airport e dall’altro alla porta di rete del vostro mac.
+
+L’applicazione Utility Airport inizierà a scansionare la rete e dopo qualche minuto troverà la vostra base nuova di zecca pronta per essere configurata.
+
+Utility Airport La situazione che vi dovreste trovare è più o meno simile a quella rappresentata nella foto qui sopra con l’unica eccezione che anche la luce di stato della base Extreme (o **Time Capsule**) sarà di colore arancione e non verde come nella foto.
+
+Ora seguite il wizard di configurazione che vi farà impostare la password per accedere alla base e le prime configurazioni iniziali.
+
+Ora che avete accesso e controllo alla base dovete procedere in base al tipo di modem che avete: se avete un modem “stupido” che fa solo e soltanto da modem o se avete un router-modem-altraroba.
+
+Nel secondo caso dovete assolutamente entrare nel menu web del router-modem-altraroba e impostare la connessione in “bridge mode” in questo modo il dispositivo si trasformerà in uno “stupido” apparecchio che lascerà comandare l’Airport in maniera libera e senza vincoli.
+
+Ora che avete impostato il modem cliccate sull’icona dell’**Airport Extreme** e selezionate l’opzione Modifica: verrete indirizzati verso un “pannello di controllo” dentro al quale potrete impostare alcuni parametri.
+
+Configurazione “Internet” dell’**Airport Extreme** La configurazione che vedete nell’immagine qui sopra è valida per la connessione tra la base Airport ed un modem ADSL che faccia solo e soltanto da modem ADSL; non è pertanto valida con un’accoppiata base AE e uno di qui dispositivi multi-funzione di cui parlavamo prima: la configurazione in questo caso sarà di questo tipo: Configurazione “Internet” in modalità PPPoE dell’**Airport Extreme** Nel caso, quindi, di avere a disposizione solamente un dispositivo multi-fuzione sarà necessario disattivare la funzione di accesspoint (per evitare che, oltre alla base AE, anche il dispositivo in questione generi un’altra rete **Wi-Fi**) e attivare la modalità “Bridge Mode” sul modem: normalmente questa modalità disabilita ogni richiesta di password del vostro gestore telefonico e riduce le funzioni del dispositivo ad un semplice modem ADSL di tipo passivo.
+
+In questa configurazione non è il modem che contatta il “web” ma è la base Apple che invia i dati impostati su di essa (come vedete nella figura di prima) al modem e attende che la connessione sia stabile e pronta per essere utilizzata.
+
+Volendo semplificare questa parte, che probabilmente è la più complessa da comprendere/configurare, potete fare riferimento all’elenco che trovate qui sotto: Ovviamente il tipo di impostazione dipende esclusivamente dal tipo di rete che avete; il mio consiglio, nel caso in cui dobbiate realizzare una nuova, è quello di comprare un semplicissimo modem ADSL da 30 € (cercando di scegliere una marca affidabile: Netgear, Cisco ecc …) in modo che la configurazione sia semplice ed “indolore”.
+
+Caso 3: configurare la rete LAN, il Wi-FI e la rete ospite Una volta che abbiamo impostato tutti i parametri del tab “Internet” dobbiamo spostarci sul tab “Network” dove andremo ad impostare il tipo di rete Locale che vogliamo configurare.
+
+Impostazioni DHCP e NAT Anche qui abbiamo tre impostazioni possibili: Normalmente il mio consiglio è quello di impostare la base in DHCP e NAT e disabilitare queste due funzioni, se presenti, sul modem ADSL (parliamo sempre di quelli multi-funzione, gli altri generalmente non hanno queste funzioni avanzate).
+
+Dando in mano alla base Apple la gestione del DHCP e NAT risulta più semplice aprire le porte o prenotare indirizzi IP evitando di dover configurare tali parametri direttamente sul modem.
+
+Ovviamente il tipo di configurazione scelto dipenderà moltissimo dal tipo di network che possedete: se, per esempio, lavorate in un ufficio della redazione di The Verge a New York difficilmente avrete accesso al modem principale, pertanto la base AE andrà impostata come “Modalità bridge” in modo che non sorgano problemi e/o conflitti con i modem già presenti nella rete aziendale.
+
+Caso 4: problemi/conflitti I problemi/conflitti che possono sorgere sono relativamente tre: doppia NAT, doppo DHCP o Internet che non va.
+
+Nell’ultimo caso, rileggetevi le prime righe di questa guida o telefonate al vostro operatore spiegandovi che non avete connessione al Web a causa di un probabile guasto di rete.
+
+Nel primo e secondo caso il problema è relativamente semplice: avete collegato la base Airport ad un dispositivo che è configurato per gestire il DHCP e la NAT.
+
+Se l’Airport rileva questa situazione vi avvisa poiché in una rete Internet non possono coesistere due server DHCP sotto la stessa rete (o comunque è molto sconsigliato) a causa dei possibili conflitti che possono sorgere.
+
+Lo stesso discorso vale per il NAT: se avete aperto una porta di rete (per esempio la 8000,TCP/UDP) sul vostro router/modem/ecc… e quest’ultimo è collegato all’AE che a sua volta potrebbe avere impostata una NAT sulla stessa porta di rete potrebbero sorgere dei problemi poiché i due dispositivi non saprebbero quali porte di rete sono aperte sull’altro e viceversa.
+
+Il connetto alla fine è semplice: o date priorità alla base Airport oppure la utilizzate come semplice Access point e switch di rete.
+
+Caso 5: Ritorniamo a configurare la LAN Ora che avete impostato la rete LAN come proferite potere aggiornare le impostazioni e riavviare.
+
+Se avete scelto la modalità “Disattivato (Modalità Bridge)” la vostra configurazione della rete è praticamente finita poiché eventuali configurazioni le dovrete impostare sul modem/router e non sulla base Airport.
+
+Se invece avete scelto una delle due opzioni alternative, dovrete impostare anche altre quattro piccole opzioni: Opzioni Network, Prenotazioni DHCP, NAT e Controllo accessi.
+
+La prima configurazione che vi consiglio di impostare è quella del range del server DHCP.
+
+Per chi non sapesse cosa sia il DHCP la spiegazione è relativamente semplice: ogni computer/device che si collega ad una rete locale (LAN) deve necessariamente avere un’indirizzo univoco ed identificativo all’interno di quella rete (Indirizzo IP); Un server DHCP risolve il problema di dover impostare manualmente ogni indirizzo su ogni dispositivo: appena rileva che un nuovo PC o smartphone si collega alla rete verifica quali indirizzi IP disponibili ci sono e gli assegna il primo in lista in ordine logico.
+
+Per poter spiegare il concetto di server DHCP in maniera semplice immaginatevi questo esempio: molti di voi saranno abituati ad andare in discoteca la sera e a lasciare il proprio cappotto alla ragazza (normalmente sono le più carine del locale) che in “cambio” vi lascerà un biglietto con il numero del vostro giubbotto.
+
+Alla fine della serata quando ritornerete dal guardaroba ripresentando il vostro biglietto vi verrà riconsegnato il vostro cappotto che era identificato in maniera univoca da quel biglietto.
+
+Un server DHCP è un po’ come la ragazza che sta nel guardaroba e che, grazie ad una lista che aggiorna costantemente, sa quatti giubbotti ci sono, chi lo ha già ritirato, chi deve ancora ritirarlo e chi è il proprietario di un determinato giubbotto X abbinato ad un univoco biglietto “n” di X.
+
+Quindi quando il vostro computer (o **iPhone**) si collega ad una rete LAN viene associato ad un indirizzo IP (quello del mio mac mentre scrivo è 192.168.1.110) in modo da poter essere riconoscibile all’interno della LAN.
+
+Interfaccia per la scelta del DHCP e del tempo di leasing Come vedete nella figura sopra, nelle impostazioni “Opzioni network” troverete la possibilità di stabilire per quanti giorni deve essere associato l’indirizzo IP a quel dispositivo, l’intervallo IPv4, la mappatura NAT e l’host di default.
+
+Per una rete “normale” quindi casalinga le impostazioni che vedete qui sopra sono (IMHO) perfette: il leasing dell’indirizzo IP è impostato ad un giorno, l’intervallo degli IP va da 192.168.1.2 a 192.168.1.200 (in pratica ci sono 200 cappotti assegnabili), la mappatura NAT è attiva e non ci sono Host di default.
+
+Ovviamente potete cambiare l’intervallo degli indirizzi IP: scegliete voi ma considerate sempre che le classi più comuni (il terzo numero da sinistra) sono: 192.168.0/192.168.1/192.168.10.
+
+Dopo che avete salvato potete procedere eventualmente impostando anche un “controllo accessi” per limitare la connessione ad internet di un determinato device: utile se, per esempio, volete impedire che un determinato computer possa navigare nel web dalle ore X1 alle X2 di un giorno G.
+
+Apertura delle Porte in configurazione DHCP e NAT Per aprire le porte direttamente dall’**Airport Extreme** basta andare nel tab “Network” e verificare che l’opzione Router mode sia impostata in “DHCP e NAT” (solo così è possibile gestire la mappatura delle porte).
+
+Una volta configurata la base in DHCP e NAT è possibile procedere con la configurazione delle porte da aprire e per fare ciò basterà cliccare sul simbolo “+” presente sotto l’elenco chiamato “Port Settings”.
+
+Dopo che avete selezionato l’opzione di aggiunta comparirà una schermata dove potete aggiungere una regola di mappatura delle porte.
+
+Come vedete nella foto sopra, ogni regola corrisponde ad un indirizzo IP Locale (per esempio 192.168.10.150), quindi se dovete aprire più porte di uno stesso dispositivo dovrete creare X regole per tutte le X porte da aprire.
+
+Per esempio, se dovete aprire la porta 5000 sia un UDP che in TCP dovrete creare una regola dove la “Public UDP Ports” varrà 5000 e la “Public TCP Ports” varrà sempre 5000.
+
+Dopo aver compilato le porte pubbliche dovrete agire su quelle Private (Locali).
+
+Se la porta locale è sempre la stessa della pubblica non avrete problemi, basterà scrivere 5000 sia nel capo TCP sia in quello UDP altrimenti dovrete scegliere la porta locale corrispondente a quella pubblica.
+
+Un esempio su tutti: il mio indirizzo IP pubblico è 77.44.333.22 (non provatelo, l’ho inventato) e voglio che sulla porta pubblica 8522 (UltraVNC) risponda un dispositivo presente nella rete locale che dialoga sulla porta 80 (per esempio il modulo Ethernet Smart IP ).
+
+Basterà configurare le due porta pubbliche (sia UDP che TCP) sulla porta 8522, impostare l’indirizzo IP Privato su quello locale del modulo (es.
+
+192.168.100.15) e configurare le due porte private (UDP e TCP) sulla porta 80.
+
+In questo modo, quando digiteremo l’indirizzo IP pubblico (non da un PC presente nella rete locale ma da un pc remoto connesso in Internet) l’indirizzo IP 77.44.333.22: 8522 verremo “dirottati” sull’indirizzo IP locale 192.168.100.15 alla porta 80.
+
+Caso 5: Esistono cavi wireless?
+
+Ora che abbiamo configurato Internet e LAN tocca al **Wi-Fi**.
+
+Finestra di configurazione delle impostazioni **Wi-Fi** L’**Airport Extreme** (ma anche il **Time Capsule**) permettono di configurare tre tipi di reti **Wi-Fi**: Una rete **Wi-Fi** “normale” Una rete **Wi-Fi** 5 GHz Una rete **Wi-Fi** per gli Ospiti La prima rete, quella che ho definito “normale”, come potete immaginare è la classica rete **Wi-Fi** compatibile con il 99% dei dispositivi presenti nel mercato: abilitando l’opzione “Crea un network wireless” potrete già da subito iniziare a navigare nella vostra rete direttamente utilizzando il **Wi-Fi**.
+
+Le impostazioni di base per questo tipo di rete sono: Nome della rete, sicurezza (consiglio di scegliere WPA2 Personal) e la password del wireless (mettetene una difficile e complessa, meglio non rischiare).
+
+Caso 6: Ospiti o non ospiti, questo è il problema?!
+
+Sempre nella stessa pagina trovate la possibilità di abilitare una rete ospiti: questo tipo di rete permette di creare una rete **Wi-Fi** che fornisce solamente connettività a Internet impedendo di fatto l’accesso alle risorse della rete; chi ha accesso ad una rete ospiti NON può accedere ai dispositivi **Airplay** o ai computer connessi in rete ma può andare solo e soltanto su Internet.
+
+Impostazione range DHCP per il network degli ospiti Nella figura sopra vedete che, oltre a poter scegliere l’intervallo DHCP per il network “standard”, potete scegliere anche quella per la rete degli ospiti.
+
+NB: Per poter attivare la funzione di “Network Ospiti” è fondamentale che l’impostazione “Modalità Router” di cui parlavo prima sia impostata in DHCP e NAT.
+
+L’opzione DHCP e NAT presente nell’applicazione Utility AirPort > pannello Network > Modalità router (modalità di default) deve essere selezionata sulla base principale e per tutte le altre basi AirPort presenti sul network dovrebbe essere selezionato Disattivato (modalità bridge).
+
+( link del supporto ) Se siete riusciti a configurare correttamente la rete **Wi-Fi** ospiti (se vi interessa) ora potete procedere con l’ultima rete: **Wi-Fi** a 5 GHz.
+
+Caso 7: 5 GHz e 802.11/n … it’s awesome!
+
+Personalmente ritengo il **Wi-Fi** a 5 GHz uno strumento ideale per poter trasferire dati tra i vari dispositivi presenti in una rete ad una velocità “decente” senza doversi accontentare del deprimente **Wi-Fi** classico.
+
+Il **Wi-Fi** a 5 GHz non è sempre supportato da tutti i dispositivi; per intenderci è in codice l’802.11/n, quello che attualmente è il più veloce (non considerando l’802.11/ac che è ancora in draft 5).
+
+Configurazione **Wi-Fi** a 5 GHz Prima di attivare questo tipo di connessione il mio consiglio è quello di verificare se avete qualche dispositivo che possa supportare questa velocità altrimenti è una funzione praticamente inutile.
+
+Infine considerate che il **Wi-Fi** a 5 GHz non vi fa andare più veloce in Internet ma aumenta la velocità di trasferimento dei dati all’interno della vostra rete: uno dei principali vantaggi che vedrete è l’incremento di velocità, per esempio, durante la sincronizzazione in **Wi-Fi** dell’**iPhone** o dell’**iPad**.
+
+Come vedete nella foto sopra, oltre ad aver attivato il **Wi-Fi** a 5 Ghz, è attiva anche la funzione “Crea network nascosto” che permette di rendere invisibile la rete **Wi-Fi** a qualsiasi dispositivo a meno che non si conosca il nome della rete stessa (funzione che ritengono molto utile per evitare di essere “visti” da fuori).
+
+Direi che ormai siamo arrivati alla fine quindi partirei con le conclusioni: Ho deciso di scrivere questa guida per una ragione molto semplice: se qualcuno lo avesse fatto per me mi sarei risparmiato decide di esperimenti, ore perse e imprecazioni davanti al mac.
+
+Non sono stato capace di trovare una guida relativamente user-frendly che spiegasse in modo sufficientemente completo il funzionamento e la configurazione di una base Airport (o time capsule che si voglia dire) pertanto ho deciso di scriverne una di mia mano.
+
+Probabilmente ho saltato qualche punto e ancor più probabilmente ho commesso qualche errore ma come si dice: anche i migliori sbagliano.
+
+Spero che questa guida vi semplifichi un po’ la vita e vi renda più facile capire quanto possano essere potenti le basi Airport rispetto ai comuni modem/ruoter/access point che sono in vendita nei vari supermercati o rivenditori informatici.
+
+PS: se volete altre informazioni chiedete pure, cercherò di rispondervi il prima possibile.
+
+Stay Tuned Featured image courtesy of Deutsche Lufthansa AG ®

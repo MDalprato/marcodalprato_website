@@ -1,0 +1,25 @@
+---
+title: "Aprire più tab contemporaneamente con Safari"
+date: "2013-07-27"
+slug: "2013-07-27-aprire-piu-tab-contemporaneamente-con-safari"
+excerpt: "Una interessante funzione che forse non tutti conoscono presente in safari è la possibilità di aprire contemporaneamente più pagine web con un semplice click del mouse. Potete..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Una interessante funzione che forse non tutti conoscono presente in safari è la possibilità di aprire contemporaneamente più pagine web con un semplice click del mouse.
+
+Potete quindi creare prima una cartella con la lista dei siti web contenente, per esempio, tutti i siti di news più importanti (NYT, Daily News ecc…) e aprirli tutti contemporaneamente con un semplice click.
+
+La procedura per attivare questa funzione è molto semplice: Aprire Safari sul Mac.
+
+Cliccate la voce “Mostra tutti i preferiti” presente nel menu “Preferiti”.
+
+Ora dovreste trovarvi con una lista di preferiti simile a quella che vedete qui sotto: Individuate quindi le cartelle che vi interessa aprire in maniera “automatica” e spuntate la voce “Clic automatico” L’operazione è conclusa e potete ritornare a navigare nel web normalmente.
+
+Ora nella barra dei preferiti, al posto della classica freccia rivolta verso il basso (che indica una cartella) noterete la presenza di un quadratino (che indica la funzione di click automatico attiva) per tutte quelle cartelle sulle quale avete attivato tale funzione.
+
+Potete quindi provare a cliccare su una cartella dove avete attivato il clic automatico, noterete che ogni tab aperto in precedenza verrà chiuso e automaticamente verranno caricate tutte le pagine precedentemente impostate.
+
+Questa funzione può essere molto utile per caricare tutte le “News del giorno” oppure tutte le notizie riguardanti un particolare argomento (Finanza, Azioni, Borsa ecc…) Spero che questa guida possa avervi aiutato.
+
+Stay relaxed.

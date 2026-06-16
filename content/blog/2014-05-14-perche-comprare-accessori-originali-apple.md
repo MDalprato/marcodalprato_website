@@ -1,0 +1,73 @@
+---
+title: "Perché comprare accessori originali Apple"
+date: "2014-05-14"
+slug: "2014-05-14-perche-comprare-accessori-originali-apple"
+excerpt: "Io alla mia salute ci tengo molto e credo anche il resto dell’umanità (forse escludendo qualche setta religiosa o i kamikaze). Nell’ordine delle priorità di una persona credo..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Io alla mia salute ci tengo molto e credo anche il resto dell’umanità (forse escludendo qualche setta religiosa o i kamikaze).
+
+Nell’ordine delle priorità di una persona credo che la prima, in assoluto, sia sempre e comunque la salute perché se stiamo fisicamente bene lo stiamo anche mentalmente e possiamo permetterci di lavorare e svolgere tutte quelle attività che ci rendono felici La premessa che ho fatto è necessaria per parlare di un argomento molto delicato e che mi sta molto a cuore e che riguarda tutti quegli accessori per **iPad**, **iPhone** e Mac che spesso compriamo senza sapere a cosa andiamo incontro.
+
+Partendo dal presupposto che gli accessori Apple non sono economici e che quindi, molte persone, preferiscono scegliere alternative non ufficiali credo sia bene che quest’ultimi sappiano a cosa vanno incontro.
+
+Il classico accessorio che il possessore di Iphone decide di acquistare extra è, normalmente, il caricabatterie che (ufficiale) costa 19€.
+
+Ovviamente sul mercato esistono centinaia di soluzioni alternative che nascono principalmente per “attirare” coloro che non sono disposti a spendere quella e che preferiscono quindi ricadere su un prodotto non originale.
+
+Un articolo molto interessante riguardante la differenza tra un caricabatterie originale ed uno non originale la trovate nel blog di Ken Shirriff dove si notalo le enormi differenze che esistono tra il caricatore ufficiale per **iPad** ed uno non ufficiale.
+
+Ovviamente la questione è parecchio procurante perché stiamo parlando di un dispositivo elettronico che deve convertire una tensione alternata di circa 220 Volt (in America sono 120 V) in 5V continui che devono servire per ricaricare un dispositivo costoso, delicato e anche pericoloso (non è la prima volta che una batteria di un **iPhone** prende fuoco).
+
+Molti diranno che 19€ per un alimentatore (o 29€ per quello dell’**iPad**) sono tanti, forse troppi e su questo posso anche concordare ma spesso ci dimentichiamo che dietro ad un semplice alimentatore (semplice esteticamente) ci sono centinaia di studi, di ingegneri e di test che servono per poter definire quel prodotto sicuro e perfettamente compatibile con il device in questione.
+
+Sembra facile ma progettare un alimentatore affidabile, piccolo e che non scaldi non è per niente semplice.
+
+Bisogna considerare un’infinità di variabili: tolleranze nei componenti elettronici, sbalzi di tensione, limiti di temperatura, dimensioni calcolate al millimetro e vincoli di sicurezza molto rigidi che obbligano i produttori a rispettare norme molto severe.
+
+D’altro canto come ho accennato prima la sicurezza è uno degli argomenti più importanti che riguardano il settore elettronica ed elettricità (avendo fatto l’ITIS mi sono sorbito parecchi mesi di normative riguardo alla sicurezza elettrica).
+
+Quanti di voi sono disposti, pur di risparmiare qualche euro, a mettersi in casa una micro bomba pronta ad esplodere?
+
+Ecco, un caricabatterie non originale (sopratutto quelli cinesi da 5 €) è una specie di micro-bomba perché inaffidabile, non sufficientemente testato e sopratutto non sempre eroga una tensione e una corrente perfettamente pulita che può comportare problemi durante la ricarica della batteria dei nostri device elettronici.
+
+Qui sopra vedete le foto che ho preso la blog di Ken Shirriff dove vengono fotografate le differenze interne ed esterne dei due alimentatori (Originale VS Contraffatto).
+
+Esteticamente le differenze sono pressoché identiche e questo potrebbe portare in inganno molte persone (sopratutto i meno esperti) rischiando di comprare un prodotto credendo che non vi sia differenza rispetto all’originale.
+
+Sarà perché la mia mente non riesce a concepire un prodotto non originale ma io di caricabatterie o accessori non Apple non ne ho mai comprati per infinite ragioni (tra cui, ovviamente, il mio livello di fan Apple che in vicinanza del WWDC raggiunge sempre vette vertiginose).
+
+La mia più grande paura è quella di non essere in casa mentre il caricabatterie inizia lentamente a sciogliersi e la batteria dell’**iPhone** si surriscalda fino a comprimere il case in metallo con conseguenze disastrose (i liquidi delle batterie sono tossici e corrosivi).
+
+Non voglio spaventare nessuno e fare falso allarmismo ma ricordatevi sempre che ogni componente elettronico del vostro **iPhone** è nato per lavorare all’interno di determinati limiti studiati a fondo da flotte di ingeneri brufolosi.
+
+Quando trovate un caricabatterie non ufficiale (e su Ebay ne trovate a milioni ) pensateci sempre prima di acquistarli riflettendo se vale veramente la pena rischiare la salute (o l’**iPhone**) per 19 €.
+
+Come vedete dalle macabre foto dei due alimentatori che quel genio di Ken Shirriff ha smontato noterete un’infinità di differenze (se sienite Nerd/ingegneri) estetiche e qualitative.
+
+Se, invece, siete persone normali vi basterà sapere che il caricabatterie non originale era, in realtà, un caricabatterie da 5W: esattamente la metà di quello originale Apple.
+
+Ovviamente non è solo la minor potenza a preoccupare ma anche il quantitativo di impurità presenti nella potenza in uscita dall’alimentatore contraffatto (trovate gli spettri analizzati sempre sul blog di Ken Shirriff ).
+
+Stesso discorso si potrebbe fare anche per i cavi non originali Apple: sempre meglio comprare un cavo originale pagando qualche euro in più piuttosto che lamentarsi di una mancata sincronizzazione o di una ricarica finita male.
+
+Il concetto che voglio trasmettere è semplice: se avete i soldi per comprare un **iPhone** potete anche permettervi di spendere un centinaio di euro per cavi e caricabatterie altrimenti (secondo me) avete sbagliato smartphone.
+
+Comprare dispositivi non originali è un po’ come quelle persone (che personalmente non sopporto) che quando devono cambiare gli pneumatici dell’automobile scelgono sempre quelli meno costosi, di dubbia provenienza e convinti di aver risparmiato in tutti i sensi.
+
+NULLA di più sbagliato: lo pneumatico dell’auto è l’unico strumento che ci tiene incollati all’asfalto e comprare marche economiche e poco conosciute, oltre ad essere poco consigliato, è pericoloso per la nostra salute e per quella degli altri.
+
+Se frenando la macchina non si ferma? se sulla pioggia slitta ad ogni curva?
+
+Ovviamente il rapporto Pneumatico-Caricabatterie è forse esagerato ma immaginatevi di dover ricaricare il vostro **iPhone** mentre in casa avete bambini piccoli che possono giocarci (con l’iphone o con il caricabatterie).
+
+Io personalmente preferisco avere sempre il fattore “sicurezza” dalla mia parte e non solo dal punto di vista tecnico ma anche da quello legale.
+
+Se la batteria dell’**iPhone** si gonfia mentre lo ricarico con un caricabatterie ufficiale posso sempre andare all’Apple Store e imprecare contro il povero Genius Bar e avrò SEMPRE ragione, se invece il caricabatterie è unofficial perché ho voluto risparmiare sarà il Genius Bar a ridermi in faccia (con tutte le ragioni del caso).
+
+NOTA FINALE: Io non ci guadagno nulla a consigliare un caricabatterie ufficiale o meno, la Apple non mi paga (purtroppo) e quello che scrivo lo faccio solo per esperienza personale: In quasi dieci anni di iPod, **iPhone**, **iPad** e Mac sempre ricaricati con accessori originali NON ho mai avuto alcun problema; forse sarebbe successo lo stesso anche con degli accessori non originali ma preferisco non rischiare.
+
+Photos are property of Ken Shirriff.
+
+PS: Mancano ancora quattro giorni e io non sto più nella pelle Stay Tuned.

@@ -1,0 +1,33 @@
+---
+title: "Steve’s Apple"
+date: "2013-02-24"
+slug: "2013-02-24-steves-apple"
+excerpt: "24 Febbraio 2013, Steve Jobs compie 58 anni. Avrei sperato di leggere queste poche parole su qualche forum o qualche giornale online ed invece non troverò questa notizia da..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+24 Febbraio 2013, Steve Jobs compie 58 anni.
+
+Avrei sperato di leggere queste poche parole su qualche forum o qualche giornale online ed invece non troverò questa notizia da nessuna parte.
+
+Steve Jobs è morto due anni fa, il 5 ottobre del 2011.
+
+Sembrano essere passati secoli da quando il primo **iPhone** è stato presentato e da quanto l’**iPad** di prima generazione fu reso disponibile a tutti, ma da allora il mondo della tecnologia è cambiato.
+
+Steven Paul Jobs ha rivoluzionato, cambiato e innovato il mondo della tecnologia, prima con i Mac e poi con l’iPod, l’**iPhone** e l’**iPad**.
+
+Il mondo informatico ha tirato un sospiro di sollievo, le persone si sono rese conto che volevano prodotti facili, intuitivi e semplici da utilizzare.
+
+Avevano bisogno di computer dove l’importante è il fine e non il mezzo.
+
+Steve Jobs ci ha insegnato come sia possibile unire le Arti Umanistiche al mondo della tecnologia per creare prodotti spettacolari, belli da vedere e facili da usare.
+
+Se oggi pretendiamo che un software funzioni correttamente, che il touch screen abbia il multi-touch e che la definizione del nostro monitor sia “Retina” è merito di Steve Jobs.
+
+L’**iPad** e l’**iPhone** sono device straordinari, le cui potenzialità sono talmente vaste che solo il futuro riuscirà a mostrarci dove arriveranno, per ora possiamo goderci le tecnologie che la Apple a messo a nostra disposizione.
+
+Grazie Steve, per permetterci di sognare e di immaginare un mondo in cui la tecnologia è più umana, in cui i computer non sono di un grigo tetro ma di un bianco brillante, in cui ogni piccolo particolare è studiato e analizzato minuziosamente e in cui l’uomo utilizza i computer per creare qualcosa di veramente grande, qualcosa che può cambiare l’umanità.
+
+Ed infine, concludo ringraziando Tim Cook e tutta la sua squadra, perché se è vero che a breve apriranno un nuovo Apple Store a Rimini, io e il mio portafoglio siamo rovinati.
+
+Grazie, per aver migliorato la mia vita.

@@ -1,0 +1,33 @@
+---
+title: "iPad 4 con 128 GB di memoria, rivoluzione silenziosa."
+date: "2013-02-03"
+slug: "2013-02-03-ipad-4-con-128-gb-di-memoria-rivoluzione-silenziosa"
+excerpt: "Pochi giorni fa Apple ha rilasciato l’annuncio che il 5 febbraio sarà disponibile l’iPad 4 con 128 GB di memoria e la notizia ha lasciato sbalordite non poche tesate..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Pochi giorni fa Apple ha rilasciato l’annuncio che il 5 febbraio sarà disponibile l’**iPad** 4 con 128 GB di memoria e la notizia ha lasciato sbalordite non poche tesate giornalistiche, sopratutto perché nessuno ne aveva predetto l’uscita.
+
+Parto subito con una breve analisi del perché un **iPad** da 128 GB è una mossa di marketing straordinaria, che gli altri produttori (Samsung in primis) non riusciranno ad eguagliare.
+
+64 GB di memoria, nel caso di un utilizzo professionale sono pochi.
+
+Dottori, Avvocati e Professionisti hanno necessità di memorizzare molti dati, per molto tempo quindi 128GB sono un’ottima quantità di Storage mobile.
+
+Le tecnologie Cloud sono, qui in Italia, ancora di difficile utilizzo a causa di connessioni Mobili lente e spesso singhiozzanti.
+
+128GB sono un quantitativo di spazio ottimale per utilizzare l’**iPad** come centro multimediale, sia per la raccolta della musica, sia per la raccolta di Film anche in HD a 1080p (in media, un film in HD dall’**iTunes** Store occupa 6/7 GB, quindi uno spazio di archiviazione di 128 GB permette di contenere quasi 20 film in HD, circa 12000 canzoni e moltissime fotografie) Un **iPad** da 128GB può essere utilizzato senza dover cancellare e sincronizzare i contenuti ogni qual volta si vuole aggiungere un video o scaricare un’app.
+
+Se utilizzato come console di gioco, un’**iPad** da 64 GB rischia di non essere così capiente (vi sono giochi sull’**iTunes** Store del peso di 1,5/2GB).
+
+Vi è però da segnalare che 128GB di memoria in un **iPad** sono veramente un enormità per moltissime persone ed è per questo che il modello da 128GB sarà acquistato prevalentemente da professionisti, sia per la particolarità del prodotto sia (e sopratutto) per il prezzo che, nella versione **Wi-Fi** + 3G arriva a sfiorare i 1000 €.
+
+Il target price è in perfetta linea con gli altri **iPad**, schierandosi come l’**iPad** più potente e costoso presente nel listino Apple.
+
+Non si conoscono ancora le offerte degli operatori TIM, Vodafone e Tre ma non tarderanno ad arrivare, sopratutto ora che tutte e tre le compagnie telefoniche hanno rilasciato le prime informazioni riguardo all’offerta LTE sul territorio Italiano.
+
+Con questo **iPad** da 128GB Apple ha voluto ancora dimostrare la sua grande capacità di stupire (questa volta non sono nati rumors o dubbi sull’eventuale uscita di questo modello) e della sua grande attenzione per chi l’**iPad** lo utilizza tutti i giorni come strumento di lavoro o come valido Media Center del 2013.
+
+Probabile, se non sicuro un **iPhone** 5s/6 e un **iPad** Mini da 128 GB nel corso del 2013 (probabilmente presentati durante il Keynote di Settembre/Ottobre).
+
+Aspettiamo e nel frattempo godiamoci ciò che il futuro ha da offrirci, perché la Tecnologia, per sua indole, non si ferma mai.

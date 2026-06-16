@@ -1,0 +1,71 @@
+---
+title: "Apple vs Il resto del mondo"
+date: "2013-06-12"
+slug: "2013-06-12-apple-vs-il-resto-del-mondo"
+excerpt: "Non esiste azienda al mondo paragonabile alla Apple. Ormai tutti conoscono la famosa storia della società nata nel Garage di Steve Jobs il 1 aprile del ’76, quella storia che..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Non esiste azienda al mondo paragonabile alla Apple.
+
+Ormai tutti conoscono la famosa storia della società nata nel Garage di Steve Jobs il 1 aprile del ’76, quella storia che ha segnato i decenni dalla nascita del primo Personal Computer.
+
+Il WWW (World Wide Web) venne creato con un Next Cube ( fonte Wikipedia ) e i più appassionati sapranno che la Next fu fondata da Jobs dopo essere stato “cacciato” dalla Apple.
+
+I Mac vengono quotidianamente utilizzati da musicisti nell’ambito delle registrazioni audio, nell’editing e nella loro pubblicazione.
+
+La semplicità, la qualità e la bellezza dei prodotti Apple è unica.
+
+Chiunque potrebbe riconoscere un Mac appoggiato su una scrivania, con un altro pc ci riuscireste?
+
+I prodotti Apple sono unici, coniugano design e tecnologia in modo unico, semplice e pulito.
+
+Ho sentito decine di persone sostenere che il Mac costa di più rispetto agli altri “PC” e che sono tutti prodotti per “figli di papà”.
+
+Nulla di più falso.
+
+Lavoro con Windows otto ore al giorno per cinque giorni alla settimana e so cosa vuol dire quando l’interazione uomo-macchina viene a mancare.
+
+Non conta avere un i7 con 16 Gb di RAM e dieci SSD da 250Gb se poi il sistema operativo non è capace di gestirli.
+
+In sei anni di Windows usato a casa, credo di non aver mai visto Google Earth funzionare in maniera fluida.
+
+Con il Mac con cui sto scrivendo (un modesto **MacBook Pro** da 13″) Google Earth funziona che è una meraviglia.
+
+Ho questo Mac dal 2011 e non l’ho mai formattato.
+
+Windows, dopo ogni installazione è più lento di prima.
+
+Evitiamo poi il discorso riguardante l’anti-virus da installare sul PC (che senso ha comprare un i7 e dover inutilizzare un 10/15% della CPU per colpa di un software?!) Se non avete mai avuto un Mac non potete capire ciò che sto dicendo.
+
+Ancora più importante è il settore Tablet e smartphone.
+
+Sia il primo che il secondo sono stati praticamente re-inventati e rivoluzionati dalla Apple.
+
+Prima dell’**iPhone** chi c’era? non ricordo nessun modello interessante.
+
+Dopo l’**iPhone** chi c’è?
+
+Bho … considero tutti i modelli Android identici, cambia solamente l’hardware interno.
+
+Prima dell’**iPad** chi c’era?
+
+Nessuno.
+
+Dopo l’**iPad**?
+
+Ancora nessuno.
+
+Ancora nessun brand ha realizzato qualcosa che possa far concorrenza all’**iPhone** e all’**iPad** (Mac compreso).
+
+Azienda come la Sony e HTC lavorano benissimo ed hanno standard qualitativi eccezionali ma peccano nel design e nella facilità d’uso.
+
+L’alluminio, la plastica nera e le superfici lucide rendono il design Apple degno di un’azienda di moda, non di tecnologia.
+
+Il case del MacBook è completamente in alluminio senza giunture in plastica nella base, in questo modo anche dopo dieci anni il Mac non scricchiolerà come fanno la stragrande maggioranza dei portatili.
+
+In molti sostengono che Apple sia una “setta” formata da seguaci.
+
+Io non credo che Apple sia una “setta” ma piuttosto un modo differente di vivere la tecnologia, un modo di apprezzare piccoli dettagli, piccoli particolari che altre marche ignorano completamente.
+
+Questa è la mia idea.

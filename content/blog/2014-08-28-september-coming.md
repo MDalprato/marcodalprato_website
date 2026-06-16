@@ -1,0 +1,29 @@
+---
+title: "September is coming."
+date: "2014-08-28"
+slug: "2014-08-28-september-coming"
+excerpt: "September is coming … and is not a new episode of The Games of Thrones but is the regular succession of the seasons. September is definitely my favorite month of the year..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+September is coming … and is not a new episode of The Games of Thrones but is the regular succession of the seasons.
+
+September is definitely my favorite month of the year (maybe december is just a little better) for a lot of different reasons: the decreasing of the temperature, the release of the new iPhones, the September issue of Vogue (I know, it could sound strange my love for the fashion world) and the approach of my birthday (six of december).
+
+I wrote about the release of the new **iPhone** and this is one of the most awesome moment of the year.
+
+A new **iPhone** on the market means a lot of things but this time is just a bit different ’cause this september Tim Cook will launch the **iPhone** 6 (not an “S” version) that had always changed a lot of things compared to the “old” version.
+
+There are a lot of rumors about the new **iPhone**: the blogs argues that it will have a NFC chip, a bigger display, an internal coffee maker … (the last one was a joke).
+
+I really don’t know what the new **iPhone** will bring, but right now I’m not interested.
+
+I just want to wait, watch the keynote and say “WOW!”. “ Wish we could say more ” is the title of the event that Apple will do on the 9th of September and as always, every “Apple maniac” are trying to understand the meaning of the image/title of the event.
+
+I think that the only thing that we can do is to wait 10 days.
+
+Just wait.
+
+Stay tuned.
+
+## Marco

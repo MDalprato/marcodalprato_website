@@ -1,0 +1,27 @@
+---
+title: "iFaenza, la mia prima applicazione per iPhone."
+date: "2013-08-16"
+slug: "2013-08-16-ifaenza-la-mia-prima-applicazione-per-iphone"
+excerpt: "Alla fine ho ceduto pure io e mi sono iscritto al programma sviluppatori Apple (per la precisione iOS). Ho deciso che come prima applicazione avrei creato qualcosa di semplice..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Alla fine ho ceduto pure io e mi sono iscritto al programma sviluppatori Apple (per la precisione iOS).
+
+Ho deciso che come prima applicazione avrei creato qualcosa di semplice ma sopratutto utile e mi sono messo quindi a lavorare ad un progetto (secondo me) interessante.
+
+L’applicazione si chiama “iFaenza” ed è molto semplice: è costituita da un lettore di feed RSS (per chi non sapesse cosa sono, può leggere la voce su wikipedia ) e da una breve “guida” sulla città Emiliano-Romagnola.
+
+Le news RSS sono prese “in prestito” dal sito di notizie “ faenzanotizie.it ” che personalmente ammiro molto per la qualità e la quantità di notizie che offrono quotidianamente.
+
+Ho pensato di realizzare questa applicazione per evitare di dover “aprire” tutte le volte il browser web e dover cercare a “mano” le notizie che più interessano.
+
+Con una semplice occhiata è possibile visualizzare subito tutte le ultime news sulla città Faenza ed eventualmente approfondire la notizia (e ovviamente condividerla sui principali social network).
+
+Altra nota interessante è la presenza di una breve guida sulla città, una mappa interattiva e una semplice rubrica con i numeri telefonici più utili della città Manfrediana.
+
+Potete scaricare l’applicazione gratuitamente cliccando su questo link.
+
+Voglio inoltre ringraziare il sito web “ faenzanotizie.it ” per avermi gentilmente accordato il permesso di utilizzare le loro news e anche il Comune di Faenza per avermi dato il permesso di utilizzare le loro immagini e i loro testi.
+
+Qui sotto una breve gallery dell’applicazione:

@@ -1,0 +1,33 @@
+---
+title: "Come stanno cambiando le nostre abitudini grazie al Cloud."
+date: "2014-03-31"
+slug: "2014-03-31-come-stanno-cambiando-le-nostre-abitudini-grazie-al-cloud"
+excerpt: "Vent’anni fa era impensabile poter salvare i propri documenti senza aver bisogno di utilizzare una memoria esterna che non fosse un CD o un floppy disk; oggi, per fortuna, i..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Vent’anni fa era impensabile poter salvare i propri documenti senza aver bisogno di utilizzare una memoria esterna che non fosse un CD o un floppy disk; oggi, per fortuna, i mezzi e le tecnologie sono cambiate e il mondo del “cloud” sta diventando sempre più alla portata di chiunque (non più solo degli “smanettoni”).
+
+Sta diventando sempre più facile condividere documenti di lavoro (e non solo) tra più persone in modo da poter sfruttare appieno il vero vantaggio che la tecnologia cloud ci offre.
+
+Se prima era necessario “spezzare” il lavoro di più persone su documenti differenti ora è possibile utilizzare un unico documento condiviso tra più persone in modo da poter velocizzare e migliorare il lavoro che un “workgroup” era intenzionato a svolgere.
+
+Il cloud ci sta offrendo solo un piccolo accenno delle potenzialità che potrà offrirci in un futuro non molto lontano dove (finalmente) non esisteranno più supporti fisici e tutto viaggerà sul web.
+
+Ogni foto, documento, video e canzone sarà letteralmente “trasportata” lungo le reti del web e da qualsiasi parte del mondo in cui saremo potremmo sempre raggiungere i nostri documenti per poterli modificare senza dover trafficare tra decine di pen drive USB o blu-ray.
+
+Quando anche l’ultima porta USB sparirà dall’ultimo Mac book Air allora saremmo veramente entrati nel mondo di Internet, dove non serviranno più cavi o accessori ma dove ogni cosa sarà costituita dal software “online”.
+
+Già adesso, sia con iCloud sia con Google, è possibile creare ed editate i propri documenti in qualsiasi parte del mondo senza dover trasportare fisicamente i propri files: crei un documento sull’**iPhone** mentre sei sulla metro, arrivi a lavoro e butti giù la “bozza” definitiva e condividi il risultato con il tuo capo che con Pages sull’**iPad** lo legge (ed eventualmente lo corregge) e lo archivia su iCloud e anche su Google Drive per poterlo ri-condividere con il CEO di un’altra azienda che di roba Apple non ne vuole sapere (ebbene si, ci sono anche loro).
+
+Se siete utenti Apple da più di tre anni vi ricorderete sicuramente quando il backup dell’**iPhone** e dell’**iPad** erano da fare per forza su **iTunes** e che se come molti utenti non lo sincronizzavate spesso vi ritrovavate con un backup vecchio e tutti i dati del vostro **iPhone** persi per sempre.
+
+Oggi grazie al backup su iCloud è fisicamente impossibile perdere qualche dato poiché “di nascosto” l’**iPhone** esegue la copia di tutti i dati sul web senza bisogno che l’utente muova un dito: questa è la tecnologica che rende la vita migliore.
+
+Il cloud non è solo il “fenomeno” del momento ma è la naturale evoluzione di quello che il mondo della tecnologia ci offrirà.
+
+La differenza tra hardware e software si sta sempre più riducendo: se dieci anni fa per far girare un certo programma era necessario un processore particolare, un determinato tipo di RAM e una scheda madre con driver dedicati oggi qualsiasi computer di fascia media è in grado di far “girare” il 90% dei programmi presenti sul mercato.
+
+I software si stanno lentamente trasformando in applicazioni web senza più la necessità di dover scaricare ed installare alcun programma: tutto viaggia su Internet e l’unica applicazione di cui avremo bisogno sarà il browser web.
+
+Stay Tuned.

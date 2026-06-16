@@ -1,0 +1,59 @@
+---
+title: "Non si ascolta più la Musica"
+date: "2013-01-23"
+slug: "2013-01-23-non-si-ascolta-piu-la-musica"
+excerpt: "Le persone non ascoltano più la Musica, o meglio, non l’ascoltano come merita di essere ascoltata. La musica è un’arte e come tale va rispettata ed apprezzata di conseguenza..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Le persone non ascoltano più la Musica, o meglio, non l’ascoltano come merita di essere ascoltata.
+
+La musica è un’arte e come tale va rispettata ed apprezzata di conseguenza: Vi sognereste mai di mangiare mentre guardate un Van Gogh o di chiacchierare durante un’opera teatrale!?
+
+Moltissima gente mangia e chiacchiera (spesso allo stesso tempo) mentre sta’ ascoltando della musica.
+
+Non sono qui a voler criticare il genere ascoltato (anche se sarebbe interessante un’analisi rapportando il modo di fruire la musica con il genere di musica ascoltata) né a convincere nessuno a cambiare modo di ascoltare la musica, sono qui per “criticare” certi modo di fare ormai entrati nell’uso comune.
+
+Il primo modo di fare che proprio non sopporto è ascoltare la musica classica con gli auricolari, sia che siano Shure, Sennheiser o AKG.
+
+Proprio non riesco a capire come sia possibile rovinare la madre di tutti i generi musicali utilizzando un artifizio (Un’auricolare è a tutti gli effetti un arricchimento della realtà).
+
+Posso capire ascoltare Rap o Hip-Hop (che non ritengo musica) ma ascoltare musica classica con gli auricolari è veramente un’offesa alla musica.
+
+Un’altro modo di fare che non sopporto è l’atteggiamento che certe persone hanno con la musica, un’atteggiamento di indifferenza e di assenza di apprezzamento.
+
+Non importa che musica hai ma importa quanta musica hai nella tua libreria di **iTunes**, il mero numero insomma.
+
+Le persone non leggono più i testi delle canzoni, non apprezzano più il vero significato che certi testi hanno e neppure la fatica e i giorni spesi dagli autori per scrivere quelle parole.
+
+La musica è diventata un vanto, un numero da sfoggiare sull’iPod o un insieme di copertine colorate fluttuanti e una manciata di bit digitali senza senso.
+
+La musica è e deve essere altro, deve essere un piacere da ascoltare in silenzio e senza interferenze con il mondo esterno o senza altre attività che ne danneggino l’apprezzamento.
+
+Quando guardo un quadro o un’opera teatrale non lavoro anche al computer o guardo la TV ma dedico la mia intera attenzione all’arte che sto osservando.
+
+Stessa cosa con la Musica (quella con la “M” maiuscola) che deve essere apprezzata da soli, in silenzio e senza fare nient’altro.
+
+Non si può capire il significato di una canzone mentre si è in treno o su un autobus, non è fisicamente possibile per il nostro cervello apprezzare quelle micro-sfumature e qui riff di chitarra che ti fanno accapponare la pelle.
+
+La musica va ascoltata per bene, senza influenze esterne e dedicandoci tempo e denaro.
+
+La musica non può diventare uno strumento commerciale il cui unico obbiettivo è produrre ricavi ma deve essere uno strumento culturale e riflessivo attraverso il qualche chiunque può imparare qualcosa.
+
+La musica è un’arte particolare, probabilmente la più completa e la più ricca di contenuti e significati che riescono a cambiare umore all’ascoltatore.
+
+La musica ha proprio questa capacità, quella di riuscire ad infondere emozioni nell’animo delle persone senza essere fisicamente presente, senza essere mai invadente e senza porre domande.
+
+La musica è arte allo stato puro, è quell’affascinante puntina in diamante che percorre i solchi del disco vibrando ad ogni percussione della batteria e sobbalzando ad ogni riff di chitarra elettrica.
+
+La musica è la costanza dei 33 giri, scanditi regolarmente e costantemente dal motore del giradischi, che mi ricorda molto l’avanzare lento della vita, l’impossibilità di tornare indietro e l’imprecisione della pausa.
+
+Con gli mp3, fermare, tornare indietro o avanzare velocemente è semplicissimo, ma con il vinile no.
+
+Con in vinile si apprezza ogni secondo della canzone, ogni istante che passiamo ad apprezzare la voce del cantante o le corde della chitarra suonare perché sappiamo che non possiamo tornare indietro, che non possiamo mettere in pausa e che la testina si avvicinerà inesorabilmente verso la fine del disco.
+
+La musica pretende attenzione, esige una cura particolare, una cura che solo apprezzandone il significato riusciremo a capirne la profondità.
+
+Ecco, voglio lasciarmi con un piacevole testo da ascoltare in silenzio, al buio e preferibilmente in vinile (posso concedervi anche il CD).
+
+Hello darkness my old friend, I’ve come to talk with you again Because a vision softly creeping left it’s seeds while I was sleeping And the vision that was planted in my brain still remains, within the sounds of silence In restless dreams I walked alone, narrow streets of cobblestone ‘neath the halo of a streetlamp I turned my collar to the cold and damp when my eyes were stabbed by the flash of a neon light split the night… and touched the sound of silence And in the naked light I saw ten thousand people maybe more people talking without speaking people hearing without listening people writing songs that voices never share noone dare, disturb the sound of silence Simon and Garfunkel – The Sound of Silence

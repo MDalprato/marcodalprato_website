@@ -1,0 +1,85 @@
+---
+title: "Autunno 2013, Apple Stuff"
+date: "2013-08-01"
+slug: "2013-08-01-autunno-2013-apple-stuff"
+excerpt: "L’estate sta finendo, arrendetevi tutti a questa notizia. È matematicamente constatato che dopo il cinque di agosto l’estate sta lentamente arrivando alla fine e con lei tutti..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+L’estate sta finendo, arrendetevi tutti a questa notizia.
+
+È matematicamente constatato che dopo il cinque di agosto l’estate sta lentamente arrivando alla fine e con lei tutti i giorni di sole, caldo e mare che tutti voi (io di meno) vi siete/state godendo.
+
+Tim Cook, l’uomo che sta lentamente plasmando Apple per renderla sempre migliore.
+
+Tra un mesetto, verso l’inizio di settembre, le città si ri-popoleranno di persone, le aziende ri-apriranno e le foglie degli alberi ri-inizieranno a cadere facendoci tornare alla mente l’inverno (che personalmente amo con tutto il cuore).
+
+Esulando momentaneamente dai ricordi estivi voglio analizzare per bene tutte le novità tecnologiche che (si spera) vedremo a breve nello store della Apple.
+
+Come già detto da molti siti/blog tecnologici l’autunno 2013 si preannuncia, per Apple, uno degli autunni più ricchi e carichi di novità: nuovi **iPhone**, nuovi **iPad**, nuovi Mac mini, nuovi **MacBook Pro** e chi più ne ha più ne metta.
+
+Ricordo che oltre agli aggiornamenti “hardware” verso metà/fine settembre dovrebbero essere rilasciati iOS7 e OSX Mavericks che praticamente rivoluzionano l’intero mondo “Apple”.
+
+A breve (3 Agosto) si inaugura un nuovo Apple Store a Rimini che amplia ancora di più la possibilità di acquistare i vari prodotti Apple direttamente dallo Store fisico e non più via Web (molti preferiscono il “contatto fisico” con il venditore) e sopratutto estende la rete di assistenza in maniera più capillare su tutto il territorio Italiano.
+
+Migliaia di sviluppatori sono al lavoro per modificare la propria Applicazione in stile “flat” per essere perfettamente compatibili con il nuovo sistema operativo iOS7 che sicuramente schiererà gli utenti Apple in due gradi categorie: i contenti e i delusi da questa nuova interfaccia.
+
+Io, dal canto mio, posso solamente dire che dopo quasi cinque anni era ora che venisse un po rinfrescata l’interfaccia grafica permettendo a tutti quindi di ritrovarsi con un dispositivo completamente nuovo e tutto da “riscoprire”.
+
+Tralasciando momentaneamente quindi le novità software, concentriamoci su quelle che molto probabilmente saranno le novità hardware più importanti per quello che si preannuncia un meraviglioso autunno 2013. **iPhone** 5S/5C Quasi sicuramente per Settembre/Ottobre 2013 l’**iPhone** subirà la classica innovazione che ormai tocca a tutti i melafonini di casa “Apple” ogni anno.
+
+Voci sostengono che l’**iPhone** 5S avrà il lettore di impronte digitali collocato sul pulsante Home, altri ipotizzano l’adozione di un display da 4,3 (alcuni addirittura da 4,5″).
+
+Non so quali saranno le innovazioni e le modifiche che verranno apportate al settimo **iPhone** di casa Cupertino ma sicuramente il suo rilascio farà discutere e appassionare migliaia di persone come sempre.
+
+Riguardo al presunto **iPhone** economico (alcune fonti dicono si chiamerà **iPhone** 5C dove “C” stà per color) non si sa ancora nulla e tutto ciò che circola nel web è solo frutto di qualche ipotesi senza nessun dato certo a parte qualche “presunta” foto.
+
+Mac Pro Il Nuovo Mac pro è stato presentato durante in WWDC 2013 e si prepara a rivoluzionare completamente il mercato “professional”.
+
+Creato senza periferiche interne, tutto si sviluppa fuori dal Mac grazie all’incredibile dotazione di porte I/O che permette un epansione praticamente senza limiti.
+
+La dotazione hardware è ovviamente una delle migliori in commercio e, essendo il prodotti di fascia più alta, deve poter reggere i compiti più complessi.
+
+Si parla quindi di processori Xeon E5 Ivy Bridge EP, doppia scheda video AMD, memoria Flash PCIe e espansione via **Thunderbolt** 2 e USB3 il tutto incapsulato all’interno di un case dal design futuristico e da un sistema di aerazione geniale.
+
+Il dubbio più grande rimane il prezzo e sopratutto se il mercato Professional è veramente pronto ad una rivoluzione di questo tipo.
+
+**MacBook Pro**/Retina 2013 Probabilmente la sia la gamma dei **MacBook Pro** sia quella dei **MacBook Pro** Retina subirà un aggiornamento Hardware, quasi sicuramente mirato a incrementare le perfromance di qualche manciata di Ghz per mantenere freschi e aggiornati i portatili di fascia “Pro”.
+
+Prevedo (e sopratutto spero) l’adozione di fabbria da parte dei **MacBook Pro** degli SSD in modo da rendere più preformanti i portatili base e in modo da pensionare gli ormai vecchi e obsoleti dischi meccanici (ingiustificatamente ancora da 5400 rpm).
+
+Spero forse di vedere i **MacBook Pro** da 13″ e 15″ dotati nativamente di SSD da 128Gb ovviamente espandibile e configurabile a piacimento.
+
+Mac Mini Voci di corridoio dicono che a breve verrà aggiornato con i chipset Intel Haswell con quasi sicuramente una manciata di Ghz in più per i processori e forse una rinfrescata alle prestazioni degli hard disk (mi auguro che lentamente tutti i vari computer vengano forniti di SSD anche nella configurazione più “basilare”).
+
+iMac Probabilmente verranno aggiornati anche quest’ultimi ma con una semplice “rinfrescata” al processore e forse alla capacità dei dischi (sopratutto nell’accoppiata Fusion-Drive).
+
+Non credo vi saranno particolari novità in campo Design dato che è già stato recentemente aggiornato.
+
+**iPad** Come per l’**iPhone**, è molto probabile che verrà presentato al pubblico il nuovo **iPad** Retina (ovvero la 5 generazione) che probabilmente subirà un ridisegno dell’estetica in modo da renderlo simile a quello dell’**iPad** Mini (quindi flat e con il bordo in alluminio anodizzato).
+
+**iPad** Mini Display Retina e hardware migliorato, non prevedo particolari miglioramenti.
+
+Forse una probabile espansione della memoria fisica presente sul dispositivo ma prevedo nessun stravolgimento. iOS7 Come già accennato prima, il nuovo sistema operativo dovrebbe essere rilasciato al pubblico verso metà/fine settembre (probabilmente) insieme ai nuovi device che verranno messi in commercio in quello stesso periodo (**iPhone**, **iPad** e iPod).
+
+Questa settima rivisitazione di iOS dovrebbe introdurre nuovi miglioramenti e sopratutto dovrebbe permettere ad Apple di mettere mano e creare tutte quelle modifiche che fino ad ora erano assenti in iOS6.
+
+OSX Mavericks OSX Mavericks non è un nuovo sistema operativo ma più che altro un aggiornamento di Moutain Lion.
+
+Negli ultimi anni la strada seguita da Apple è stata proprio quella di rilasciare un aggiornamento “importante” ogni 1/2 anni ad un prezzo relativamente basso (Moutain Lion costa appena 16€).
+
+Rispetto ad altre strategie commerciali quest’ultima permette comunque di avere più aggiornamenti con maggiore frequenza e sopratutto permette a tutti di poter acquistare l’ultimo S.O. senza dover spendere cifre folli.
+
+Ovviamente queste non sono tutte le novità che verranno presentate perché probabilmente anche gli iPod subiranno un aggiornamento nel design.
+
+Gli Apple Store sono da sempre un punto di riferimento per gli appassionati di tecnologia.
+
+Insieme a tutte queste novità forse troverà spazio anche il tanto atteso “iWatch” che però non vedrà il mercato prima del prossimo anno.
+
+Non si sa nulla invece della Tv by Apple che sembra essere in cantiere ma ancora lontana da un eventuale messa in commercio.
+
+Nel frattempo non possiamo fare altro se non attendere questo autunno ricco di novità e sopratutto vedere le ciò che le altre aziende tecnologiche avranno da proporci.
+
+Ci attendono mesi ricchi di novità tecnologiche e di interessanti dispositivi che continuano a migliorare ulteriormente la nostra vita quotidiana.
+
+Stay Tuned.

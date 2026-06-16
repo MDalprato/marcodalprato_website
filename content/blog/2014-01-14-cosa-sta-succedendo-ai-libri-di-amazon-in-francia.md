@@ -1,0 +1,51 @@
+---
+title: "Cosa sta succedendo ai libri di Amazon in Francia"
+date: "2014-01-14"
+slug: "2014-01-14-cosa-sta-succedendo-ai-libri-di-amazon-in-francia"
+excerpt: "La Francia ha ufficialmente deciso di dichiarare guerra ad Amazon nel settore dei libri per cercare di sollevare la crisi che sta radicalmente eliminando le librerie fisiche..."
+image: "https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?auto=format&fit=crop&w=1600&q=80"
+---
+
+La Francia ha ufficialmente deciso di dichiarare guerra ad Amazon nel settore dei libri per cercare di sollevare la crisi che sta radicalmente eliminando le librerie fisiche dal mercato.
+
+Con questa nuova legge presentata in Francia Amazon non potrà più cumulare le spese di trasporto gratuire con lo sconto del 5% sul prezzo di copertina dei libri venduti in Francia.
+
+Il concetto è semplice e il messaggio è forte e chiaro: Amazon non può fare concorrenza alle librerie presenti sul territorio Francese o meglio, non può farti lo sconto del 5% su un libro e non farti pagare le spese di spedizione.
+
+Ora, tralasciando il fatto che apprezzo il libero mercato fin da quando ho ricevuto il mio primo stipendio, ritengo che una legge di questo tipo sia ingiusta, iniqua e sopratutto ridicola per uno stato come la Francia.
+
+La nostra società si basa sul libero mercato, sulla libera compravendita e su una sana competizione concorrenziale tra le varie aziende; l’utente finale è libero di poter scegliere il prezzo più vantaggioso quando acquista un prodotto e non può in nessun modo essere ostacolato in questa libera scelta.
+
+Limitando gli sconti che Amazon può offrire sui libri si limita di conseguenza la libertà di acquisto degli utenti finali, costringendo a spendere una cifra maggiore per un prodotto che costerebbe molto di meno.
+
+Secondo il governo Francese, questo “divieto di concorrenza” si è reso necessario per cercare di salvare tutte quelle librerie che si ritrovano in problemi finanziari a causa della recente nascita e diffusione degli acquisti online che offrono,ovviamente, prezzi vantaggiosi.
+
+Ora, non voglio discutere sulla crisi finanziaria delle librerie in Francia (che neppure conosco) ma voglio sottolineare che uno Stato non può e non deve influire sull’andamento di un mercato perché come è stato più volte dimostrato “mettere le mani” in queste faccende non fa altro che peggiorare la situazione.
+
+Come le videoteche e i negozi di musica, anche le librerie sono destinate a morire lentamente sparendo nel dimenticatoio delle arti e dei mestieri di una volta e non è limitando la concorrenza di Amazon che si risolvono questi problemi.
+
+Se il mercato ha deciso che un settore può essere sostituito con un’altro non c’è nessuna legge “Anti-Amzon” che possa risolvere questa situazione.
+
+Il denaro c’è ma non si vede: qualcuno vince, qualcuno perde.
+
+Il denaro di per sé non si crea né si distrugge.
+
+Semplicemente si trasferisce da una intuizione ad un’altra, magicamente.
+
+Gordon Gekko Hanno chiuso le videoteche perché non c’era più margine di guadagno sulla vendita dei DVD ma di conseguenza sono aumentati i supermercati e i centri commerciali dove vendono i DVD e chi prima lavorava nella videoteca ora indossa la divisa del MediaWorld o della Comet.
+
+I negozi di musica stanno chiudendo?
+
+Chi prima lavorava in un negozio di musica ora lavora come gestione dei magazzini musicali di Amazon.
+
+I soldi seguono il mercato, il mercato segue la comodità e le comodità seguono le persone: se comprando un libro su Amazon posso risparmiare 5/6 € lo faccio e continuerò a farlo cento volte.
+
+Il progresso e il libero mercato si basano sulla variabilità di infiniti fattori economici interi ed esteri ad uno stato e se in Francia Amazon non può regalarti la spedizione quando acquisti un libro sicuramente questo non incentiverà la vendita nelle librerie.
+
+Le poche librerie che rimango aperte (in Italia) sono quelle che non offrono solo il semplice e “vecchio” libro ma creano dei punti di lettura, vendono il Kindle o il lettore elettronico e sopratutto riescono ad intrattenere il cliente finale con bar, eventi o riflessioni sulla letteratura.
+
+Perché se su Amazon pago 6 € in meno per un libro rispetto al negozio in centro è ovvio che lo comperò online; ma se il negozio in centro mi offre la connessione **Wi-Fi** e un caffè ogni volta che compro un libro, forse ci penso due volte prima di cliccare “Acquista ora” su Amazon.it.
+
+Per approfondire leggi qui.
+
+Featured photo: Amazon.com Fulfillment Center RNO1 Fernley, Nevada, August 8, 2007. (IMAGE BY Ken James)

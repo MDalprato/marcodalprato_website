@@ -1,4 +1,5 @@
 import './globals.css';
+import LocaleProvider from './components/LocaleProvider';
 import { siteConfig } from './lib/site';
 
 export const metadata = {
@@ -32,7 +33,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="it">
-      <body>{children}</body>
+      <body>
+        <LocaleProvider>{children}</LocaleProvider>
+      </body>
     </html>
   );
 }

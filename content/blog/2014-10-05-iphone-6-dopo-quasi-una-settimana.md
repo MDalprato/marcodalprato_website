@@ -1,0 +1,101 @@
+---
+title: "Una settimana con l’iPhone 6"
+date: "2014-10-05"
+slug: "2014-10-05-iphone-6-dopo-quasi-una-settimana"
+excerpt: "Space Gray 128 GB. Venerdì scorso, il 26 settembre, ho comprato l’iPhone 6, modello grigio siderale (comunemente noto col meraviglioso nome di iPhone nero ) da 128 GB. Le mie..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Space Gray 128 GB.
+
+Venerdì scorso, il 26 settembre, ho comprato l’**iPhone** 6, modello grigio siderale (comunemente noto col meraviglioso nome di **iPhone** nero ) da 128 GB.
+
+Le mie intenzioni iniziali erano buone perché volevo comprare la versione con “solo” 64 GB di memoria (dato che mi sembravano più che sufficienti) ma poi il mio lato “ shut up and take my money” ha deciso di optare la versione da 128 GB.
+
+4.7 pollici di abitudine.
+
+Come saprete il nuovo **iPhone** dispone di un display retina HD da 4.7 pollici con una risoluzione di 1334×750 pixel a 326 ppi il che vuol dire che è lo stesso identico display dell’**iPhone** 5 con 0.7 pollici di spazio in più (1,8 cm).
+
+Ovviamente è un display migliorato, con una dimensione maggiore e ovviamente con una risoluzione per la prima volta in HD (il display dell’**iPhone** 6 Plus, invece, è in Full HD).
+
+Piccola nota: per chi non ha ancora capito la differenza tra HD e Full HD gli basti sapere che un display in grado di visualizzare almeno 1280×720 pixel è del primo tipo mentre uno che supporta risoluzioni fino a 1920×1080 è del secondo tipo.
+
+Il display è ottimo, il contrasto è praticamente perfetto e solamente in alcune circostanze la profondità dei neri potrebbe essere migliorata ma stiamo comunque parlando di dettagli minimi che il 99% degli utenti non noteranno neanche.
+
+Lo schermo, come ho già detto, è di quasi 2 centimetri più grande rispetto al “vecchio” **iPhone** 5/5S e la differenza si sente molto (sopratutto nei primi giorni di utilizzo) poi, dopo aver superato l’impatto ci si accorge che 4.7 pollici sono il perfetto compromesso tra portabilità e usabilità del dispositivo.
+
+Fossi stato Tim Cook avrei rilasciato un unico **iPhone** da 5 pollici, con risoluzione Full HD e 400 pixel per pollice con un form factor simile a quello dell’**iPhone** 6 in modo da non dover “uscire” con due dispositivi diversi ma sappiamo benissimo tutti che l’**iPhone** 6 Plus è la risposta al mercato Asiatico e pertanto hanno preferito optare per due modelli differenti.
+
+Per chi ha dubbi riguardo alla praticità posso solamente dirvi che già dopo al terzo giorno mi sono dimenticato di aver cambiato **iPhone** e l’assuefazione di aver comprato un nuovo device è praticamente svanita: dimensione dello schermo e del device sono perfette e nascondono il design finale, proprio come vuole Jony (leggetevi questo libro se volete saperne di più).
+
+Angoli arrotondati ovunque.
+
+Grazie Jony.
+
+La forma, come sempre, può piacere o meno ma è innegabile che l’aver smussato gli angoli superiori e aver ridotto lo spessore di quasi un millimetro rispetto all’**iPhone** 5/5S ha nettamente migliorato l’utilizzo day-by-day.
+
+Il risultato finale è un dispositivo più lineare e meno spigoloso che permette una impugnatura più “dolce” e consente al pollice di estendersi un po’ di più rispetto alle vecchie generazioni di **iPhone**.
+
+Purtroppo il design tondeggiante crea anche un effetto “saponetta” che mette a rischio la stabilità dell’**iPhone** se utilizzato senza custodia (il grip, purtroppo, è molto scarso a meno di non utilizzare il dito mignolo come “blocco”).
+
+Tanti hanno criticato la protuberanza della fotocamera che sporge di quasi mezzo millimetro dal retro dell’**iPhone** e qui, purtroppo, devo dare ragione ai tanti che hanno chiamato “eresia” una pecca di design di questo tipo.
+
+Ovviamente se utilizzate una custodia il problema non si pone e vi dimenticherete di quell’orrendo finto mini obbiettivo che vuole imitare lo zoom di una reflex.
+
+Niente più codice ad ogni sblocco.
+
+Lo so, c’era già nell’**iPhone** 5S, ma per uno che “viene” dall’**iPhone** 5 il riconoscimento dell’impronta digitale è qualcosa di futuristico e il non dover più “mettere” il codice per sbloccare lo schermo o l’Apple ID per comprare una canzone è una manna tanto quanto il telecomando per aprire la macchina.
+
+Funziona bene, funziona sempre e non mi ha mai (per ora) creato un problema o rallentato la procedura di sblocco pertanto è approvato al 100%.
+
+Altra piccola nota: se siete degli abituali fruitori di **iTunes** e come me spendete centinaia di euro al mese in musica, noleggi e Film allora il Touch ID sarà la vostra rovina perché non dovrete più inserire la password (che in qualche modo faceva da “deterrente”) ma vi basterà toccare il pulsante Home con il dito.
+
+Oltre alla lettura delle impronte digitali il pulsante home è completamente touch-sensitive e pertanto può ricevere azioni semplicemente toccandolo (la funzione reachability si basa proprio sul doppio tocco).
+
+Ma la batteria quanto dura?
+
+L’uscita di un nuovo **iPhone** (insieme a quella di una nuova versione di iOS) è meno importante della fatidica domanda che tutti si fanno << Ma quanto dura la batteria?>> Per ora posso solamente dire: tanto.
+
+Ovviamente il mio tipo di utilizzo è tutt’altro che simile a quello di un pendolare o di un business-man ma posso garantirvi che la batteria arriva a sera se utilizzate l’**iPhone** in maniera decente e smettete di twittare ogni secondo.
+
+Con il **Wi-Fi** sempre attivo e il bluetooth utilizzato per 2 ore sono riuscito ad arrivare a sera con ancora il 35% di batteria: direi un ottimo risultato.
+
+Considerando che ora la batteria ha quasi 500 mA in più rispetto a quella dell’**iPhone** 5S era abbastanza scontato che la durata aumentasse ma non potevo immaginare che finalmente potesse arrivare fino a fine giornata.
+
+È più grande e prende meglio.
+
+Punto assolutamente importante che sottolineo con grande enfasi: l’**iPhone** 6 prende magnificamente bene ovunque.
+
+Se normalmente con l’**iPhone** 5 in 4G avevo 1 tacca su 5, con l’**iPhone** 6 sono mediamente a 4/5 tacche su 5 il che è qualcosa di tecnologicamente notevole.
+
+Per esempio nel ristorante vicino a casa mia il pensionato **iPhone** 5 non riusciva ad agganciare la rete 3G mentre il nuovo gioiellino naviga tranquillamente con 3/4 tacche; stesso discorso negli angoli morti di certi supermercati dove il segnale arriva fore e chiaro.
+
+Sono abbastanza sicuro che in casa Cupertino abbiano lavorato molto sulle antenne del 3/4G e che grazie alle dimensioni più generose abbiano potuto implementare un livello di ricezione migliore rispetto alle generazioni precedenti.
+
+Perché comprarlo?
+
+Il perché comprarlo non posso sicuramente spiegarvelo io ma posso sicuramente dirvi che se state cercando il miglior smartphone sul mercato lo avete trovato.
+
+L’**iPhone** 6 è la naturale evoluzione dell’**iPhone** 5 e va a collocarsi nella fascia di mercato che fino ad ora non aveva visto la presenza dei prodotti targati Cupertino.
+
+Con l’**iPhone** 6 Plus Apple punta al mercato Asiatico dove la corsa al pollice in più ha permesso a Samsung di rilasciare la serie “Note” senza però avere il successo sperato mentre con l’**iPhone** 6 Apple richiama i “puristi” dell’**iPhone** che non vogliono giare con una padella in tasca ma che iniziavano ad essere stanchi dei 4 pollici.
+
+Il prezzo, come sempre, non è concorrenziale e stiamo parlando di dispositivi che superano abbondantemente i 700 € ma l’acquisto di un’**iPhone**, come sempre, non deve limitarsi alla qualità hardware o al design ma deve tenere in considerazione tutti i servizi offerti: iCloud, iWork per iOS, **iTunes** Match e tutti quei plus già inclusi nella gamma di device iOS.
+
+Considerazioni finali di un appassionato.
+
+Ogni volta che viene presentato un nuovo prodotto Apple, che sia l’**iPhone** o l’**Apple Watch** poco importa, si scatenano discussioni infinite sulla questione dell’innovazione software/hardware, sul fatto che il processore A8 non è un octo-core e che non viene indicata quanta memoria RAM possiede.
+
+“ Le persone non sanno ciò che vogliono finché glielo mostri ” diceva Steve Jobs e Henry Ford rincarava la dose dicendo “ Se avessi ascoltato i miei clienti, avrei dato loro un cavallo più veloce ” questo deve far riflette sul perché l’hardware dei prodotti Apple non è l’ultimo disponibile.
+
+È inutile avere un processore potentissimo, una quantità di RAM esagerata e un hard drive di ultima generazione se poi il sistema operativo che deve gestire il tutto non è perforante e non riesce ad adattarsi all’hardware che gli si presenta davanti.
+
+Apple, con i suoi prodotti, ha il pieno controllo dell’hardware e del software e sperimenta nuove tecnologie solamente se possono offrire un risultato utile all’utente.
+
+Leggo di centinaia di smartphone Android con processori potenti quanti quelli di computer desktop, memorie RAM ultra performanti e fotocamere eccezionali ma poi, una volta finito l’hype dell’hardware, ci si accorge che il software è lento, scattoso e spesso non pienamente ottimizzato con l’hardware su cui è installato.
+
+L’**iPhone** 6 è il dispositivo ideale se necessitate di uno smartphone bello, elegante, stabile, funzionante 24/7, e che non si blocchi “ogni tanto”.
+
+Stay Tuned.
+
+## Marco

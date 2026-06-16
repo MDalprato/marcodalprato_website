@@ -1,0 +1,31 @@
+---
+title: "iPhone e l’hotspot"
+date: "2013-12-15"
+slug: "2013-12-15-iphone-e-lhotspot"
+excerpt: "Una funzione forse non troppo conosciuta dell’iPhone è la possibile di creare un “Hotspot Wi-Fi”. Un “Hotspot Wi-Fi” altro non è che un punto di accesso al web: un comune..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Una funzione forse non troppo conosciuta dell’**iPhone** è la possibile di creare un “Hotspot **Wi-Fi**”.
+
+Un “Hotspot **Wi-Fi**” altro non è che un punto di accesso al web: un comune modem-router-accesspoint di quelli che trovate alla Comet è anche un hotspot **Wi-Fi** poiché la sua funzione è (anche) quella di generare un segnale **Wi-Fi** che permette a tutti i dispositivi connessi a quella rete di navigare nel web.
+
+Per poter sfruttare questa funzione è necessario che il device in questione possegga due cose: una connessione ad internet 3G e un modulo **Wi-Fi**.
+
+Come sapete l’**iPhone** possiede tutte e due queste feature ed è quindi è possibile sfruttarlo come un Hotspot **Wi-Fi**.
+
+I passi per attivarlo sono semplicissimi: Toccate l’icona “Impostazioni” Selezionate la voce “Hotspost Personale” Attivate lo switch vicino a l’opzione “Hotspot personale” Impostate una Password nell’opzione “Password **Wi-Fi**” Ora potete scegliere di collegarvi in tre modi differenti al vostro **iPhone**: Bluetooth, **Wi-Fi** o USB *.
+
+L’opzione “Hotspot Personale” presente nel menu “Impostazioni”.
+
+Ora il vostro **iPhone** è pronto a generare una rete **Wi-Fi** (io ho scelto questa opzione) per permettere al vostro Mac (o anche all’**iPad**) di farvi navigare nel web.
+
+Sul vostro Mac (o sul vostro dispositivo) s cegliete la rete **Wi-Fi** generata in precedenza e digitate la password che avete impostato sull’**iPhone**, aspettate qualche minuto e vedrete che il vostro device si collegherà alla rete **Wi-Fi** che avete scelto (lo capirete grazie al fatto che nella barra di stato del vostro mac comparirà un banner di colore blu con l’indicazione di quanti device sono connessi all’hotspot **Wi-Fi**).
+
+Il simbolo affianco all’icona della rete **Wi-Fi** indica che quella connessione è una connessione tethering.
+
+Ovviamente in questo modo sfrutterete la banda messa a disposizione dal vostro operatore telefonico e il traffico dati che avete disponibile.
+
+Consiglio pertanto di verificare quanti MB/GB avete disponibili al mese (o alla settimana) per evitare di “sforare” dalla soglia prestabilita (la navigazione web da un pc è decisamente più esosa in termini di dati rispetto a quella effettuata da un device mobile).
+
+PS: Parlare di Hotspot o Tethering è la stessa cosa.

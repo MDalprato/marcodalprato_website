@@ -1,0 +1,37 @@
+---
+title: "Come ridimensionare un’immagine con il Mac"
+date: "2013-08-28"
+slug: "2013-08-28-come-ridimensionare-una-immagine-con-il-mac"
+excerpt: "Una semplice funzione,forse banale per i più esperti in campo di editing delle immaginii, ma che io trovo utilissima è la possibilità di ridimensionare le immagini con..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Una semplice funzione,forse banale per i più esperti in campo di editing delle immaginii, ma che io trovo utilissima è la possibilità di ridimensionare le immagini con l’applicazione nativa “Anteprima” di **OS X**.
+
+Questa breve guida si riferisce ovviamente a tutti quegli utenti che non sono professionisti dell’elaborazione delle immagini (un po’ come me) ma che spesso, per vari motivi, hanno necessità di ridimensionare rapidamente un’immagine.
+
+Nativamente esiste un’applicazione nel Mac chiamata “Anteprima” che contiene al suo interno moltissimi strumenti utili tra i quali vi è anche la possibilità di ridimensionare un’immagine a nostra scelta senza dover installare software alternativi o modificare settaggi particolarmente complessi.
+
+Per poter ridimensionare correttamente un’immagine possiamo procedere in questo modo: Apriamo l’immagine che vogliamo modificare direttamente con “Anteprima” (Se non impostato di default, basta cliccare con il pulsante destro sopra la nostra immagine e selezionare l’opzione “Apri con -> Anteprima”).
+
+Apriamo la nostra immagine con Anteprima per OSX Ora che abbiamo aperto la nostra immagine dobbiamo cliccare su “Strumenti” e selezionare l’opzione “Regola dimensione …” Selezioniamo l’opzione “Regola dimensione” dal menu “Strumenti” A questo punto ci verrà fornita la possibilità di modificare la risoluzione della nostra foto.
+
+Come mostrato nella figura qui sotto, la nostra immagine era originariamente larga 4608×2592, con una risoluzione di 240 pixel.
+
+Le opzioni di ridimensione delle immagini presenti in Anteprima.
+
+Possiamo quindi scegliere di ridimensionare l’immagine ad una dimensione “standard” tra quelle già impostate (si trovano nel menu a tendina sotto la voce “Adatta a”) oppure di personalizzare la nostra risoluzione.
+
+Possiamo anche scegliere l’unità di misura più comoda per poter ridimensionare l’immagine (nel qual caso dovessimo impostarne una dimensione in pollici/centimetri per esempio) Ora che abbiamo configurato sia la risoluzione sia l’unità di misura possiamo confermare le modifiche premendo sul pulsante “Ok” e aspettare che l’immagine si ridimensioni (noterete che viene letteralmente “rimpicciolita” nello schermo).
+
+NB: Vicino alle due impostazioni di Altezza e Larghezza si trova l’icona di un lucchetto che letteralmente “vincola” la risoluzione in maniera proporzionale.
+
+Se volessimo invece impostare una risoluzione completamente personalizzata possiamo sbloccarlo (in questo caso, però, non verrà rispettato il form factor originale dell’immagine).
+
+Come potete vedere nell’immagine qui sotto, l’immagine ora ha una dimensione inferiore rispetto all’originale e possiamo quindi procedere salvandola.
+
+Per fare ciò basterà cliccare su “File -> Salva” (di default, comunque, Anteprima salva ogni modifica che viene effettuata all’immagine pertanto non è necessario salvare ogni modifica).
+
+L’immagine precedente è stata ridimensionata ed è pronta per essere utilizzata per il nostro scopo.
+
+Ora che abbiamo ottenuto e salvato la nostra foto, possiamo utilizzarla per fare qualsiasi cosa.

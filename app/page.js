@@ -1,45 +1,18 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-
-const navItems = [
-  { id: 'hero', label: 'Hero' },
-  { id: 'about', label: 'About me' },
-  { id: 'work', label: 'My work' },
-  { id: 'contact', label: 'Contact' }
-];
-
-const workItems = [
-  {
-    index: '01',
-    title: 'Digital systems',
-    description:
-      'Concept, frontend architecture and product direction for web experiences built to feel clear, fast and durable.'
-  },
-  {
-    index: '02',
-    title: 'Visual interfaces',
-    description:
-      'Minimal interfaces shaped by rhythm, typography and motion, with attention to spacing, interaction and pace.'
-  },
-  {
-    index: '03',
-    title: 'Code and detail',
-    description:
-      'From prototype to release, the work stays focused on performance, maintainability and coherent user experience.'
-  }
-];
-
-const preloadLogs = [
-  '[boot] mounting human interface layer...',
-  '[io] scanning /portfolio for aesthetically pleasing packets...',
-  '[gpu] calibrating subpixel drama matrix...',
-  '[cache] warming design tokens to operating temperature...',
-  '[ux] resolving typography dependencies...',
-  '[ship] build stable. preparing visual output...'
-];
+import { useLocale } from './components/LocaleProvider';
 
 export default function Home() {
+  const { messages } = useLocale();
+  const home = messages.home;
+  const navItems = [
+    { id: 'hero', label: home.sections.hero },
+    { id: 'about', label: home.sections.about },
+    { id: 'work', label: home.sections.work },
+    { id: 'blog', label: home.sections.blog },
+    { id: 'contact', label: home.sections.contact }
+  ];
   const shellRef = useRef(null);
   const [isExpanding, setIsExpanding] = useState(false);
   const [isReady, setIsReady] = useState(false);
@@ -82,7 +55,7 @@ export default function Home() {
 
     const logTimer = window.setInterval(() => {
       setLogIndex((current) => {
-        if (current >= preloadLogs.length - 1) {
+        if (current >= home.preloadLogs.length - 1) {
           return current;
         }
 
@@ -93,7 +66,7 @@ export default function Home() {
     return () => {
       window.clearInterval(logTimer);
     };
-  }, [isReady]);
+  }, [isReady, home.preloadLogs.length]);
 
   useEffect(() => {
     const applyHashScroll = () => {
@@ -182,7 +155,7 @@ export default function Home() {
         {!isExpanding ? (
           <div className="preloader__terminal">
             <span className="preloader__prompt">&gt;</span>
-            <span className="preloader__log">{preloadLogs[logIndex]}</span>
+            <span className="preloader__log">{home.preloadLogs[logIndex]}</span>
           </div>
         ) : null}
       </div>
@@ -193,7 +166,7 @@ export default function Home() {
       >
         <nav
           className={`section-rail${hoveredNav ? ' is-hovering' : ''}`}
-          aria-label="Section navigation"
+          aria-label={home.railLabel}
           onMouseLeave={() => setHoveredNav(null)}
         >
           {navItems.map((item) => (
@@ -231,33 +204,20 @@ export default function Home() {
         </section>
 
         <section id="about" className="panel panel--split">
-          <div className="panel-label">About me</div>
+          <div className="panel-label">{home.aboutTitle}</div>
           <div className="panel-content">
-            <p>
-              I work across design and development, shaping digital experiences that feel precise,
-              essential and direct.
-            </p>
-            <p>
-              My approach stays minimal on the surface and rigorous underneath, with attention to
-              motion, typography, structure and technical quality.
-            </p>
-            <p>
-              I am interested in interfaces that breathe, systems that scale, and products that do
-              not need noise to feel memorable.
-            </p>
-            <p>
-              Each project starts from clarity: what matters, what can be removed, and what should
-              remain visible.
-            </p>
+            {home.aboutParagraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
           </div>
         </section>
 
         <section id="work" className="panel">
           <div className="section-heading">
-            <span>My work</span>
+            <span>{home.workTitle}</span>
           </div>
           <div className="work-grid">
-            {workItems.map((item) => (
+            {home.workItems.map((item) => (
               <article key={item.index} className="work-card">
                 <span className="work-card__index">{item.index}</span>
                 <h2>{item.title}</h2>
@@ -267,9 +227,21 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="blog" className="panel panel--blog-home">
+          <div className="section-heading">
+            <span>{home.blogTitle}</span>
+          </div>
+          <div className="blog-home-callout">
+            <p>{home.blogParagraph}</p>
+            <a className="contact-link blog-home-callout__link" href="/blog">
+              {home.openArchive}
+            </a>
+          </div>
+        </section>
+
         <section id="contact" className="panel panel--contact">
           <div className="section-heading">
-            <span>Contact</span>
+            <span>{home.contactTitle}</span>
           </div>
           <a className="contact-link" href="mailto:marcodalprato@icloud.com">
             marcodalprato@icloud.com

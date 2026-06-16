@@ -1,0 +1,51 @@
+---
+title: "The Wolf of Wall Street"
+date: "2014-01-24"
+slug: "2014-01-24-the-wolf-of-wall-street"
+excerpt: "Ieri sera sono andato a vedere The Wolf of Wall Street al cinema in prima serata, ore 20.30; era da quando avevo letto la storia di Jordan Belfort che ho iniziato ad..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Ieri sera sono andato a vedere The Wolf of Wall Street al cinema in prima serata, ore 20.30; era da quando avevo letto la storia di Jordan Belfort che ho iniziato ad appassionarmi a questo “genio” di Wall Street.
+
+Il film mi è piaciuto e parecchio: la regia di Scorsese è perfetta, la sceneggiatura è magistrale e, ovviamente, Di Caprio sembra un indemoniato con giacca e cravatta capace di venderti la sabbia nel deserto.
+
+Sono tre ore (si avete capito bene il film dura centottanta fantastici minuti) di soldi, donne, tette, culi, auto costose, soldi, donne, tette, culi, auto costose, soldi, donne, tette, culi, yatch (la ripetizione non è un errore: ci sono veramente tanti soldi, donne e culi) e lusso sfrenato dove l’avidità è sovrana e i dollari sono il fine e non il mezzo.
+
+Se siete sentimentalisti o credete che i soldi servano solo per vivere evitate di guardarlo perché non vi piacerà ma se, invece, siete come me e credete che il denaro sia tutto nella vita … beh questo è il vostro film.
+
+Il primo paragone che viene naturale è quello con “Wall Street” e con il fantastico Gordon Gekko ma con una sostanziale differenza: Jordan Belfort esiste veramente e ha fatto praticamente tutto quello che vedete nel film (il libro, che sto leggendo ora, è forse meno esagerato ma il risultato è comunque un capolavoro di lussuria, avidità e superbia mescolata a dollari più verdi del prato di un campo da calcio).
+
+The Wolf of Wall Street è uno schiaffo diretto a chi crede che i soldi non siano la felicità, a chi è convinto che basti poco per essere felice: tutte strozate.
+
+I soldi sono belli, rendono felici e ti fanno fare tutto quello che vuoi, quando vuoi e senza dover mai dire “grazie” o “scusa il disturbo”.
+
+There’s no nobility in poverty.
+
+I’ve been rich and I’ve been poor, and I choose rich every fucking time.
+
+At least as a rich man, when I have to face my problems, I can show up in the back of a stretch limousine, wearing a two-thousand-dollar suit and a twenty-thousand-dollar gold watch!
+
+And, believe me, arriving in style makes your problems a helluva lot easier to deal with.”
+
+Jordan Belfort La parte più interessante di tutto “The Wolf of Wall Street” è il messaggio finale del registra dove non vengono criticati i modi di fare o il fatto di aver speso 450 mila dollari in un mese tra cene, pellicce e prostitute ma viene semplicemente mostrato uno spaccato della società yuppie degli anni 70/80.
+
+L’esagerazione, lo spreco e l’avidità sono dei valori da perseguire, da analizzare e da interiorizzare perché è solo con la realizzazione economica che una persona può definirsi tale.
+
+L’FBI è il male da combattere, la giustizia si compra e non esiste alcun settore dove i soldi non possono dire “la loro” e comprarti il silenzio di qualche giudice corrotto.
+
+La droga, la cocaina e lo sballo vengono raddoppiati anzi, vengono centuplicati e la mente umana si dissolve in un mix di Quallude e Alcool dove neppure il più forte degli uomini riesce a resistere.
+
+Fare soldi è bello ma farne di più è ancora meglio: il messaggio è ancora chiaro e sembra di sentire echeggiare lungo le strade di New York la voce di Gekko affermare che l’avidità è giusta (in inglese rende meglio: Greed is still good ).
+
+Il bello di questo film è l’assenza di una morale negativa, di disprezzo nei confronti di chi, seppur illegalmente, ha guadagnato milioni di dollari; non come spesso capita di vedere film mielosi e deprimenti dove chi va in giro in Ferrari è visto come un essere a-sentimentale e solo il poveraccio innamorato è l’unico vero protagonista.
+
+Al diavolo chi dice che i soldi non fanno la felicità e ancora di più a chi è convitino che spendere migliaia di euro in un’auto o in una casa sia uno sbaglio: i soldi sono fatti per essere spesi, spesi e ancora spesi.
+
+I soldi servono e servono sempre, Di Caprio e Scorsese questa volta meritano l’oscar ma il vero Belfort merita un inchino per essere riuscito a vendere il nulla a migliaia di persone e essere diventato talmente ricco da non sapere come fare a spendere tutti i suoi soldi.
+
+Ma sopratutto: provatemi a vendere questa penna (solo dopo aver visto il film capirete questa frase).
+
+Andatelo a vedere, merita tutti i soldi del biglietto.
+
+PS: cercate la visione in lingua originale, il doppiaggio in Italiano, come sempre è ridicolo.

@@ -1,0 +1,41 @@
+---
+title: "All I want for Christmas is an American Express Centurion"
+date: "2014-11-19"
+slug: "2014-11-19-want-christmas-american-express"
+excerpt: "Lo so che manca ancora un mese a Natale e che la temperatura esterna è tutt’altro che invernale (almeno qui in Romagna il freddo non è ancora arrivato) ma non potevo non fare..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Lo so che manca ancora un mese a Natale e che la temperatura esterna è tutt’altro che invernale (almeno qui in Romagna il freddo non è ancora arrivato) ma non potevo non fare un articolo sul Natale quest’anno.
+
+Sono passati due anni da quando ho creato questo sito ed è capitato che per lavoro o mancanza di tempo non riuscissi più a scrivere tanti post quanti mi piacerebbe fare, ma ora sono qui e finalmente parlerò di quello che sarà il mio Natale 2014.
+
+Se mi seguite su twitter (e se non lo fate correte subito ai ripari cliccando qui @ MDalprato ) sapete già che tra meno di tre settimane riparto (ci sono stato, per la prima volta, questo maggi0) per New York.
+
+Questa volta vado con i miei (sono riuscito, non so ancora bene come, a convincerli) e quindi vedrò New York con un’ottica differente rispetto al viaggio fatto in solitaria a metà anno.
+
+Ovviamente New York per Natale è uno di quei sogni talmente ricorrenti che difficilmente riuscirò a prendere sonno la settimana prima di partire …. diciamo che il Kevin McCallister che è in me si risveglierà.
+
+Cosa andrò a vedere questa volta?
+
+Sicuramente il MoMa e il Guggenheim Museum che non ho avuto modo di visitare l’altra volta; sosterò per ore davanti all’albero del Rockefeller Center come un ebete sognando di pattinarci davanti (non so fare a pattinare e non ho voglia di imparare) e gironzolerò per tutti i negozi meravigliandomi di quanto sia bello in consumismo quando è mischiato ad eventi “sacri” come il Natale (del significato del Natale non me ne è mai potuto fregare di meno).
+
+Natale è il periodo dei regali e della tredicesima che viene giustamente sperperata in oggetti assolutamente inutili e che non utilizerete mai più, per esempio se avessi 3000 € in più nel conto corrente non ci penserei due volte a comprare il DJI Inspire One per farlo volare attorno a casa rompendo le scatole ai vicini e riprendendo tutto in full HD.
+
+Sicuramente comprerò un’altra **Apple TV** da collegare al proiettore in camera (ebbene si, mi avete scoperto, ho comprato il proiettore in camera perché il Led da 47″ Philips iniziava a strami stretto … ) in modo da poter guardare i film come si deve.
+
+In questo periodo sono stato impegnato in una lotta all’ultimo sangue tra me e il modem ADSL netgear che mi ha abbandonato nel momento del bisogno facendomi bestemmiare per ben cinque giorni …. ne parlerò prossimamente in un post dedicato alle reti Apple.
+
+Ho poi comprato una telecamera D-Link DCS-2330L direttamente da Amazon per “mettere in sicurezza” l’ingresso di casa … appena ho tempo faccio una guida su come configurarla con una rete Apple.
+
+Prevedo inoltre, grandi acquisti da Abercrombie: devo rinnovare completamente l’armadio e quindi dovrò investire in jeans e maglioni.
+
+Ovviamente anche un paio di Jordan non mancheranno … il Nike store l’hanno inventato per questo no?!
+
+Per ora sto mandando avanti il progetto di Unlocator Updater, di Raspberry Pi come crono-termostato e sto anche pensando di estendere l’impianto di video-sorveglianza con altre due telecamere D-link.
+
+I wish you a merry christmas and an happy shopping.
+
+Stay Tuned.
+
+## Marco

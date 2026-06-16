@@ -1,0 +1,23 @@
+---
+title: "Cuffie Stereo AKG K511"
+date: "2012-11-21"
+slug: "2012-11-21-cuffie-stereo-akg-k511"
+excerpt: "Comprate circa un mese fa, le cuffie AKG K511 mi hanno da subito affascinato non tanto per le caratteristiche tecniche (In linea con la concorrenza) ma piuttosto per l’elevata..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Comprate circa un mese fa, le cuffie AKG K511 mi hanno da subito affascinato non tanto per le caratteristiche tecniche (In linea con la concorrenza) ma piuttosto per l’elevata qualità audio rapportata all’esiguo prezzo di acquisto.
+
+Le cuffie in questione sono delle normali cuffie Stereo, dotate di connettore Jack da 3,5 mm e di un’ampio padiglione per poter essere facilmente indossate da chiunque.
+
+Le caratteristiche tecniche sono le seguenti: Caratteristiche Audio Massima potenza di ingresso 200 mW Impedenza di ingresso 32 Ω Sensibilità 113 dB SPL/V Lunghezza del cavo audio di 2.50 metri Peso complessivo di circa 195 grammi Colore nero Dal punto di vista tecnico ci troviamo di fronte ad una normale cuffia Stereo, con un’ottima potenza di uscita (200 mW) considerando l’elevato isolamento acustico (i padiglioni sigillano perfettamente i rumori esterni senza essere invadenti e senza l’affaticamento che si prova ad utilizzare normali cuffie In-ear ).
+
+L’impedenza di ingresso è in linea con tutte le altre cuffie e soprattutto, non crea fastidiosi brusii di sottofondo durante l’utilizzo con il Mac o con l’**iPhone**/**iPad** (Evento che può capitare se l’impedenza d’ingresso è troppo bassa o troppo elevata).
+
+La lunghezza del cavo è nella media, 250 cm di cavo sono più che sufficienti per poter ascoltare la musica dal Mac o dall’impianto stereo di casa (nel caso di ascolto in cuffia della televisione è forse necessario l’utilizzo di una prolunga audio).
+
+La confezione è ben curata e all’interno, oltre alle cuffie, troviamo un’adattatore Jack audio da 3.5 mm a 5 mm utile nel caso fossimo in possesso di uno stereo o di un amplificatore Hi-Fi dotato di tale uscita.
+
+Il prezzo è di 45 € Iva compresa, giustificati dall’ottima fattura e dall’elevata qualità audio.
+
+Ovviamente, non sono cuffie audio professionali o Hi-End, ma per ascoltare la musica o per apprezzare la nitidezza della voce dei protagonisti del vostro film preferito è la cuffia ideale.

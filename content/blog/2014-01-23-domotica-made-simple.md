@@ -1,0 +1,73 @@
+---
+title: "Domotica made simple"
+date: "2014-01-23"
+slug: "2014-01-23-domotica-made-simple"
+excerpt: "At a Glance La Domotica sta lentamente iniziando a diffondersi nelle nostre case e negli uffici, affacciandosi in un mercato che, almeno in Italia, è rimasto di nicchia per..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+At a Glance La Domotica sta lentamente iniziando a diffondersi nelle nostre case e negli uffici, affacciandosi in un mercato che, almeno in Italia, è rimasto di nicchia per troppo tempo.
+
+Sarà per colpa dell’alto costo di un impianto di domotica, sarà per la difficoltà di dover “stravolgere” l’impianto di casa esistente ma la domotica è sempre stata relegata alle ville più moderne o alle industrie più tecnologicamente avanzate.
+
+Fortunatamente l’evoluzione tecnologica, la diminuzione del costo dei componenti e la facilità di programmazione dei chip elettronici più complessi sta lentamente dando alla luce dispositivi elettronici “intelligenti” e capaci di ricevere dati in ingresso, modificarli secondo regole pre-impostabili e “far uscire” comandi elettronici che possano controllare e modificare il funzionamento di altri dispositivi.
+
+Tra i vari prodotti che troverete in rete ce n’è uno in particolare con cui ho avuto modo di lavorare ed è l’ Arteco Everywhere.
+
+In pratica è uno box di plastica grande quanto un disco rigido esterno (di quelli da 3,5 pollici) con una serie di connettori posti da un lato che permettono di collegarlo con la rete LAN di casa (attraverso il classico connettore Ethernet RJ45) e con i vari dispositivi elettronici da controllare/comandare.
+
+Il funzionamento è semplicissimo: lo collegate all’alimentazione elettrica (12 Volt in continua che potete ottenere direttamente dal trasformatore presente nella scatola o con un trasformatore di quelli da pannello elettrico), gli fornite la connettività a Internet (non è fondamentale che navighi sul web ma senza vi perdete buona parte del divertimento) e collegate quello che volete alle uscite e agli ingressi.
+
+Una volta fatte queste semplici operazioni siete pronti per poter utilizzare il modulo come, dove e quando volete senza bisogno di installare alcun software: funziona tutto via web.
+
+Just an idea Per darvi l’idea delle potenzialità che questo dispositivo può offrire e del campo di applicazione in cui può lavorare qui sotto ho schematizzato l’idea di come poter procedere per realizzare un semplice circuito di controllo per quattro garage.
+
+Nel progetto reale (esiste una versione dello schema che vedete qui sopra funzionante e fisicamente attiva 24h/24h) i “Portoni/Gate” sono dei portoni “basculanti” dal peso consistente e azionati tramite motori elettrici che, una volta in funzione, consumano un notevole quantitativo di energia (Sono alimentati a 220 Volt e consumano circa 10 Ampere una volta in funzione).
+
+Lo scopo del progetto era quello di controllare i quattro portoni direttamente dall’**iPhone** (ma anche dal Mac, dal PC o da Linux) per poterli aprire/chiudere da remoto senza la necessità di dover utilizzare quattro telecomandi diversi ed eventualmente per poter disattivare l’alimentazione a tutti e quattro i portoni in caso di “allarme generale” (nel progetto è previsto anche un quinto relè che disabilità l’alimentazione a 220V direttamente a monte dei relè).
+
+Per attivare i portoni sono stati utilizzati quattro relè da pannello DIN (tipo questi ) che permettono di attivare carichi molto più energivori rispetto a quelli comandabili direttamente dai relè del modulo Everywhere (la massima tensione che i relè interni possono sopportare è di 220V con una corrente di 1 Ampere per un totale massimo di circa 220W per uscita).
+
+Per l’alimentazione del modulo è stato utilizzato un trasformatore da pannello DIN ( tipo questo ) che fornisce 12 Volt in tensione continua (il modulo è alimentabile sia a 12 che a 24 Volt in DC) e che, oltre ad attivare il modulo serve ad eccitare i relè di uscita (come si vede dallo schema sopra).
+
+I contatti di uscita del modulo sono normalmente aperti (conosciuti come contatti “puliti”) quindi possono essere utilizzati per interrompere o chiudere un qualsiasi circuito elettronico; nel caso specifico vengono utilizzati per chiudere i negativi dei relè.
+
+PS: ho sempre parlato di modulo DIN perché il modulo Everywhere è predisposto per poter essere attaccato alla barra in questione (se non sapete cosa è, cercate il limitatore di casa vostra e vedrete che è collegato ad una barra DIN) Working on … Il funzionamento è quindi molto semplice: l’output 1 del modulo viene attivato dall’**iPhone** (o da qualsiasi browser web).
+
+Il corrispondente relè 1 di uscita (quello integrato dentro al modulo) chiude i sue contatti.
+
+Il relè esterno 1 si trova a ricevere sia la tensione positiva (+, rossa) del trasformatore, sia la tensione “negativa” (-, nera) e quindi a “chiudere” i suoi contatti interni.
+
+Il circuito di attivazione 1 del garage 1 si trova quindi ad essere alimentato e di conseguenza azionerà il motore.
+
+Ovviamente l’esempio che ho riportato qui sopra è schematico e ipotizza un collegamento diretto tra motore e relè di comando ma, nel 99% dei circuiti di controllo per portoni, cancelli o garage esiste sempre un ingresso ausiliare che permette di controllare dall’esterno il cancello (nel caso non esista alcun ingresso ausiliare si utilizzano i contatti della chiave esterna del cancello).
+
+Proprio grazie a questo ingresso ausiliare è stato possibile controllare i portoni in tutti i loro stati: Attivando la prima volta l’uscita il portone si apre (se chiuso) / si chiude (se aperto).
+
+Attivando l’uscita mentre il portone si sta aprendo / chiudendo è possibile “bloccarlo” nella sua posizione attuale.
+
+Quindi grazie all’ingresso ausiliare nell’automazione (o utilizzando i contatti della chiave in “parallelo”) è possibile sostituire completamente le funzioni del telecomando che normalmente viene utilizzato per attivare il cancello/portone.
+
+Nel progetto iniziale, come ho già detto, è stato previsto anche un quinto “pulsante” che, una volta attivato disattiva l’alimentazione di tutti e quattro i garage (questa funzione è comoda se si vuole evitare che qualcuno possa accendere i portoni senza l’autorizzazione del proprietario).
+
+Inside the Box Il modulo Everywhere vi arriverà direttamente dentro ad una scatola con CD (contenente manuali ed info varie) e alimentatore da 220 a 12 volt.
+
+Configuration Per darvi un’idea di come si presenta il modulo e di cosa è capace qui sotto travate un po’ di screenshot dell’interfaccia web.
+
+Board Configuration Nello screenshot sopra trovate la configurazione di base, dove è possibile impostare i parametri della rete (IP, Gateway, SM e DNS) oltre a poter impostare un nome univoco del modulo (per esempio “Modulo Garage Porsche”).
+
+Qui sotto invece, trovate la pagina di controllo vera e propria dove è possibile leggere lo stato degli ingressi (ON/OFF) e attivare le uscite secondo varie possibilità (ON/OFF permanente, Lampeggio e pulsazione) con il relativo feedback dello stato dell’uscita.
+
+Input / Output Status & Control Attraverso la pagina “Dynamic DNS” è possibile impostare un DNS dinamico che permette (dopo la registrazione presso uno dei vari servizi disponibili online) di raggiungere il modulo da qualsiasi parte del mondo inserendo semplicemente un indirizzo web: per esempio http:\modulo-garage-porsche-marco.no-ip.biz.
+
+Questa funzione è fondamentale se avete una normale linea ADSL (tipo Alice) che non fornisce un indirizzo IP statico e che quindi non vi permetterebbe di raggiungere in qualsiasi momento il vostro modulo.
+
+Configurazione DNS dinamico L’ultima screenshot (forse la più interessante) è quella riguardante la configurazione degli I/O direttamente dal modulo.
+
+In questo caso gli output possono essere impostati come “Switch” (interruttori) o come “Button” (pulsanti);la differenza è molto semplice: nel primo caso l’uscita rimane alta fino a quando non viene spenta, nel secondo caso rimane alta solo per un breve istante, per poi ritornare allo stato “off”.
+
+Questa configurazione è utile, per esempio, se dovete comandare un relè passo passo: se l’uscita fosse impostata in modalità “switch” la bobina del relè sarebbe sempre sotto tensione e si rischierebbe di bruciarla; impostandola in modalità “button”, invece, la bobina rimane attiva solo per il tempo necessario all’attivazione del relè.
+
+Advanced I/O What’s next … Le possibili implementazioni con un modulo di questo tipo sono pressoché infinite: domotica, automazione, gestione di impianti solari, controllo dell’irrigazione di casa ecc … Se volete maggiori informazioni qui trovate tutte le informazioni sul modulo Everywhere mentre qui trovate il datasheet del modulo con tutte le informazioni a riguardo.
+
+Se volete approfondire il discorso domotica e automazione qui trovate un mio vecchio post dove tratto questi argomenti.

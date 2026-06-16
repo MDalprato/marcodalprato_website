@@ -1,0 +1,145 @@
+---
+title: "Configurare l’Airport Express"
+date: "2014-07-13"
+slug: "2014-07-13-configurare-lairport-express"
+excerpt: "Nella mia guida precedente ho spiegato come Configurare la base Airport Extreme mentre in questa guida voglio cercare di indicare come configurare ed impostare nel modo più..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+Nella mia guida precedente ho spiegato come Configurare la base **Airport Extreme** mentre in questa guida voglio cercare di indicare come configurare ed impostare nel modo più corretto la base più piccola tra quelle della famiglia Airport.
+
+L’**Airport Express**, come molti di voi sapranno, è il dispositivo della gamma Airport probabilmente più comodo per la realizzazione di una rete di diffusione audio con **Airplay** senza dover utilizzare dispositivi proprietari di altri Brand.
+
+Le sue dimensioni sono modeste, il design è gradevole e il form factor (anche nell’ultima generazione) è particolarmente comodo per poter essere affiancato a stereo Hi-Fi o a televisioni di ultima generazione.
+
+Con l’ultima versione (introdotta nel 2012) è possibile sfruttare la base non solo per estendere una rete **Wi-Fi** esistente ma anche per creare una vera e propria rete **Wi-Fi** senza dover utilizzare una base Extreme o un **Time Capsule**.
+
+Utilizzando la porta WAN (se avete già letto la mia guida precedente sulla base Extreme sapete di cosa sto parlando) è possibile collegare direttamente alla base l’uscita di un modem ADSL per poter trasformare l’express in un vero e proprio router/access point.
+
+Design e connessioni La base Express, come ho già detto, si presenta con un design snello, esteticamente pulito e molto comodo da poter essere installato praticamente ovunque.
+
+Le dimensioni della base sono praticamente le stesse di un’**Apple TV** di ultima generazione e la facilità di configurazione è impressionante (dimenticatevi i vari router/access point odiosi da configurare con stupide password e centinaia di impostazioni che nessuno conosce).
+
+Per informazioni maggiori sui vari collegamenti presenti sul retro dell’AirPort Express questo è il link ufficiale del supporto Apple.
+
+Come potete vedere nella foto qui sotto, i connettori totali sono cinque e per chi se lo stesso chiedendo, quel piccolo pulsante presente sopra il connettore audio è il pulsante per il reset della base (se siete nel panico completo, tenetelo premuto per almeno 10 secondi e la base tornerà esattamente come quando l’avete comprata).
+
+Come tutte le base Airport anche l’Express è configurabile direttamente da iOS (quindi **iPhone**, **iPad** e compagnia bella) ma anche dall’applicazione nativa di OSX (Utility Airport) e questo rende estremamente semplice riuscire a configurare la base anche senza avere particolari conoscenze tecniche.
+
+Esattamente come accade con la base Extreme, anche la base Express può essere utilizzata per creare un network **Wi-Fi** o estenderne uno già presente.
+
+Nota importante: In molti mi chiedono se sia possibile o meno estendere il proprio segnale **Wi-Fi** generato da un access point non Apple utilizzando l’**Airport Express**.
+
+Non ho mai provato a configurare una base Apple per estendere un **Wi-Fi** non Apple e non so se funziona/con quali svantaggi pertanto il mio consiglio è quello di utilizzare SOLO prodotti Apple o SOLO prodotti di altre marche se volete estendere la vostra rete **Wi-Fi**.
+
+“Mischiare” l’estensione **Wi-Fi** utilizzando prodotti Apple e magari un router non Apple potrebbe rendere la rete instabile e creare qualche problema al network stesso.
+
+Ovviamente, avendo la possibilità di utilizzare questa base in due modi (come access point/router o come **Wi-Fi** extender) la configurazione seguirà gli stessi concetti con la quale viene configurata la base Extreme (o il TM).
+
+Considerando sia il costo sia la semplicità d’uso ho deciso di scrivere questa guida cercando di esprimere concetti semplici, chiari e senza entrare troppo nei dettagli tecnici in modo che chiunque possa configurarsi la propria base senza dover perdere troppo tempo tra configurazioni e nozioni tecniche che spesso non interessano.
+
+Per prima cosa è necessario stabilire se dovete configurare la base come **Wi-Fi** Extender o come access point/router, fatto questo potete seguire una delle due guide che trovate qui sotto.
+
+Nota: In tutte e due le configurazioni l’**Airport Express** potrà comunque essere utilizzata come punto di accesso “**Airplay**” per riprodurre la musica in streaming da OSX/iOS e alla condivisione di un’eventuale stampante collegata alla porta USB della base.
+
+**Airport Express** come Network Extender Per utilizzare l’**Airport Express** come Network Extender è necessario conoscere il funzionamento base di questa funzione.
+
+Un Network Extender è un dispositivo che, dopo essersi “agganciato” ad una rete **Wi-Fi** esistente, ne innalza il segnale diffondendolo attorno a se.
+
+Tale funzione è molto utile se necessitiamo di allargare la portata effettiva della nostra rete **Wi-Fi** senza dover creare più reti con SSID differenti (L’SSID è in nome della rete **Wi-Fi**).
+
+Partendo dal presupposto che abbiate già una rete **Wi-Fi** creata in precedenza ( magari avete seguito la mia guida ) estendere una rete **Wi-Fi** è molto semplice.
+
+Accendete la vostra base Airport e attendete fino a quando noterete che il led anteriore inizia a lampeggiare di arancione; questo vuol dire che la base è pronta per poter esse configurata.
+
+Con le nuove versioni di iOS è possibile configurare le basi Airport direttamente da **iPhone**/**iPad** senza dover necessariamente utilizzare il Mac ma per una questione di praticità preferisco spiegare come configurare una base drittamente dall’applicazione “Utility Airport” che troverete nel vostro Mac.
+
+La prima operazione da fare è quella di aprire, appunto, l’applicazione “Utility Airport” e cliccare sul pulsante presente in alto a sinistra dello schermo chiamato “Altri dispositivi **Wi-Fi**”.
+
+Una volta selezionato dovrebbe comprativi un “(1)” di fianco al testo “Altri dispositivi **Wi-Fi**” e sotto la voce del menu “Nuove basi Airport” dovreste trovare un codice del del tipo “AirPort Express XaXXXX”.
+
+Selezionate la nuova base e attendente qualche secondo prima che Utility Airport vi chieda come configurare la vostra nuova base.
+
+Le opzioni che avrete saranno: Crea un nuovo network (possibile solo con la nuova base Airport) Aggiungi a un network esistente Sostituisci un dispositivo esistente Ripristina le impostazioni precedenti Ovviamente l’opzione che a noi interessa in questa prima fase di configurazione è “Aggiungi a un network esistente”, selezioniamo quindi questa opzione e attendiamo che l’applicazione inizi la configurazione automatica della base.
+
+Dopo qualche secondo vi verranno chieste le informazioni della nostra rete **Wi-Fi** quali: SSID (il nome della rete), tipo di protezione (WPA, WPA2 ecc…) e ovviamente la password del nostro Network.
+
+Il tempo di accedere alla rete esistente e la nostra base è pronta per poter essere utilizzata (ovviamente vi verrà anche chiesto di “nominare” la base in modo da poterla riconoscere all’interno della rete di casa/ufficio).
+
+A questo punto il led posto frontalmente dovrebbe cambiare da arancione lampeggiante a verde fisso e da questo momento in po’ la vostra rete **Wi-Fi** sarà estesa dall’AirPort Express.
+
+Se provate ad accedere direttamente da Utility Airport nelle impostazioni della base noterete che essa permette molte più configurazioni rispetto a quelle “base” che avete dovuto configurare nella prima installazione.
+
+Troverete quindi come prima informazione (semplicemente cliccando sull’icona della base Airport) il network alla quale è connessa (o che sta creando), la qualità della connessione, l’indirizzo IP, il numero di serie e la versione software.
+
+Un’importante informazione è data dall’ultima voce “client wireless” dove sono elencati tutti i dispositivi **Wi-Fi** che sono attualmente collegati alla base (posizionando l’icona nel mouse su uno dei vari device elencati verranno mostrate informazioni aggiuntive).
+
+Se cliccate sulla voce “Modifica” si aprirà un menu simile a quello che vedete nella pagina qui sotto: Il riquadro rosso si riferisce al nome della base AirPort (necessario per “ritrovarla” tra le varie risorse di rete) e la password del dispositivo.
+
+Piccola nota: la password del dispositivo NON è la password della rete **Wi-Fi** ma è la password necessaria per poter accedere e modificare le impostazioni della base.
+
+Il riquadro verde, invece, si riferisce alla funzione “Back to my Mac” che ho già ampiamente analizzato nel mio post.
+
+Nella pagina successiva, invece, trovano posto tutte le impostazioni di rete quali la modalità di connessione, l’indirizzo IP, il gateway e i DNS.
+
+Se non avete particolari necessità causate dalla configurazione della vostra rete potete tranquillamente impostare la voce “Connessione via” in modalità “DHCP” poiché questo permette alla base AirPort di ricercare autonomamente un indirizzo IP libero all’interno della vostra rete e di attribuirlo alla base senza dover configurare nulla di particolare.
+
+Dal punto di vista Apple (quindi OSX o iOS) non vi sono problemi ad utilizzare la modalità DHCP per le basi Airport mentre sorgono alcuni problemi se convivono sistemi OSX e sistemi Windows nella stessa rete.
+
+Come ho già spiegato precedentemente la base AirPort Extreme ed Express sono le uniche in grado di supportare una stampante USB e questo rende necessario impostare la base con un indirizzo IP statico poiché altrimenti Windows non troverebbe più la stampante di rete dato che, per sua natura, ha necessità di conoscere l’indirizzo IP della stampante (OSX, invece, non ne ha bisogno).
+
+Ricapitolando: se volete essere precisi e realizzare una rete ad hoc potete stabilire che le basi AirPort abbiano tutte un indirizzo IP incrementale pertanto la prima base AirPort avrà l’IP 192.168.1.2, la seconda 192.168.1.3 e così via.
+
+Per chi non lo sapesse, l’indirizzo IP ottenuto utilizzando il DHCP rimane valido fino a quando il dispositivo in un questione non fa più parte della rete nativa (per esempio a causa di un riavvio).
+
+Pertanto se non avete stampanti collegate alla base e/o avete sistemi OSX o iOS potete tenere tutto in DHCP altrimenti il mio consiglio è quello di utilizzare indirizzi IP statici (mantenete SEMPRE un ordine sequenziale).
+
+Nella pagina successiva troverete le impostazioni che riguardano la rete Wireless.
+
+Potrete quindi decidere il comportamento della base cambiando l’opzione “Modalità Network” (nel nostro caso sarà impostata in “Estendi un network wireless” e inserire i dati di riferimento necessari per accedere al **Wi-Fi** in questione.
+
+Cliccando su “Opzioni wireless …” potete attivare o disattivare la modalità a 5GHz che permette di evitare eventuali interferenze esterne (leggete questo post per capire qualcosa in più riguardo la differenza tra i 2.4 e 5 GHz).
+
+La pagina successiva chiamata “Network” sarà ovviamente completamente disabilitata poiché la base in questione è impostata in modalità di Extender pertanto tutte le impostazioni di NAT e di routing saranno da impostare sulla base AirPort che genera il segnale **Wi-Fi** (il master).
+
+Se, invece, avete impostato la base come “creatore” di rete **Wi-Fi** troverete la spiegazione di queste impostazioni nel capitolo successivo.
+
+L’ultima voce non meno importante delle altre riguarda il protocollo **Airplay** che come ho già spiegato più volte permette di diffondere la musica proveniente da un dispositivo OSX o iOS verso uno stereo collegato alla base AirPort.
+
+**Airport Express** come Router/Access Point La seconda parte di questa guida riguarda la configurazione della base AirPort come un router/Access Point.
+
+Questa configurazione è molto utile se non avete una base AirPort Extreme o **Time Capsule** ma volete comunque poter sfruttare le potenzialità offerte dalle reti Apple.
+
+Ovviamente la prima configurazione da fare sarà quella impostare la base in modo da creare un nuovo network e di collegare il nostro modem ADSL direttamente nella porta WAN dell’AirPort Express.
+
+La porta WAN, come vedete dall’immagine che si trova all’inizio del post, è la prima a sinistra e si differenzia dall’altra porta per il simbolo rappresentante un cerchio.
+
+Se avete un normale modem ADSL (quindi che ha solo una porta di ingresso telefonica e una porta di uscita Ethernet) vi basterà collegare la porta Ethernet del modem alla porta WAN dell’AirPort Express.
+
+Ovviamente vi verranno richieste le informazioni necessarie per poter far dialogare l’AirPort con il modem e di conseguenza con la rete Internet.
+
+Come vedete nell’immagine qui sopra, se configurata in modalità “PPPoE” la base necessità di alcune informazioni necessarie per poter connettersi all’operatore di rete.
+
+Nel caso in cui abbiate Alice (di Telecom Italia) i dati sono “aliceadsl” sia per la password sia per il nome account (Il Nome del servizio è opzionale e serve solo come identificativo, nel mio caso ho scritto “Alice”).
+
+Un’opzione molto importante che spesso viene tralasciata riguarda i Server DNS; potete utilizzare quelli forniti da Telecom Italia (per farlo basta lasciare vuoti i campi, verranno auto-compialti dall’AirPort) oppure quelli di Google che personalmente prediligo (DNS1: 8.8.8.8, DNS2: 8.8.4.4).
+
+Utilizzando la base come generatore di segnale e non come Extender avrete la possibilità di modificare la voce “Modaltà router” e di impostarla come “DHCP e NAT” (potete anche attivare la sola modalità DHCP).
+
+Nota: Se precedentemente parlavo di DHCP lato client, ora sto parlando di DHCP lato Server.
+
+In questo specifico caso non è la base a ottenere un indirizzo IP ma è lei che svolge la funzione di master e che decide quale indirizzo IP attribuire e a quale dispositivo.
+
+In pratica la base Airport impostata in questo modo riceve le richiese di connessione da parte dei vari device presenti nella rete e attribuisce i vari indirizzi IP liberi poiché conosce com’è strutturata l’intera rete.
+
+La funzione NAT, invece, serve per poter controllare quali porte di rete devono essere parte/chiuse per poter permettere a determinati software di comunicare con la rete Internet (ebbene si, se siete fan dei download via torrent è qui che dovete aprire le porte).
+
+Direi che siamo arrivati alla fine di questa guida riguardante l’AirPort Express.
+
+Come sempre se avete chiarimenti da chiedere o suggerimenti da dare commentate pure qui sotto.
+
+Stay Tuned.
+
+Waiting for September (New Mac and New **iPhone**!).
+
+## Marco

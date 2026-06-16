@@ -14,7 +14,7 @@ export default function AboutLayout({ children }) {
           fallback={
             <nav className="site-nav" aria-label="Main">
               <Link className="site-nav__link" href="/blog">
-                Posts
+                Blog
               </Link>
               <Link className="site-nav__link is-active" href="/about">
                 About

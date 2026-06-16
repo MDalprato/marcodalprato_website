@@ -1,0 +1,75 @@
+---
+title: "How to watch Netflix US … Outside the US"
+date: "2014-07-23"
+slug: "2014-07-23-how-to-watch-netflix-us-outside-the-us"
+excerpt: "There are several reasons that could push someone to create a US Netflix account outside the US but the most important one is that he isn’t physically in the US and he wants..."
+image: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&w=1600&q=80"
+---
+
+There are several reasons that could push someone to create a US **Netflix** account outside the US but the most important one is that he isn’t physically in the US and he wants to enjoy **Netflix**.
+
+I’m thinking about all the workers outside the US that are currently working in Europe for some months (or maybe years), US citizens that are in Italy (or in others countries) for an holiday and they want to watch the last episode of “House of Cards” or “Orange is the new black”.
+
+From my side I need to watch **Netflix** US outside the US because in Italy (but it is an European problem) there aren’t any services that are like **Netflix** (Sky online and Mediaset infinity are poor in quality and in quantity of movies/tv series).
+
+I don’t know when (and if) **Netflix** will come in our Country ( it’s the same situation with Starbucks ) but I’m sure that it will the day after I die.
+
+Six months ago I decided to change my life ( really, **Netflix** will change your life ) and I tried to configure my Mac to work with **Netflix** (and all the other american websites such as HBO, ABC … ).
+
+To watch **Netflix** outside the US you need a few of things: A valid Credit Card (Visa or MasterCard or AMEX …) An account on Unlocator (or something like that) The device (or devices) that you want use with **Netflix** (such as **Apple TV**, Mac, **iPhone**, Android … Windows and a stuff like that).
+
+Two minutes of your time (this is how is needed to set the configuration).
+
+Don’t worry if you don’t have some of the points above, I’ll tell you how to do every single step.
+
+Create an Unlocator account and configure the DNS First step go to Unlocator.com, fill the email and the password boxes and click on “Create my free account”: now you have a 7 days free account that you can use to “hide” your geographical location.
+
+Unlocator is a service that uses two DNS (a DNS is a Domain Name System and as Wikipedia says is a hierarchical distributed naming system for computers) to “hide” your geographical location and to allow you to connect to all the websites that otherwise will be blocked (such as **Netflix**, HBO, ABC … ) Unfortunately if you have a standard DSL plan you also have a dynamic IP (An IP is an univocal number that identify your computer inside the Web) that change frequently.
+
+The only way for Unlocator to works fine is to match your account, your DNS configuration and your IP at the same time but if, as I said before, the IP as changed Unlocator can’t know who you are.
+
+For that reason the most important thing to do is to match your IP with your Unlocator account and to do that you have to go to your personal account page ( This one ) and check the three status icons: if every icon is green your configuration is right and you can proceed to create a brand new **Netflix** account (but I’m sure that the DNS icon is still red).
+
+As I said before you have to change your network settings and use the two Unlocator DNS: to do that you can follow this simple guide (It’s only for OSX but you can change the DNS settings directly on your router): Open the OSX Preference Panel.
+
+Select “Network”.
+
+Select, form the list on the left of the panel, your connection mode (**Wi-Fi**, Ethernet …).
+
+Click on “Advanced” (it’s a button on the bottom-right of the panel).
+
+Select the tab “DNS” (at the top of the panel).
+
+Click on the plus (+) button and digit 185.37.37.37 Click another time on the plus (+) button and digit 185.37.37.185 Click on “Ok” Close the Preference Panel.
+
+Now you’re done and if you take a look on your Unlocator account page you should have three green icons.
+
+Now we have reached our first goal and we can start the creation of a brand new **Netflix** account; to do that finally go to www.netflix.com and if everything goes right you can finally see the **Netflix**’s Home Page.
+
+Now you should be able to read all the stuff about **Netflix** that are on the Home page and finally you’ll be able to create a new account.
+
+Creating a **Netflix** account The only thing that you need to create an account is a valid credit card (I started with a pre-payed card but now I use a common MasterCard).
+
+First thing: click on “Start your free month” button that you can find in the **Netflix**’s Home Page.
+
+You will be take into another page where you should fill the email and password box and click on “Register”.
+
+Now **Netflix** will ask you a few of information about you: your address, your name and your credit card.
+
+One of the most important thing to check is the ZIP code that should be something like 90210 (I know, it’s the Beverly Hills’ ZIP Code) After all this boring stuff you should be able to register yourself on **Netflix** and enjoy the first free month (you’ll receive a charge of some euros on your credit card, don’t worry is absolutely normal).
+
+Last but not least Do you remember when I talked about the three green icons that you should be able to see on your unlocator home page?Perfect, if you watch that page you can see that there is an icon called “IP” that show your current IP address.
+
+This row is one of the most important because it’s based on your current IP address and if it changes, unlocator can’t check your current status and it can’t allow you to “hide” your location.
+
+If you have a business plan maybe you also have a static IP: in that case you haven’t any problems otherwise if you have a standard Internet connection (like me) your IP will change sometimes because is a dynamic IP.
+
+To bypass this problem you can use my program ( Unlocator Updated ) that auto-update your IP every time that is needed otherwise you have to manually update your IP every time that it changed.
+
+Now you can finally use **Netflix** without problem.
+
+If you need help you can post a comments below this post or you can send me an email.
+
+PS: Still sorry for my english, if you find some grammar error send me an email Thanks Stay Tuned.
+
+Marco.
