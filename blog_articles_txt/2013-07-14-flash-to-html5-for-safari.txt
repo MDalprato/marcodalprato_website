@@ -1,0 +1,30 @@
+14/07/2013 - Flash to HTML5 for Safari
+
+Il 90% della popolazione mondiale probabilmente non sa che differenza ci sia tra HTML5 e Adobe Flash.
+Sicuramente molti di voi invece sapranno che Adobe Flash non è presente nei device Apple, che c’è
+stata una “guerra” tra Steve Jobs e Adobe Flash e che alla fine (come quasi sempre) Steve aveva visto giusto e attualmente Adobe Flash sta lentamente scomparendo da ogni sito web e da ogni piattaforma (anche da quelle mobili).
+Adobe Flash (come dice
+Wikipedia
+) è in pratica un software utilizzato per realizzare animazioni (semplici e complesse) sfruttare prevalentemente nel web.
+Indifferentemente dal Computer che possedete (sia esso un Mac, PC o Linux) sicuramente vi sarete accorti che alcune pagine web (Youtube, Ebay, Amazon ecc…) impiegano molto tempo a caricarsi proprio per colpa del plugin aggiuntivo di Adobe.
+L’HTML5 è un formato standard che si sta attualmente evolvendo e che moltissimi siti web stanno iniziando a implementare.
+I vantaggi sono enormi, primo su tutti la perfetta compatibilità tra tutti i vari sistemi operativi disponibili : basta un browser web abbastanza recente.
+L’HTML funziona su OSX, iOS, Linux, Android, Windows, Fedora, Ubuntu, Chrome OS ecc… indifferentemente dal sistema operativo.
+L’unica applicazione necessaria è il proprio browser web.
+Un esempio su tutti : con il vostro iPhone, Ipad, Android e/o Windows Phone andate a
+questo indirizzo web
+e vi ritroverete un’applicazione Meteo gratuita, in HTML5 e perfettamente compatibile con ogni tipo di dispositivo mobile.
+Ritornando al discorso Flash vs HTML5, ieri sera ho trovato un fantastico plugin aggiuntivo per Safari e OSX che permette di auto-convertire in HTML5 (non è una vera conversione ma una semplice “estrapolazione”) ogni video che YouTube vuole farci vedere in Flash.
+Il plugin si chiama
+Flash to HTML5
+e lo scaricate qui :
+FlashToHTML5 2.7
+.
+Procedete cosi :
+Eliminate Adobe Flash dal Mac (se non lo avete già fatto)
+tanto non vi serve a nulla.
+Installate il plugin.
+Ora potete vedere ogni video di YouTube in HTML5 e la CPU del vostro Mac vi ringrazierà per non dover più ricodificare i video a 1080p in swf.
+Da ora in poi, senza Flash, vi accorgerete che ogni sito sarà più veloce, rapido e vuoto da quegli inutili e odiosi banner pubblicitari.
+Alla prossima.
+Stay tuned.

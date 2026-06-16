@@ -1,0 +1,78 @@
+03/12/2013 - Solid State Drive
+
+Per sua natura la tecnologia tende ad avanzare e progredire velocemente specialmente se riguarda l’informatica e l’elettronica.
+Per quasi trent’anni i dischi rigidi a “piatti” sono sempre stati un
+punto di riferimento nel mercato dell’informatica e la loro evoluzione ha inciso in maniera marcata sulla capacità di archiviazione rispetto alle pure prestazioni di velocità.
+Per capire meglio di cosa sto parlando è necessario comprendere come funziona un comune disco rigido a “piatti” (conosciuto anche come disco a piatti magnetici).
+Un disco rigido funziona un po’ come un vecchio giradischi : un piatto contenente dei dati (in questo caso bit) viene fatto ruotare a una velocità prestabilita (di norma 7500 giri al minuto) e un braccio contenente una testina “legge” continuamente i dati proveniente dal disco, li elabora grazie ad un circuito elettronico li invia al computer in modo da poter essere a disposizione dell’utente.
+Ovviamente in un disco magnetico i dati non sono incisi come in un vinile ma vengono semplicemente “spostati” attraverso sollecitazioni magnetiche che organizzano i dati in modo da poter essere riletti costantemente.
+Si capisce facilmente che un dispositivo di questo tipo è goffo, lento e soggetto ad una facile usura in caso di utilizzo “mobile” poiché le continue sollecitazioni possono provocare errori di lettura o peggio incisioni permanenti sul piatto magnetico che causerebbero la illeggibilità dei dati.
+Nessun motore, testina o disco che si muove. Negli SSD tutto è fermo, calmo e incredibilmente veloce.
+Viene da se che l’utilizzo di questo tipo di dischi è preferibile in quelle situazioni di “stabilità” e robustezza fisica, dove non vi sono sollecitazioni hardware e dove non sono richieste particolari doti di resistenza agli urti.
+Sempre volendo paragonare il disco magnetico al disco in vinile, immaginatevi un giradischi in posizione precaria e oscillante: la durata della testina ne risentirebbe enormemente, il disco subirebbe continui graffi ed incisioni e il rischio di una rottura strutturale del braccio sarebbe dietro l’angolo ad ogni nuovo urto.
+Fortunatamente grazie all’innovazione tecnologica, alla ricerca e ai milioni di dollari stanziati dalle varie aziende del settore si sta sviluppando sempre di più una nuova forma di immagazzinamento dei dati : gli SSD.
+SSD sta per
+Solid State Drive
+ovvero
+Disco a Stato Solido
+e indica un particolare tipo di disco di nuova generazione dove non sono presenti componenti meccanici che “si muovono” ma solo circuiti elettronici e chip integrati.
+Risulta facile capire che i vantaggi di un SSD rispetto ad un HD “classico” sono enormi :
+Nessun organo meccanico in movimento.
+Temperatura di esercizio inferiore.
+Nessun tipo di usura meccanica.
+Nessuna testina mobile.
+Nessun campo magnetico generato dal motore/testina/magnete interno.
+Nessun problema durante il trasporto, urti o cadute accidentali.
+Dimensioni teoricamente inferiori (fisicamente vengono invece lasciate pressoché identiche per poter mantenere la compatibilità del form-factor).
+Velocità di scrittura e lettura nettamente superiori (si parla dell’ordine di 10/15 volte più veloci).
+Non vi sono problemi di frammentazione del disco poiché non vi sono testine che devono muoversi alla ricerca della traccia richiesta.
+Esistono, però anche degli svantaggi rispetto ai dischi normali :
+A parià di cicli di letture/scritture i dischi SSD durano meno dei dischi HD a piatti magnetici.
+A parità di capienza, il prezzo per GB degli SSD è superiore rispetto a quello dei dischi HD (in media si va da 0,5 a 1,5 €/GB)
+Merita una precisazione il discorso della durata di un disco SSD dove con una media di 50 GB di dati scritti al giorno un disco da 250 GB dovrebbe durare circa 140 anni.
+Per verificare quanti dati sono stati scritti sul vostro mac basta lanciare l’applicazione “Monitoraggio Attività”, selezionare il tab “Disco” e leggere il dato presente in basso a destra.
+Ovviamente 50 GB di dati scritti in un solo giorno sono un quantitativo elevato per l’utente medio (io rientro in questa categoria con una media di 12/20 GB al dì) ma diventano decisamente pochi nel caso di un utilizzo professionale quale può essere la
+video-sroveglianza
+, il
+rendering
+video in HD o lo
+storage
+di grandi contenuti multimediali.
+Risulta quindi facilmente comprensibile come per il momento gli SSD siano fortemente consigliati per il mercato consumer : l’utenza media che utilizzata il proprio
+device
+come mezzo di fruizione dei contenuti.
+Personalmente sono passato all’SSD solo di recente (Maggio/Giugno 2013) sopratutto per la delicatezza della scelta e per l’attenzione spasmodica che pongo ogni volta che devo cambiare un componente vitale del mio mac.
+Se vi è passato per l’anticamera del cervello di cambiare il vostro disco da “normale” a “super veloce” avrei alcuni consigli da darvi prima di procedere :
+Se avete un pc con Windows lasciate perdere l’idea di comprare un SSD: vedrete qualche miglioramento i primi cinque/sei mesi e poi ritornerete ad odiare il vostro PC come avete sempre fatto.
+Se avete un Mac cambiare il disco sarà come entrare in un’altra dimensione : tutto più veloce e più rapido.
+Se avete deciso di comprare l’SSD non siate tirchi : prendete il meglio che potete senza risparmiare sulla qualità (dovete sempre pensare che quello sarà il vostro disco di avvio).
+Dopo che avete deciso se rivoluzionare o no il vostro computer, dovete solo iniziare a buttare un’occhio sulle varie offerte che trovate in giro (io il mio l’ho comprato alla Comet).
+Riguardo alla domanda classica “di che marca conviene comprarlo” devo (a mio dispiacere) rispondervi che per esperienza personale e di conoscenti
+la miglior marca produttrice di SSD attualmente in commercio è la Samsung
+.
+Per la capienza avete libera scelta ma sappiate che è sempre meglio prenderlo più grande del quantitativo massimo di file che intendete copiargli dentro; quindi se avete intenzione di usare 100 GB di spazio è meglio orientarsi su un SSD da 250 Gb rispetto ad uno da 120 GB.
+I due modelli più famosi e più “collaudati” dagli utenti sono il Samsung 840 e l’840 PRO; il secondo si differenzia dall’altro per avere una velocità di scrittura doppia rispetto al primo e qualche anno di garanzia in più.
+La scelta tra i due modelli dipende principalmente dal tipo di Mac che avete (
+qui trovate la tabella di comparazione dei vari mac
+) ma sopratutto dalla velocità della porta SATA che può essere SATA 3 Gbit/s (2008,2009,2010)  o SATA 6 Gbit/s (2011,2012,2013).
+Comprare un 840 PRO per una macchina che monta un SATA 3 è come montare un motore Boxer Turbo da 250 cavalli su una Fiat punto del 2000.
+Staccandoci dai paragoni automobilistici non ha senso spendere soldi aggiuntivi per la versione PRO se si possiede un computer con la sola connessione SATA3 ma conviene orientarsi sulla versione “840 EVO” che costa meno e prestazionalmente è più che sufficiente per coprire tutta la banda dei 3 Gbit/s.
+840, 250GB
+(Amazon)
+840 PRO, 120GB
+(Amazon)
+Se invece avete la possibilità di sfruttare tutti i 6 Gbit/s del vostro Mac potete sbizzarrirvi sulla scelta del disco che preferite anche se, in questo caso, è sempre meglio optare per un disco conosciuto e abbastanza reperibile (Samsung in primis).
+Riguardo al cambio del disco nel vostro mac vi sono molte guide in rete che spiegano per filo e per segno come procedere ma la migliore che ho trovato (e che ho seguito) è stata quella di
+rdble.com
+che trovate
+qui
+.
+Alcuni consigli nati con l’esperienza posso darveli :
+Prima di operare fate sempre una copia di backup di tutto (Time Machine è li pronto per essere usato)
+Se non sapete dove mettere le mani rivolgetevi a qualcuno di esperto (Se rompete il vostro PC o perdete i vostri dati io non ho colpe).
+Evitate di farvi prendere dall’agitazione del tipo”voglio l’ssd subito”; prima di acquistarlo informatevi, informatevi e informatevi ancora: risparmierete fregature e soldi.
+Dopo che avrete cambiato il disco, fidatevi, il vostro computer vi sembrerà tutta un’altra macchina con tempi di avvio minori di 8 secondi, tempi di spegnimento impercettibili e una velocità e reattività del sistema paurosa.
+Personalmente le tempistiche di avvio del mio Mac da 13″ del 2011 sono passate dai 43″ (cronometrati) con il disco classico ad un 6/7″ con l’ssd per non parlare dello spegnimento che con il disco a stato solido è solo un brutto ricordo (va anche precisato che non spengo il mac da circa due mesi).
+Uno dei problemi più gravi che può sorgere all’utente durante l’utilizzo dell’SSD è l’assuefazione da velocità: ogni computer che monterà i vecchi dischi vi sembrerà lento, vecchio e assolutamente indegno di servirvi.
+Sappiate quindi che una volta abituati all’SSD non tornerete mai più indietro.
+Stay Tuned.

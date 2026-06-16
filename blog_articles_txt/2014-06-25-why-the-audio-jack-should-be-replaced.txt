@@ -1,0 +1,24 @@
+25/06/2014 - Why the audio jack should be replaced.
+
+Someone said that is old, someone said that is too
+analog
+and someone else said that is useless; the only thing that we know is that is time to give up the old, boring and weird audio jack from all the electronic devices.
+The Audio jack was born more than one hundred years ago and it has been always used in all the audio devices to transfer the analog audio from the source (amplifiers, mp3 players …) to the earphones (or stuff like that).
+There are two size of audio jack : the most common one that is called “3.5” and the big brother that is called “6.3”.
+It’s, as I said, a matter of size because the little one is used in small electronic devices such as smartphone, computers, laptops etc.. while the bigger one is used in Hi-Fi stereo and amplifiers.
+The reasons of “splitting” the jack in two size is all about the quantity of conductive material : the bigger one has a bigger surface that means a better transmission of electricity that should improve the sound quality.
+There are a lot of good reasons that should motivate Apple and all the other companies to give up the audio jack and replace it with a digital connector but the most important one is : digital audio.
+First of all: in the 2014 we need digital data transmission and we should stop thinking about analog cables and try to change our vision about audio and earphones.
+Why the iPhone should have more than one connector ? Why we need the awful hole of the jack on the top (or bottom) of it ?
+Apple bought Beats less than a month ago and this could be the perfect moment to start another revolution: Apple could remove the DAC (it’s an electronic component that is used to convert the digital audio to analog audio) and use only the Lightning connector to charge, sync and transmit audio to the earphones.
+Using the Lightning connector as the only connector on the iPhone (and, of course, iPad & iPod) could change our way to listen to music.
+The Apple earphones, for example, could show you what song are you listening on the remote controller (where the mic is installed), also you could have more control for manage all the functions of the iDevice.
+Just think about the incoming calls: you can read who is calling you in every moment on the remote control because it could become an active component that receive energy and informations from the iPhone/iPad and show useful information on a touch display.
+Another amazing thing that audiophiles will love it’s about the digital conversion: with an external DAC every brands could create better earphones because they can design their personal digital circuits.
+This means that every brands could really improve their earphones not only changing the speakers or the wires, but they could take care of all the entire earphones: from the digital source to the analog speakers.
+In the picture above you can see an idea about what I have just wrote: you can see that the remote controller isn’t a physical remote control but it’s a digital controller with a touch screen and a display that can show a lot of useful informations about music, calls and (maybe) messages.
+I know that right now remove the audio jack from the iPhone (and not everyone will love it) could be big revolution, maybe the bigger one in all the Apple story, but only :
+“The people who are crazy enough to think they can change the world are the ones who do”
+Stay tuned.
+Bye
+Marco.

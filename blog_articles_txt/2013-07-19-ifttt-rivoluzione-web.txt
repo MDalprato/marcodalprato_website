@@ -1,0 +1,112 @@
+19/07/2013 - IFTTT, rivoluzione Web.
+
+Cos’è IFTTT ?
+Si chiama IFTTT ma si legge If This Than That (letteralmente : Se questo, fai quello) ed è un’applicazione web (e ora anche per iDevice) veramente molto utile.
+L’idea si basa tutta
+sul concetto di “triggering” ovvero dell’abilità di dispositivo (generalmente hardware) di cambiare lo stato di una determinata uscita in base a ciò che gli viene inviato in ingresso.
+Un esempio su tutti di come funziona il concetto IFTTT è presente in ogni casa ed è il termostato.
+Il
+termostato
+è un dispositivo che svolge fondamentalmente un unico compito : attivare il riscaldamento casalingo nel caso in cui la temperatura di un determinato luogo (o di una stanza) scenda sotto una determinata soglia.
+In pratica segue proprio il concetto del If This Than That poiché se (
+If
+) la temperatura in casa (
+This
+) è inferiore a 18 °C attiva (
+Than
+) il riscaldamento (
+That
+).
+L’esempio appena descritto ovviamente si riferisce ad un “triggering” di tipo fisico (hardware) poiché all’interno del termostato presente nella nostra abitazione c’è veramente un
+rele
+che attiva o disattiva il riscaldamento.
+If AAPL stock price rise above 440$
+Il sito
+IFTTT
+invece permette di realizzare dei “triggering” virtuali, utilizzati per effettuare alcune operazioni in maniera del tutto automatica e senza l’intervento dell’utente.
+E’ possibile, per esempio, impostare che nell’istante in cui le Azioni Apple superino la soglia dei 440$, venga automaticamente inviato un tweet dal mio account in cui viene scritta questa news.
+Per realizzare una semplice “recipe” (ricetta, sono chiamate cosi le azioni in IFTTT) basta partire dall’azione che si vuole compiere :
+If AAPL stock price rise above 440$, tweet ” Apple stock price is currently 480$ “.
+La prima frase è il “trigger” :
+If AAPL stock price rise above 440$.
+La seconda frase è l’ “Action” :
+tweet ” Apple stock price is currently 480$.
+Se vi è chiaro il funzionamento con questo primo esempio, possiamo procedere con la realizzazione pratica delle varie ricette nel nostro profilo.
+Come prima operazione dobbiamo registrarci sul sito web, per farlo cliccate
+qui
+.
+Inserite Username, Password e la vostra email per potervi registrare e iniziare ad utilizzare le azioni “automatiche”.
+Appena vi sarete registrati (vi verrà inviata un’email per poter confermare la vostra registrazione al sito) potrete subito iniziare a creare tutte le azioni che vorrete.
+Ovviamente, per poter creare delle azioni sarò necessario attivare i “channel” ovvero i canali di comunicazione tra IFTTT e il resto del web.
+I “channel” non sono altro che altre applicazioni web quali : Twitter, Linkedin, Gmail, Stock Price, Weather, Email, Foto dell’iPhone, Contatti, promemoria e molte altre (in totale sono attualmente quasi 70).
+Per esempio, con il “channel” Weather potrete decidere di eseguire un’azione nel caso in cui il meteo nella vostra zona prevederà pioggia invece che bel tempo.
+Come potete vedere dall’immagine qui sopra, vi sono alcune icone in grigio e altre icone colorate.
+Come è facilmente intuibile, le icone colorate indicano i “channels” attivi, ovvero tutte quelle applicazioni che possono essere utilizzate nelle nostre “recipes”.
+Creiamo la nostra prima “ricetta”
+Per esempio, se volessimo inviare un tweet ogni anno il 10 gennaio, sarà necessario attivare sia il canale “Date & Time” dove specificheremo il nostro fuso orario sia il canale “Twitter” dove creeremo un link tra l’applicazione IFTTT e il social network.
+Una volta che abbiamo attivato tutti i canali che ci interessano (nel caso in cui avessimo un iPhone, possiamo attivare alcuni canali “extra” scaricando l’app da questo
+link
+) possiamo procedere con la realizzazione della prima ricetta.
+Per esempio, proviamo a realizzare una “repice” di questo tipo :
+If AAPL stock price rise above 440$, tweet ” Apple stock price is currently 480$.
+Per fare ciò dobbiamo procedere in questo modo :
+Cliccare sul link in alto a destra “Create”.
+Ora potrete iniziare con al creazione della prima “ricetta”.
+Cliccate su “
+this
+“
+.
+Ora scegliete, tra i vari “channel”, quello chiamato “stock”.
+Dopo aver selezionato il canale “Stock” vi verrà richiesto il “ticker symbol” e il “Price”.
+Inserite “AAPL” nella prima voce e “430″ nella seconda (ovviamente, se volete controllare altre aziende potete ricavare il “Ticker Symbol” da
+questo sito
+.
+A questo punto abbiamo creato il “trigger” ovvero il sistema che chiuderà il nostro “relè virtuale” e che ci permetterà di effettuare un’operazione a scelta.
+Ora procediamo cliccando su “Create Trigger”.
+A questo punto dovremmo decidere quale sarà l’azione da eseguire nel caso in cui la prima risulti veri, procediamo cliccando su “that”.
+Ora procediamo selezionando come canale in uscita “Twitter”.
+Ovviamente ci verranno fornite molte opzioni tra le varie possibili ma quella che attualmente ci interessa è la prima “Post a tweet”.
+Procediamo cliccandoci sopra.
+Ora possiamo scegliere il tipo di tweet da inviare. Il testo presente in grigio è quello pre-caricato di default dall’applicazione  e quindi utile per poter rilevare alcuni dati importanti. Per esempio, i valori “StockName”, “StockTicker”, “Price” e “InfoUrl” sono ricavati automaticamente dall’applicazione di “triggering”.
+Una volta personalizzato il messaggio possiamo confermare cliccando su “Create Action”.
+Ora ci verrà mostrato un riepilogo della nostra “Personal Recipe” alla quale possiamo anche attribuire una descrizione generale.
+A questo punto, ogni qualvolta che le azioni apple saliranno oltre la soglia dei 430$ verrà automaticamente pubblicato un tweet di questo tipo :
+Apple Inc. (AAPL) stock is rising! Currently priced at 430.3.
+http://t.co/uwRulNgi0l
+— Marco Dalprato (@MDalprato)
+July 17, 2013
+Potenzialità del web
+Le potenzialità di questa applicazione Web come potete immaginare sono notevoli.
+Si possono creare complesse azioni ed è possibile far interagire tutti i vari social network tra  di loro senza dover muovere un dito.
+Per esempio :
+Aggiornare automaticamente la propria “Bio” di twitter ogni anno (per esempio “Sono Marco Dalprato ed ho [TODAY_YEAR - 1990] anni).
+Controllare costantemente un feed RSS ed eseguire azioni nel caso in cui venga aggiunta una news.
+Se pubblico una foto su Facebook, salvarla automaticamente su dropbox.
+Se carico un nuovo file su dropbox, condividi il link su facebook / twitter.
+Automatizzare i compleanni ogni anno su twitter/facebook.
+Automatizzare gli auguri di Natale ogni anno.
+Se il meteo di domani mattina prevede pioggia, inviami un messaggio con le previsioni del tempo.
+Questi sono solo alcuni banali esempi delle incredibili potenzialità di questo software.
+Philips Hue e Belkin Wemo
+Non so in quanti di voi conoscono le lampadine
+Philips hue
+o il
+Belkin Wemo
+ma quello che fanno è molto semplice :
+Le lampadine Philips Hue sono, secondo me, l’invenzione più bella e geniale degli ultimi due anni. In pratica sono costituite da una centrale che controlla tutte le lampadine Wireless sparse per tutta la casa. Le lampadine in questione hanno un form-factor standard (quindi installabili in ogni lampadario) ma sopratutto sono a LED. Attraverso l’applicazione per iPhone/iPad e/o attraverso il web è possibile controllare l’accensione delle luci, la loro luminosità e sopratutto il loro colore. In pratica si possono creare vari ambienti all’interno delle stanze in cui tali lampadine sono installate.
+Il Belkin Wemo, invece, è un semplice device che si collega al connettore elettrico di casa e che si interfaccia con il web vi Wi-Fi. Anche qui, attraverso l’utilizzo delle specifiche applicazioni per iPhone/iPad e/o web è possibile accendere/spegnere l’apparecchio collegao al Wemo.
+Vi state chiedendo cosa centrano questi due device con IFTTT ?
+La spiegazione è semplice :
+Immaginate di essere nel vostro salotto mentre state guardando la televisione e immediatamente le luci della sala passano dal rosso al blu semplicemente perché avete appena ricevuto una notifica su twitter, geniale no ?!.
+In pratica attraverso IFTTT è possibile stabilire quale azione (ho ricevuto un tweet) deve agire sul cambiamento delle lampadine e/o sui Belkin Wemo.
+Per esempio : Se le azioni della Apple aumentano sopra i 450 $, colora tutte le lampadine che ho in casa di verde (esempio assurdo, ma facilmente comprensibile), Se domani mattina è prevista pioggia, spegni il Belkin Wemo (che è collegato all’impianto di irrigazione) ecc…
+Le possibilità di utilizzo sono pressoché infinite e i campi di applicazione sono i più disparati.
+Put the internet to work for you
+Lo slogan di IFTTT (Put the internet to work for you) rispecchia esattamente ciò che è possibile fare con questa fantastica applicazione web.
+Potete realizzare automatismi complessi e ricercati, aggiornare automaticamente il vostro stato sui principali social network, eseguire il backup automatico di tutte le foto che postate su Flickr e tante altre cose.
+Per un utenza più professionale è invece possibile realizzare avvisi personalizzati, automatizzare la gestione dei vari calendari, la gestione degli appuntamenti e dei promemoria (per iOS).
+Poter sincronizzare tutto automaticamente senza dover preoccuparsi di niente è sicuramente un’ottima soluzione per tutti i Business Man che necessitano di calendari, promemoria e appuntamenti perfettamente in “sintonia” tra di loro.
+Un’infinità di opzioni
+Ovviamente la possibilità di creare una infinità di “recipes” e di poter far interagire tra di loro ogni azione permette di creare strutture dati complesse e articolate ma le potenzialità di questo programma, credo, sono ancora tutte da scoprire.
+Sperando che questa guida vi abbia “illuminato” e che IFTTT possa aiutarvi, vi do appuntamento alla prossima guida.
+Per aggiornamenti, rimanete sintonizzati.

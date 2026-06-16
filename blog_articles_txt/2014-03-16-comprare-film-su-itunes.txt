@@ -1,0 +1,60 @@
+16/03/2014 - Comprare film su iTunes
+
+Ormai posso definirmi un assiduo frequentatore dello store di Itunes e tra musica e film credo di poter tranquillamente entrare nella lista dei clienti abituali dello store elettronico di casa Apple.
+Tralasciando
+per un attimo lo store musicale (ormai chiunque sa come acquistare una canzone), volevo soffermarmi per un attimo sullo store dei film.
+L’offerta di titoli è bella ampia e da quello che ho potuto osservare ogni settimana vengono aggiunti (in media) dai tre ai quattro titoli nuovi (spesso alcuni escono prima che della versione in DVD & Blu-ray).
+Le opzioni di acquisto sono fondamentalmente due : il noleggio o il vero e proprio acquisto con, ovviamente, nette differenze di prezzo.
+Il Noleggio
+Con la prima opzione, ovvero il noleggio, avrete la possibilità di poter guardare il film per 48 ore consecutive entro i primi 30 giorni.
+Esempio che chiarifica tutto: noleggio “Shadowhunters” (Se vi capita guardatelo che merita) oggi 14 marzo 2013.
+Dopo aver ciccato su Noleggia (indifferente che sia in HD o in SD) vi verrà chiesto di confermare il download, vi verranno scalati i soldi dal vostro credito iTunes (o dalla carta di credito) e partirà il downloa
+Differenze di prezzo tra il noleggio/acquisto in HD e in SD
+d del film (dipende dal formato, per questo film sono 4,27 GB in HD e 1,96 in SD).
+Dopo qualche minuto (in media dopo i primo 200 MB scaricati) vi verrà chiesto se volete guardare subito il film o se preferite aspettare che sia stato completamente scaricato.
+Ipotizziamo che decidiate di aspettare che termini il download; a questo punto vi ritroverete nella libreria di iTunes (o sull’iPhone/iPad) il film pronto per essere visto e rimarrà nella vostra libreria per 30 giorni.
+Scaduto il termine (quindi il 14 di aprile) il film si auto-cancellerà dalla vostra libreria e non potrete più vederlo.
+Entro questi trenta giorni potete decidere di far partire il play quando volete ma ricordatevi che (e un messaggio lo ricorderà) una volta avviato il play potrete guardarlo entro 48 ore, trascorse le quali il film scadrà come se fossero passati i trenta giorni di cui accennavo prima.
+Ovviamente il noleggio è fruibile solo su un singolo dispositivo alla volta, quindi se decidete di noleggiare un film sull’Apple TV potrete vederlo solo sull’Apple TV (idem per iPad e iPhone).
+Se, invece, scegliete di noleggiare il film direttamente sul Mac potete decidere di: guardare il film noleggiato direttamente sul mac oppure di trasferirlo sul vostro iPad o iPhone (o anche vederlo in “streaming” sulla vostra Apple TV).
+Considerate però che il noleggio è più
+platform-based
+nel senso che è vincolato al dispositivo che state utilizzando e di conseguenza riproducibile solamente su un dispositivo alla volta.
+L’acquisto
+Se invece decidete di procedere con l’acquisto di un film ricordatevi alcuni semplici “consigli”: decidete prima se comprare il film in HD o in SD (di norma la versione in HD costa 2/3 € in più) e controllate il “peso” del film che state acquistando (considerate che prima o poi dovrete scaricarlo; evitate film troppo “pesanti” se avete una connessione a GB o a ore).
+Se il film che state acquistando è in formato HD potete scegliere il “formato” da scaricare: 720p o 1080p, ovviamente il secondo formato ha un “peso” in GB nettamente superiore rispetto al primo e di conseguenza impiegherà molte più ore per poter essere scaricato interamente.
+Per scegliere la qualità con cui verrà scaricato il film (ovviamente è utile solamente se il film lo acquistate in HD) dovete andare in iTunes -> Preferenze -> Riproduzione e nell’opzione “Versione video predefinita” scegliete quale è l’impostazione video che preferite e salvate cliccando con “Ok”.
+Impostazioni della qualità dei video presenti sullo store di iTunes
+Una volta acquistato e scaricato il film potete guardarlo quando, dove e quante volte volete senza alcun limite e ovviamente senza aver bisogno di utilizzare lettori DVD o Blu-ray.
+Quando comprate/noleggiate un film controllate sempre in che formato verrà scaricato
+Da quanto Apple ha introdotto anche in Italia la possibilità di utilizzare
+iTunes in the Cloud
+l’acquisto di un film presente sullo store offre il grande vantaggio di essere disponibile automaticamente su tutti i dispositivi Apple che avete già.
+Anche qui faccio prima a spiegarlo a steps :
+Comprate un film in HD (o SD)  sul vostro Mac.
+Dopo averlo acquistato iTunes vi chiederà se volete scaricarlo subito oppure farlo in un secondo momento.
+Indifferentemente da cosa scegliete nel punto 2, da questo momento in poi voi siete i “possessori” del film che avete acquistato e quindi, previa attivazione di iCloud su tutti i vostri device, vi ritroverete automaticamente il film (o i film) che avete comprato.
+Ora potete decidere di scaricare o visualizzare in streaming il film comprato su tutti i vostri device (compresa anche, ovviamente, l’Apple TV) senza bisogno di dover copiare o trasferire alcun file.
+iTunes in the Cloud
+Qui sotto vedete la lista dei miei film comprati sullo store di iTunes e potete notare che alcuni film hanno nell’angolo in alto a destra l’icona di una nuvola: quell’icona indica che quel film non è fisicamente presente sul mio Mac ma che, quando voglio, posso sempre scaricarlo dallo store di Itunes perché ho già acquistato quel film.
+La mia libreria virtuale di film su iTunes
+Qui sotto, invece, vedete come si presenta la stessa libreria sull’iPhone (purtroppo l’ultima fila è nascosta perché tutti i film non ci stanno dei 4″ dell’iPhone 5).
+La mia libreria virtuale di film sull’iPhone
+Come potete vedere nessuno dei film presenti sull’iPhone è stato mai scaricato ma sono pronti per poter essere visti in qualsiasi momento (ovviamente se c’è connessione ad Internet).
+Sull’iPad la situazione è la stessa identica, idem sull’Apple TV dove ogni film è presente nella categoria “Acquistati”.
+Ricapitolando : comprate un film sull’iPhone e lo ritrovate automaticamente sull’iPad, l’Apple TV e nella libreria del Mac senza bisogno di dover sincronizzare nulla.
+Il tutto ovviamente in automatico e senza dover configurare assolutamente nulla: basta attivare iCloud su tutti i device Apple che abbiamo a disposizione.
+A questo
+link
+potete leggere un’importante nota informativa riguardante iTunes in the Cloud :
+Backup of purchased music is not available in all countries. Previous purchases may not be restored if they are no longer on the iTunes Store, App Store, or iBooks.
+Ovviamente c’è sempre una “nota in fondo alla pagina” che specifica che iTunes in the Cloud non garantisce a vita la presenza di un determinato titolo nello store, questo vuol dire che se per qualche ragione il film “Mamma ho perso l’aereo” (per esempio) viene rimosso dallo store di iTunes esso verrà automaticamente rimosso anche da tutti i dispostivi che non lo hanno fisicamente nella loro memoria (nell’esempio di sopra sull’iPhone non vedrò più la locandina del film).
+Dato ciò
+il mio consiglio è quello di eseguire SEMPRE un backup di tutti i film che acquistate
+in modo tale da scongiurare l’eventuale assenza del titolo in questione dallo store di iTunes (basta scaricare tutti i film e aspettare che Time Machine faccia il suo lavoro).
+Spero di avervi invogliato ad acquistare qualche film sullo store iTunes, spesso trovate delle ottime offerte (You got mail (C’è posta per te), che mi è stato consigliato da un’amica, l’ho pagato appena 3,90€).
+Ovviamente evito di listarvi tutti i vantaggi che nascono dall’acquistare i film in digitale rispetto al formato fisico, se siete interessati a liberare la libreria di casa e tutti i film in DVD per passare al digitale leggete un mio post sull’argomento
+qui
+.
+Alla prossima.
+Stay Tuned.

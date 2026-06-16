@@ -1,0 +1,38 @@
+05/09/2014 - Work with IP classes on OS X
+
+One classic question that a lot of people always ask me is “
+How can I add another IP to my mac ?
+” or “
+My mac has the class .10, how can I reach a network printer or a NAS that is in the .1 class
+” ?
+That question isn’t stupid because there aren’t a lot of guides about this particular setting so I decided to write down this (I hope useful) post.
+This is our scenario: we have an office network with two different classes (.10 and .1) both connected to the same router; our computer is in the “.1″ class and we need to reach a network printer that is in the “.10″ class: this is how you can proceed to “add” a new network to your Mac.
+Open the System Preferences panel on your mac: you can find it in the Application folder or you can search it using spotlight (on the top-left corner of the desktop).
+Now select the
+Network
+icon (it should be at the center of the
+System Preferences
+panel).
+You’ll see a lot of different items in the right list like
+Wi-Fi, USB Ethernet, Bluetooth PAN etc …
+but the button that we need is the “+” icon at the bottom of the list (it’s the one near the “-” icon).
+Now a pop-up menu should appear and you should be able to choose from a list of different options like
+Wi-Fi, USB Ethernet, Bluetooth PAN etc …
+in my case I used the Wi-Fi option because I was connected via Wi-Fi when I wrote that guide but if you’re using a different device you should find it on the list.
+You can go ahead and choose a name for your new network interface like “Wi-Fi 2″ or “Network for the printer”or “2nd floor network” or what do you prefer … it’s your mac.
+So now we need to set a static IP for the second network interface (for the first one you can leave it in
+DHCP
+or you can set it on “
+manual
+” following the next steps of this guide) but before you need to know if the IP that we want to use is free or not (Use the “ping” command or ask to the IT guy of your office).
+You can now click con
+Advanced
+and select the tab
+TCP/IP
+where we can set the IP that we want to use in the “.10″ class.
+Now it’s time to apply the changes (just click on
+OK
+) and finally we can reach all the devices that are on the “.10″ class directly from your mac.
+This is how you can add a new IP with a different class on OS X.
+Stay Tuned.
+Marco

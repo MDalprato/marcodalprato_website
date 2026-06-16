@@ -1,0 +1,20 @@
+03/07/2013 - Scaricare immagini dal web [App per OS X]
+
+In questo periodo di
+studio matto e disperatissimo
+di Automator, mi sono divertito a realizzare una piccola applicazione per il download delle immagini dal web (ebbene si, Automator permette di realizzare vere e proprie Applicazioni per OSX).
+L’applicazione in questione permette di scaricare tutte le immagini (nei formati più comuni) presenti in una determinata pagina Web.
+Per utilizzare l’applicazione la prima procedura è quella di scaricarla da questo link (
+Web Image Getter
+) e avviarla cliccandoci due volte sopra.
+Appena avvita l’applicazione mostrerà una schermata simile a questa :
+Per poter scaricare le immagini da un sito web sarà necessario inserire l’URL del sito dal quale vogliamo scaricare le immagini (nel mio caso ho utilizzato
+http://www.apple.com
+, stano vero ?).
+Dopo aver inserito l’indirizzo possiamo procedere confermando con “OK” ed attendere (il tempo di download varia in base alla quantità di immagini da scaricare)  che appaia questa finestra :
+Procediamo scegliendo in quale cartella salvare le immagini appena scaricate e confermiamo con “Continua”.
+A questo punto tutte le immagini presenti nel sito web precedentemente inserito si troveranno nella cartella scelta da noi (nel mio caso “Download”).
+Potete utilizzare questa applicazione per scaricare le immagini della vostra galleria di Twitter, dal vostro profilo di Linkedin oppure da Flick.
+Non vi è limite al campo di utilizzo di questa applicazione e, sperando che possa servirvi, vi lascio al prossimo appuntamento.
+Stay Tuned & Foolish.
+L’applicazione si chiama “Web Image Getter” ed è di libero utilizzo, potete avviarla come una normale applicazione o aprirla con Automator per verificare il “flusso” di lavoro.

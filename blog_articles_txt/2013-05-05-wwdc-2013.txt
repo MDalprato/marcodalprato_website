@@ -1,0 +1,12 @@
+05/05/2013 - WWDC 2013
+
+Come probabilmente sapete il 10 giugno 2013 si svolgerà il WWDC 2013, ovvero uno degli eventi più importanti riguardante il mondo Apple (OSX e iOS).
+Cosa verrà presentato e cosa non verrà presentato,
+come al solito, non è dato sapersi ma si sente aria di un iOS 7 completamente rinnovato, di un update a Moutain Lion e magari della nuova serie di MacBook Air con display a Retina.
+Staremo a vedere cosa ci riserva il futuro, nel frattempo ho creato un semplicissimo widget per la dashboard del Mac dove potete “monitorare” i giorni che mancano prima dell’inizio del WWDC (nel momento in cui scrivo circa 35).
+Sperando che possa piacervi, lo trovare qui :
+WWDC 2013 Countdown
+Scaricatelo e installatelo (probabilmente vi verrà mostrato un messaggio riguardante la non certificazione dell’app, cliccate su prosegui per poterla installare comunque).
+Sperando che possa piacervi, vi lascio al prossimo appuntamento.
+Stay Tuned !
+PS: Un coutdoown senza dover scaricare l’app lo trovate anche qui sotto
