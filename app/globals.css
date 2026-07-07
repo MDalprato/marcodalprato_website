@@ -733,16 +733,6 @@ img {
 
 .blog-page--intro {
   position: relative;
-  opacity: 0;
-  transform: translate3d(0, 28px, 0);
-  transition:
-    opacity 700ms ease,
-    transform 900ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.blog-page--intro.is-ready {
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
 }
 
 .blog-intro {

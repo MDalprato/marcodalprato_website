@@ -12,8 +12,9 @@ export default function BlogPageClient({ posts }) {
 
   useEffect(() => {
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const hasActivePost = new URLSearchParams(window.location.search).has('post');
 
-    if (reduceMotion) {
+    if (reduceMotion || hasActivePost) {
       setIntroDone(true);
       return undefined;
     }
