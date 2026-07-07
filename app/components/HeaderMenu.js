@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { useLocale } from './LocaleProvider';
+import LocaleSwitch from './LocaleSwitch';
 
 const SearchIcon = () => (
   <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -38,7 +39,11 @@ const MoonIcon = () => (
   </svg>
 );
 
-export default function HeaderMenu() {
+export default function HeaderMenu({
+  showAbout = true,
+  showCv = true,
+  showThemeToggle = true
+}) {
   const { messages } = useLocale();
   const t = messages.nav;
   const pathname = usePathname();
@@ -156,17 +161,22 @@ export default function HeaderMenu() {
       <Link className={`site-nav__link${isBlogPage ? ' is-active' : ''}`} href="/blog">
         {t.blog}
       </Link>
-      <Link className={`site-nav__link${isAboutPage ? ' is-active' : ''}`} href="/about">
-        {t.about}
-      </Link>
-      <a
-        className="site-nav__link"
-        href="/assets/cv/cv.pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-        {t.cv}
-      </a>
+      {showAbout ? (
+        <Link className={`site-nav__link${isAboutPage ? ' is-active' : ''}`} href="/about">
+          {t.about}
+        </Link>
+      ) : null}
+      {showCv ? (
+        <a
+          className="site-nav__link"
+          href="/assets/cv/cv.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {t.cv}
+        </a>
+      ) : null}
+      <LocaleSwitch />
       <button
         className="site-nav__icon-btn"
         type="button"
@@ -175,14 +185,16 @@ export default function HeaderMenu() {
       >
         <SearchIcon />
       </button>
-      <button
-        className="site-nav__icon-btn"
-        type="button"
-        aria-label={theme === 'dark' ? t.themeLight : t.themeDark}
-        onClick={toggleTheme}
-      >
-        {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
-      </button>
+      {showThemeToggle ? (
+        <button
+          className="site-nav__icon-btn"
+          type="button"
+          aria-label={theme === 'dark' ? t.themeLight : t.themeDark}
+          onClick={toggleTheme}
+        >
+          {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
+        </button>
+      ) : null}
       {searchOpen ? (
         <form className="site-search" role="search" onSubmit={handleSearchSubmit}>
           <input

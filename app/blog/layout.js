@@ -16,13 +16,10 @@ export default function BlogLayout({ children }) {
               <Link className="site-nav__link is-active" href="/blog">
                 Blog
               </Link>
-              <Link className="site-nav__link" href="/about">
-                About
-              </Link>
             </nav>
           }
         >
-          <HeaderMenu />
+          <HeaderMenu showAbout={false} showCv={false} showThemeToggle={false} />
         </Suspense>
       </header>
       {children}

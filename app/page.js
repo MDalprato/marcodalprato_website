@@ -2,10 +2,24 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useLocale } from './components/LocaleProvider';
+import GitHubActivity from './components/GitHubActivity';
+import LocaleSwitch from './components/LocaleSwitch';
+
+const isLoaderEnabled =
+  process.env.NODE_ENV !== 'development' && process.env.NEXT_PUBLIC_ENABLE_LOADER !== 'false';
 
 export default function Home() {
   const { messages } = useLocale();
   const home = messages.home;
+  const about = messages.about;
+  const preloadLogs = [
+    '[boot] mounting human interface layer...',
+    '[io] scanning /portfolio for aesthetically pleasing packets...',
+    '[gpu] calibrating subpixel drama matrix...',
+    '[cache] warming design tokens to operating temperature...',
+    '[ux] resolving typography dependencies...',
+    '[ship] build stable. preparing visual output...'
+  ];
   const navItems = [
     { id: 'hero', label: home.sections.hero },
     { id: 'about', label: home.sections.about },
@@ -15,7 +29,7 @@ export default function Home() {
   ];
   const shellRef = useRef(null);
   const [isExpanding, setIsExpanding] = useState(false);
-  const [isReady, setIsReady] = useState(false);
+  const [isReady, setIsReady] = useState(!isLoaderEnabled);
   const [logIndex, setLogIndex] = useState(0);
   const [hoveredNav, setHoveredNav] = useState(null);
 
@@ -34,6 +48,10 @@ export default function Home() {
   };
 
   useEffect(() => {
+    if (!isLoaderEnabled) {
+      return undefined;
+    }
+
     const expandTimer = window.setTimeout(() => {
       setIsExpanding(true);
     }, 5000);
@@ -49,13 +67,13 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (isReady) {
+    if (!isLoaderEnabled || isReady) {
       return undefined;
     }
 
     const logTimer = window.setInterval(() => {
       setLogIndex((current) => {
-        if (current >= home.preloadLogs.length - 1) {
+        if (current >= preloadLogs.length - 1) {
           return current;
         }
 
@@ -66,7 +84,7 @@ export default function Home() {
     return () => {
       window.clearInterval(logTimer);
     };
-  }, [isReady, home.preloadLogs.length]);
+  }, [isReady, preloadLogs.length]);
 
   useEffect(() => {
     const applyHashScroll = () => {
@@ -147,23 +165,26 @@ export default function Home() {
 
   return (
     <>
-      <div
-        className={`preloader${isExpanding ? ' is-expanding' : ''}${isReady ? ' is-hidden' : ''}`}
-        aria-hidden="true"
-      >
-        <div className="preloader__bar" />
-        {!isExpanding ? (
-          <div className="preloader__terminal">
-            <span className="preloader__prompt">&gt;</span>
-            <span className="preloader__log">{home.preloadLogs[logIndex]}</span>
-          </div>
-        ) : null}
-      </div>
+      {isLoaderEnabled ? (
+        <div
+          className={`preloader${isExpanding ? ' is-expanding' : ''}${isReady ? ' is-hidden' : ''}`}
+          aria-hidden="true"
+        >
+          <div className="preloader__bar" />
+          {!isExpanding ? (
+            <div className="preloader__terminal">
+              <span className="preloader__prompt">&gt;</span>
+              <span className="preloader__log">{preloadLogs[logIndex]}</span>
+            </div>
+          ) : null}
+        </div>
+      ) : null}
 
       <main
         ref={shellRef}
         className={`onepage-shell${isReady ? ' is-ready' : ''}`}
       >
+        <LocaleSwitch className="locale-switch--home" />
         <nav
           className={`section-rail${hoveredNav ? ' is-hovering' : ''}`}
           aria-label={home.railLabel}
@@ -216,14 +237,30 @@ export default function Home() {
           <div className="section-heading">
             <span>{home.workTitle}</span>
           </div>
-          <div className="work-grid">
-            {home.workItems.map((item) => (
-              <article key={item.index} className="work-card">
-                <span className="work-card__index">{item.index}</span>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </article>
-            ))}
+          <div className="work-showcase">
+            <div className="work-grid">
+              {home.workItems.map((item) => (
+                <article key={item.index} className="work-card">
+                  <span className="work-card__index">{item.index}</span>
+                  <h2>{item.title}</h2>
+                  <p>{item.description}</p>
+                </article>
+              ))}
+            </div>
+            <aside className="github-showcase">
+              <div className="github-showcase__header">
+                <p className="github-showcase__eyebrow">{about.activityTitle}</p>
+                <a
+                  className="about-inline-link"
+                  href="https://github.com/MDalprato"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {about.githubLink}
+                </a>
+              </div>
+              <GitHubActivity username="MDalprato" />
+            </aside>
           </div>
         </section>
 
@@ -243,9 +280,43 @@ export default function Home() {
           <div className="section-heading">
             <span>{home.contactTitle}</span>
           </div>
-          <a className="contact-link" href="mailto:marcodalprato@icloud.com">
-            marcodalprato@icloud.com
-          </a>
+          <div className="contact-stack">
+            <a className="contact-link" href="mailto:marcodalprato@icloud.com">
+              Mail
+            </a>
+            <a
+              className="contact-link"
+              href="https://www.linkedin.com/in/marcodalprato/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="contact-link"
+              href="https://github.com/MDalprato"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              className="contact-link"
+              href="https://www.instagram.com/mdalprato/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
+            <a
+              className="contact-link"
+              href="https://drive.google.com/drive/folders/1lH0XudGgBoNHdHYVB5mezvu-NpAhGj0C?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              CV
+            </a>
+          </div>
         </section>
       </main>
     </>

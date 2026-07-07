@@ -57,6 +57,37 @@ const links = [
         </svg>
       );
     }
+  },
+  {
+    label: 'Instagram',
+    text: 'Instagram',
+    href: 'https://www.instagram.com/mdalprato/',
+    external: true,
+    icon: function InstagramIcon() {
+      return (
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect
+            x="4"
+            y="4"
+            width="16"
+            height="16"
+            rx="4"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="3.6"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+          />
+          <circle cx="17.2" cy="6.8" r="1" fill="currentColor" />
+        </svg>
+      );
+    }
   }
 ];
 
