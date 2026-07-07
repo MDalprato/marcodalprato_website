@@ -1,16 +1,37 @@
 'use client';
 
 import Link from 'next/link';
-import { Suspense } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { useLocale } from '../components/LocaleProvider';
 import BlogPostListClient from './BlogPostListClient';
 
 export default function BlogPageClient({ posts }) {
   const { messages } = useLocale();
   const t = messages.blog;
+  const [introDone, setIntroDone] = useState(false);
+
+  useEffect(() => {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (reduceMotion) {
+      setIntroDone(true);
+      return undefined;
+    }
+
+    const timer = window.setTimeout(() => {
+      setIntroDone(true);
+    }, 1100);
+
+    return () => {
+      window.clearTimeout(timer);
+    };
+  }, []);
 
   return (
-    <main className="blog-page">
+    <main className={`blog-page blog-page--intro${introDone ? ' is-ready' : ''}`}>
+      <div className={`blog-intro${introDone ? ' is-hidden' : ''}`} aria-hidden="true">
+        <span className="blog-intro__title">BLOG</span>
+      </div>
       <header className="blog-hero">
         <div className="blog-hero__inner">
           <p className="eyebrow">Blog</p>

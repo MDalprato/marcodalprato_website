@@ -87,9 +87,6 @@ export default function BlogPostListClient({ posts }) {
               aria-expanded={activeSlug === post.slug}
               onClick={() => openPost(post.slug)}
             >
-              <div className="blog-card__media">
-                <img src={post.image} alt={post.title} loading="lazy" />
-              </div>
               <div className="blog-card__content">
                 <p className="meta home-blog-item__meta">
                   <span className="meta-calendar" aria-hidden="true" />
@@ -118,9 +115,6 @@ export default function BlogPostListClient({ posts }) {
             <button type="button" className="blog-modal__close" onClick={closePost}>
               {t.collapse}
             </button>
-            <div className="blog-modal__media">
-              <img src={activePost.image} alt={activePost.title} />
-            </div>
             <div className="blog-modal__body">
               <p className="meta home-blog-item__meta">
                 <span className="meta-calendar" aria-hidden="true" />
