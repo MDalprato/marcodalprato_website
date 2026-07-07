@@ -7,6 +7,8 @@ export default function GitHubActivity({ username = 'MDalprato' }) {
         className="github-activity-chart"
         src={chartUrl}
         alt={`GitHub activity chart for ${username}`}
+        width="720"
+        height="112"
         loading="lazy"
       />
     </div>

@@ -24,7 +24,6 @@ export default function Home() {
     { id: 'hero', label: home.sections.hero },
     { id: 'about', label: home.sections.about },
     { id: 'work', label: home.sections.work },
-    { id: 'blog', label: home.sections.blog },
     { id: 'contact', label: home.sections.contact }
   ];
   const shellRef = useRef(null);
@@ -40,7 +39,7 @@ export default function Home() {
       return;
     }
 
-    const top = Math.max(section.offsetTop, 0);
+    const top = Math.max(section.getBoundingClientRect().top + window.scrollY, 0);
     const behavior = options.behavior ?? 'smooth';
 
     window.scrollTo({ top, behavior });
@@ -261,18 +260,6 @@ export default function Home() {
               </div>
               <GitHubActivity username="MDalprato" />
             </aside>
-          </div>
-        </section>
-
-        <section id="blog" className="panel panel--blog-home">
-          <div className="section-heading">
-            <span>{home.blogTitle}</span>
-          </div>
-          <div className="blog-home-callout">
-            <p>{home.blogParagraph}</p>
-            <a className="contact-link blog-home-callout__link" href="/blog">
-              {home.openArchive}
-            </a>
           </div>
         </section>
 
