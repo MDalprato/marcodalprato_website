@@ -7,9 +7,9 @@ export default function AboutLayout({ children }) {
   return (
     <div className="site site--with-footer">
       <header className="site-header">
-        <a className="site-name" href="/">
+        <Link className="site-name" href="/">
           Marco Dalprato
-        </a>
+        </Link>
         <Suspense
           fallback={
             <nav className="site-nav" aria-label="Main">

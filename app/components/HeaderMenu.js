@@ -1,5 +1,7 @@
 'use client';
 
+import { withBasePath } from '../lib/paths';
+
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
@@ -169,7 +171,7 @@ export default function HeaderMenu({
       {showCv ? (
         <a
           className="site-nav__link"
-          href="/assets/cv/cv.pdf"
+          href={withBasePath('/assets/cv/cv.pdf')}
           target="_blank"
           rel="noreferrer"
         >

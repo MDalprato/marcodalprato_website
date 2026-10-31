@@ -1,4 +1,5 @@
 import './globals.css';
+import { withBasePath } from './lib/paths';
 import LocaleProvider from './components/LocaleProvider';
 import { siteConfig } from './lib/site';
 
@@ -24,9 +25,9 @@ export const metadata = {
     description: siteConfig.description
   },
   icons: {
-    icon: '/assets/images/about-me.jpeg',
-    shortcut: '/assets/images/about-me.jpeg',
-    apple: '/assets/images/about-me.jpeg'
+    icon: withBasePath('/assets/images/about-me.jpeg'),
+    shortcut: withBasePath('/assets/images/about-me.jpeg'),
+    apple: withBasePath('/assets/images/about-me.jpeg')
   }
 };
 

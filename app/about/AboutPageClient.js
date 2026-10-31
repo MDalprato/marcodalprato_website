@@ -1,5 +1,7 @@
 'use client';
 
+import { withBasePath } from '../lib/paths';
+
 import GitHubActivity from '../components/GitHubActivity';
 import { useLocale } from '../components/LocaleProvider';
 
@@ -12,7 +14,7 @@ export default function AboutPageClient() {
       <section className="section about-intro">
         <h1>{t.title}</h1>
         <div className="about-grid">
-          <img className="about-photo" src="/assets/images/about-me.jpeg" alt="Marco Dal Prato" />
+          <img className="about-photo" src={withBasePath('/assets/images/about-me.jpeg')} alt="Marco Dal Prato" />
           <div className="about-copy">
             {t.intro.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>

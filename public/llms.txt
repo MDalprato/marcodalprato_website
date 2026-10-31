@@ -12,10 +12,10 @@ This website contains:
 
 ## Key URLs
 
-- [Home](/)
-- [About](/about/)
-- [Blog](/blog/)
-- [CV PDF](/assets/cv/cv.pdf)
+- [Home](./)
+- [About](./about/)
+- [Blog](./blog/)
+- [CV PDF](./assets/cv/cv.pdf)
 
 ## Notes for AI agents
 

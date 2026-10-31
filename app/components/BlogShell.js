@@ -1,5 +1,7 @@
 'use client';
 
+import { withBasePath } from '../lib/paths';
+
 import { useState } from 'react';
 import LocaleSwitch from './LocaleSwitch';
 
@@ -25,7 +27,7 @@ export default function BlogShell({ children }) {
         {items.map((item) => (
           <a
             key={item.href}
-            href={item.href}
+            href={withBasePath(item.href)}
             className={`section-rail__link${item.active || hoveredNav === item.href ? ' is-active' : ''}${
               hoveredNav && hoveredNav !== item.href ? ' is-collapsing' : ''
             }`}
